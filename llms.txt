@@ -15,15 +15,29 @@ release carries attribution.
 Outbound links inside paid announcements carry sponsored attributes. This service does not sell
 following links and does not represent itself as a link-building product.
 
-## Publishing tiers
+## Publishing tiers and prices
 
-- **Standard — $19.99**: up to 1,400 words, permanent canonical URL, explicit date, attribution,
-  announcement label, RSS syndication.
-- **Optimized — $49.99**: adds a rewritten opening passage built to stand alone, conversion of
-  unverifiable claims into checkable facts, full organization and article structured data,
-  entity identity linking, and listing in this file.
-- **Network — $99**: adds editorial pickup on Action Global News and placement on up to two
-  relevance-matched network properties, each labelled and canonical-linked back here.
+All prices are one-time, per release, in USD. There is no subscription and no contract.
+Payment is taken after the customer approves the final document. Declined announcements are
+refunded in full. Word limit is 1,400 at every tier.
+
+- **Standard — $19.99**: published as written at a permanent canonical URL, explicit publication
+  date, named issuing organization, permanent announcement label, RSS syndication, share tools
+  and print formatting.
+- **Optimized — $49.99**: everything in Standard, plus (1) the opening passage rewritten to be
+  accurate and complete in isolation, (2) unverifiable claims converted into checkable facts or
+  removed, (3) an at-a-glance summary block marked as the document abstract, (4) a frequently-asked
+  section published with FAQPage markup, (5) sameAs entity identity linking connecting the release
+  to the issuer's verified profiles, (6) explicit subject declaration via the about property,
+  (7) speakable passage marking for voice assistants, (8) listing in this file with a written
+  description. Includes one revision round.
+- **Network — $99**: everything in Optimized, plus editorial pickup on Action Global News and
+  placement on up to two relevance-matched network properties, each labelled and canonically
+  linked back to the original. Priority review and two revision rounds.
+
+Outbound links inside paid announcements carry rel="sponsored nofollow" at every tier. This is
+not a link-building service and no following links are sold at any price. Entity linking via
+sameAs is a structured-data assertion about identity, not a hyperlink.
 
 ## Releases
 
@@ -45,6 +59,11 @@ following links and does not represent itself as a link-building product.
 - [Pricing](https://pressreleaseforbusiness.com/pricing/): Tier comparison, what each includes, refund terms.
 - [Submit a release](https://pressreleaseforbusiness.com/submit/): Submission form and the review process. Nothing is charged
   at submission; payment follows approval of the final document.
+- [Press release optimization explained](https://pressreleaseforbusiness.com/optimization/): The eight items of work in
+  an Optimized release, itemized with what each does. Covers sameAs entity linking in full —
+  what it is, why it is not a hyperlink, and the condition under which it helps. Also states
+  plainly what optimization can reliably do, what it plausibly does, and what it cannot do
+  (no links, no ranking promise, no guaranteed AI citation).
 - [How it works](https://pressreleaseforbusiness.com/how-it-works/): What is changed in an announcement before publication —
   opening passage, claim tightening, named spokesperson, explicit dates, structured markup,
   canonical URL.

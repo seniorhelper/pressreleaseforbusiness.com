@@ -40,6 +40,51 @@
     "postalCode": "80204",
     "addressCountry": "US"
    }
+  },
+  {
+   "@type": "HowTo",
+   "@id": "https://pressreleaseforbusiness.com/how-it-works/#howto",
+   "name": "How a press release is structured for AI retrieval",
+   "description": "The six changes made to a company announcement before publication so that retrieval systems can identify, parse, attribute and cite it.",
+   "totalTime": "P1D",
+   "step": [
+    {
+     "@type": "HowToStep",
+     "position": 1,
+     "name": "Rebuild the opening passage to stand alone",
+     "text": "Rewrite the first forty words so they contain who, what, where and when, and are true and complete without any surrounding context."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 2,
+     "name": "Convert adjectives into verifiable facts",
+     "text": "Replace unverifiable claims with specific, checkable statements, or remove them. A claim that cannot survive being made specific does not belong in the document."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 3,
+     "name": "Name a human spokesperson",
+     "text": "Attribute quotations to a named person with a stated title rather than to the company, so the statement is citable."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 4,
+     "name": "Make dates explicit",
+     "text": "State when the event happened, when it takes effect and when the announcement was published as separate facts rather than one ambiguous dateline."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 5,
+     "name": "Declare structure rather than implying it",
+     "text": "Add structured markup stating the article type, publication and modification dates, publisher identity, issuing organization and the entities the document concerns."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 6,
+     "name": "Publish at one canonical address",
+     "text": "Give the release a single permanent URL, with any syndicated copy pointing back to it, so there is never ambiguity about which version is authoritative."
+    }
+   ]
   }
  ]
 }
@@ -63,6 +108,7 @@
       <nav class="hdr-nav" id="hdrnav" aria-label="Main">
         <a href="/releases/">Releases</a>
         <a href="/pricing/">Pricing</a>
+        <a href="/optimization/">Optimization</a>
         <a href="/how-it-works/" aria-current="page">How It Works</a>
         <a href="/guidelines/">Guidelines</a>
         <a href="/about/">About</a>
@@ -188,6 +234,59 @@
   </div>
 </aside></div>
 
+
+<section class="sec" id="entity-explainer">
+  <div class="wrap-narrow">
+    <span class="eyebrow">The part that matters most &middot; <a href="/optimization/" style="color:var(--brand)">see all eight items &rarr;</a></span>
+    <h2 style="font-family:var(--serif);font-size:31px;margin:0 0 16px;letter-spacing:-.6px">
+      Entity linking, and why it is not a link</h2>
+    <p style="font-size:17.5px;line-height:1.7;color:#1d2436;margin:0 0 20px">
+      Everything above improves a single document. This improves how every mention of your
+      business relates to every other one, and it is the item with the largest effect on whether
+      an AI assistant can name you confidently.</p>
+    <p style="font-size:17.5px;line-height:1.7;color:#1d2436;margin:0 0 20px">
+      A retrieval system encountering your company name has a problem: is this the same business
+      as the one on that directory listing, the one with those reviews, the one with that
+      LinkedIn page? Names are ambiguous. Addresses change. Descriptions differ. Where a system
+      cannot resolve the ambiguity, the safe behaviour is to omit you and name somebody it is
+      surer about.</p>
+    <p style="font-size:17.5px;line-height:1.7;color:#1d2436;margin:0 0 20px">
+      The <code>sameAs</code> property resolves it by assertion. In the structured data attached
+      to your release, we state that the organization named here is the same organization as the
+      one at each of your verified addresses. Not a suggestion, not a hyperlink &mdash; a
+      machine-readable claim about identity.</p>
+
+    <div class="notice sig">
+      <strong>Why this carries no risk</strong>
+      <code>sameAs</code> is not a hyperlink. It transfers no link equity, appears in no link
+      graph, and cannot be construed as a link scheme. It is metadata describing identity, which
+      is exactly what search engines and AI systems ask publishers to provide.
+    </div>
+
+    <h3 style="font-size:19px;margin:30px 0 10px">What we can declare</h3>
+    <ul style="font-size:16.5px;line-height:1.66;color:#1d2436;padding-left:24px;margin:0 0 22px">
+      <li>Your primary website</li>
+      <li>Your Google Business Profile</li>
+      <li>Your LinkedIn company page</li>
+      <li>Your Facebook or other social profiles</li>
+      <li>Industry registries, trade body listings and licensing records</li>
+      <li>Any directory where your business is genuinely and accurately listed</li>
+    </ul>
+    <p style="font-size:16.5px;line-height:1.7;color:var(--ink-2);margin:0 0 20px">
+      We only declare addresses you actually control or are genuinely listed on. Asserting
+      identity across addresses that are not yours is both useless and dishonest, and we will not
+      do it.</p>
+
+    <div class="notice warn">
+      <strong>One condition</strong>
+      Entity linking only helps if the information at those addresses agrees. If your website
+      says one address and your Google profile says another, declaring them as the same entity
+      surfaces the contradiction rather than resolving it. Fix the inconsistencies first &mdash;
+      we will flag them during review if we spot them.
+    </div>
+  </div>
+</section>
+
 <section class="sec sec-alt">
   <div class="wrap-narrow">
     <h2 style="font-family:var(--serif);font-size:29px;margin:0 0 18px;letter-spacing:-.5px">
@@ -250,6 +349,7 @@
         <ul>
           <li><a href="/submit/">Submit a release</a></li>
           <li><a href="/pricing/">Pricing</a></li>
+          <li><a href="/optimization/">What optimization does</a></li>
           <li><a href="/how-it-works/">How it works</a></li>
           <li><a href="/guidelines/">Editorial guidelines</a></li>
         </ul>
@@ -280,6 +380,39 @@
     </div>
   </div>
 </footer>
+
+<div id="quill-root">
+  <div id="quill-panel" role="dialog" aria-label="Quill tier recommender">
+    <div class="q-head">
+      <svg viewBox="0 0 64 64" role="img" aria-label="Quill">
+        <rect x="12" y="10" width="34" height="44" rx="3" fill="#f7f8fb" stroke="#0f1524" stroke-width="3"/>
+        <path d="M20 20h18M20 28h18M20 36h12" stroke="#94a1ba" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M52 8c-9 4-16 13-18 23l-2 9 8-4c9-5 14-14 14-24z" fill="#00c2a8" stroke="#0f1524" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M32 40l-6 10" stroke="#0f1524" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="44" cy="20" r="2.4" fill="#0f1524"/>
+      </svg>
+      <div>
+        <strong>Quill</strong>
+        <span><i aria-hidden="true"></i>Tier recommender</span>
+      </div>
+    </div>
+    <div id="quill-log"></div>
+    <div class="q-opts" id="quill-opts"></div>
+    <p class="q-foot">Quill is a guided helper, not a live model. It answers from our published
+    pricing and guidelines.</p>
+  </div>
+  <button id="quill-toggle" aria-expanded="false" aria-controls="quill-panel">
+    <span id="quill-dot"></span>
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <rect x="12" y="10" width="34" height="44" rx="3" fill="#fff" stroke="#fff" stroke-width="3"/>
+      <path d="M20 20h18M20 28h18M20 36h12" stroke="#2a3fd4" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M52 8c-9 4-16 13-18 23l-2 9 8-4c9-5 14-14 14-24z" fill="#00c2a8" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M32 40l-6 10" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+    <span class="ql">Which tier?<small>Ask Quill &middot; 30 seconds</small></span>
+  </button>
+</div>
+
 <script src="/assets/prfb.js"></script>
 </body>
 </html>

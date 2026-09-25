@@ -63,6 +63,7 @@
       <nav class="hdr-nav" id="hdrnav" aria-label="Main">
         <a href="/releases/">Releases</a>
         <a href="/pricing/">Pricing</a>
+        <a href="/optimization/">Optimization</a>
         <a href="/how-it-works/">How It Works</a>
         <a href="/guidelines/" aria-current="page">Guidelines</a>
         <a href="/about/">About</a>
@@ -216,6 +217,7 @@
         <ul>
           <li><a href="/submit/">Submit a release</a></li>
           <li><a href="/pricing/">Pricing</a></li>
+          <li><a href="/optimization/">What optimization does</a></li>
           <li><a href="/how-it-works/">How it works</a></li>
           <li><a href="/guidelines/">Editorial guidelines</a></li>
         </ul>
@@ -246,6 +248,39 @@
     </div>
   </div>
 </footer>
+
+<div id="quill-root">
+  <div id="quill-panel" role="dialog" aria-label="Quill tier recommender">
+    <div class="q-head">
+      <svg viewBox="0 0 64 64" role="img" aria-label="Quill">
+        <rect x="12" y="10" width="34" height="44" rx="3" fill="#f7f8fb" stroke="#0f1524" stroke-width="3"/>
+        <path d="M20 20h18M20 28h18M20 36h12" stroke="#94a1ba" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M52 8c-9 4-16 13-18 23l-2 9 8-4c9-5 14-14 14-24z" fill="#00c2a8" stroke="#0f1524" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M32 40l-6 10" stroke="#0f1524" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="44" cy="20" r="2.4" fill="#0f1524"/>
+      </svg>
+      <div>
+        <strong>Quill</strong>
+        <span><i aria-hidden="true"></i>Tier recommender</span>
+      </div>
+    </div>
+    <div id="quill-log"></div>
+    <div class="q-opts" id="quill-opts"></div>
+    <p class="q-foot">Quill is a guided helper, not a live model. It answers from our published
+    pricing and guidelines.</p>
+  </div>
+  <button id="quill-toggle" aria-expanded="false" aria-controls="quill-panel">
+    <span id="quill-dot"></span>
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <rect x="12" y="10" width="34" height="44" rx="3" fill="#fff" stroke="#fff" stroke-width="3"/>
+      <path d="M20 20h18M20 28h18M20 36h12" stroke="#2a3fd4" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M52 8c-9 4-16 13-18 23l-2 9 8-4c9-5 14-14 14-24z" fill="#00c2a8" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M32 40l-6 10" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+    <span class="ql">Which tier?<small>Ask Quill &middot; 30 seconds</small></span>
+  </button>
+</div>
+
 <script src="/assets/prfb.js"></script>
 </body>
 </html>

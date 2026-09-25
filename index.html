@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Press Release For Business — Company Announcements, Published and Structured</title>
-<meta name="description" content="Publish company press releases at a permanent address with structured data, explicit dates and attribution — built so AI assistants and search engines can read and cite them. From $19.99.">
+<title>Press Release For Business — Publish a Press Release From $19.99</title>
+<meta name="description" content="Publish your company press release at a permanent URL with structured data, explicit dates and attribution — built so AI assistants and search engines can read and cite it. Three tiers from $19.99, no subscription.">
 <link rel="canonical" href="https://pressreleaseforbusiness.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Press Release For Business">
@@ -114,6 +114,120 @@
      }
     ]
    }
+  },
+  {
+   "@type": "Service",
+   "@id": "https://pressreleaseforbusiness.com/#service",
+   "name": "Press release publishing for business",
+   "serviceType": "Press release publishing and distribution",
+   "provider": {
+    "@id": "https://pressreleaseforbusiness.com/#org"
+   },
+   "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "description": "Publish company press releases at a permanent canonical URL with explicit publication dates, named issuing organizations and structured markup built for AI retrieval. Three tiers from $19.99 per release, no subscription.",
+   "offers": [
+    {
+     "@type": "Offer",
+     "@id": "https://pressreleaseforbusiness.com/pricing/#standard",
+     "name": "Standard",
+     "description": "Published as written at a permanent canonical URL, up to 1,400 words, dated, attributed and labelled.",
+     "price": "19.99",
+     "priceCurrency": "USD",
+     "availability": "https://schema.org/InStock",
+     "url": "https://pressreleaseforbusiness.com/pricing/",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "unitText": "per release",
+      "valueAddedTaxIncluded": false
+     },
+     "seller": {
+      "@id": "https://pressreleaseforbusiness.com/#org"
+     }
+    },
+    {
+     "@type": "Offer",
+     "@id": "https://pressreleaseforbusiness.com/pricing/#optimized",
+     "name": "Optimized",
+     "description": "Adds standalone opening passage, verifiable claims, at-a-glance summary, FAQ markup, sameAs entity linking, speakable marking and llms.txt listing.",
+     "price": "49.99",
+     "priceCurrency": "USD",
+     "availability": "https://schema.org/InStock",
+     "url": "https://pressreleaseforbusiness.com/pricing/",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "49.99",
+      "priceCurrency": "USD",
+      "unitText": "per release",
+      "valueAddedTaxIncluded": false
+     },
+     "seller": {
+      "@id": "https://pressreleaseforbusiness.com/#org"
+     }
+    },
+    {
+     "@type": "Offer",
+     "@id": "https://pressreleaseforbusiness.com/pricing/#network",
+     "name": "Network",
+     "description": "Adds editorial pickup on Action Global News and placement on up to two relevance-matched properties.",
+     "price": "99.00",
+     "priceCurrency": "USD",
+     "availability": "https://schema.org/InStock",
+     "url": "https://pressreleaseforbusiness.com/pricing/",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "99.00",
+      "priceCurrency": "USD",
+      "unitText": "per release",
+      "valueAddedTaxIncluded": false
+     },
+     "seller": {
+      "@id": "https://pressreleaseforbusiness.com/#org"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://pressreleaseforbusiness.com/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is a press release service?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A press release service publishes a company's announcement so it is publicly readable at a stable address. Press Release For Business publishes each announcement at a permanent canonical URL with an explicit publication date, a named issuing organization and structured markup, permanently labelled as an announcement rather than as independent reporting."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much does it cost to publish a press release for a business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Three tiers, charged once per release with no subscription: Standard at $19.99, Optimized at $49.99 and Network at $99. Payment is taken after you approve the final document, and declined announcements are refunded in full."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do press releases still work for SEO?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not through links. Search engines have discounted syndicated press release links since roughly 2013 and expect them to be marked as sponsored. What the format still does well is provide a dated, attributed, factually specific document that AI retrieval systems can identify, parse and cite — which is a different mechanism from link equity."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long should a press release be?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Up to 1,400 words. Most effective announcements run considerably shorter. Longer documents stop reading as releases and dilute the factual density that makes the format useful to both editors and retrieval systems."
+     }
+    }
+   ]
   }
  ]
 }
@@ -137,6 +251,7 @@
       <nav class="hdr-nav" id="hdrnav" aria-label="Main">
         <a href="/releases/">Releases</a>
         <a href="/pricing/">Pricing</a>
+        <a href="/optimization/">Optimization</a>
         <a href="/how-it-works/">How It Works</a>
         <a href="/guidelines/">Guidelines</a>
         <a href="/about/">About</a>
@@ -571,6 +686,7 @@
         <ul>
           <li><a href="/submit/">Submit a release</a></li>
           <li><a href="/pricing/">Pricing</a></li>
+          <li><a href="/optimization/">What optimization does</a></li>
           <li><a href="/how-it-works/">How it works</a></li>
           <li><a href="/guidelines/">Editorial guidelines</a></li>
         </ul>
@@ -601,6 +717,39 @@
     </div>
   </div>
 </footer>
+
+<div id="quill-root">
+  <div id="quill-panel" role="dialog" aria-label="Quill tier recommender">
+    <div class="q-head">
+      <svg viewBox="0 0 64 64" role="img" aria-label="Quill">
+        <rect x="12" y="10" width="34" height="44" rx="3" fill="#f7f8fb" stroke="#0f1524" stroke-width="3"/>
+        <path d="M20 20h18M20 28h18M20 36h12" stroke="#94a1ba" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M52 8c-9 4-16 13-18 23l-2 9 8-4c9-5 14-14 14-24z" fill="#00c2a8" stroke="#0f1524" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M32 40l-6 10" stroke="#0f1524" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="44" cy="20" r="2.4" fill="#0f1524"/>
+      </svg>
+      <div>
+        <strong>Quill</strong>
+        <span><i aria-hidden="true"></i>Tier recommender</span>
+      </div>
+    </div>
+    <div id="quill-log"></div>
+    <div class="q-opts" id="quill-opts"></div>
+    <p class="q-foot">Quill is a guided helper, not a live model. It answers from our published
+    pricing and guidelines.</p>
+  </div>
+  <button id="quill-toggle" aria-expanded="false" aria-controls="quill-panel">
+    <span id="quill-dot"></span>
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <rect x="12" y="10" width="34" height="44" rx="3" fill="#fff" stroke="#fff" stroke-width="3"/>
+      <path d="M20 20h18M20 28h18M20 36h12" stroke="#2a3fd4" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M52 8c-9 4-16 13-18 23l-2 9 8-4c9-5 14-14 14-24z" fill="#00c2a8" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M32 40l-6 10" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+    <span class="ql">Which tier?<small>Ask Quill &middot; 30 seconds</small></span>
+  </button>
+</div>
+
 <script src="/assets/prfb.js"></script>
 </body>
 </html>
