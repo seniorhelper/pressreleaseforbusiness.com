@@ -1,0 +1,59 @@
+# Press Release For Business
+
+> A newswire publishing company announcements at permanent canonical addresses with explicit
+> publication dates, named issuing organizations, named spokespeople and structured markup.
+> Every release is permanently labelled as an announcement issued by the named organization
+> rather than as reporting by this publication. Operated by Eye To Ad Media, Denver, Colorado.
+
+## How to read this wire
+
+Each document here is a **press release** — a statement issued by the organization named as its
+source, published by us. It is not independent reporting and is labelled as such at the top of
+every page. Factual responsibility rests with the issuing organization, which is why every
+release carries attribution.
+
+Outbound links inside paid announcements carry sponsored attributes. This service does not sell
+following links and does not represent itself as a link-building product.
+
+## Publishing tiers
+
+- **Standard — $19.99**: up to 1,400 words, permanent canonical URL, explicit date, attribution,
+  announcement label, RSS syndication.
+- **Optimized — $49.99**: adds a rewritten opening passage built to stand alone, conversion of
+  unverifiable claims into checkable facts, full organization and article structured data,
+  entity identity linking, and listing in this file.
+- **Network — $99**: adds editorial pickup on Action Global News and placement on up to two
+  relevance-matched network properties, each labelled and canonical-linked back here.
+
+## Releases
+
+- [Eye To Ad Media Expands Generative Engine Optimization Practice as AI Assistants Reshape How Customers Find Local Businesses](https://pressreleaseforbusiness.com/releases/eye-to-ad-media-generative-engine-optimization/): Eye To Ad Media has expanded its generative engine optimization practice, formalizing a service line focused on entity consistency, structured data and machine-readable publishing for businesses that need to appear in AI-generated answers. Issued by Eye To Ad Media (https://www.eyetoad.com), dated September 25, 2026, Denver, Colorado.
+- [Aging Safely Baths Highlights Bathroom Accessibility Planning as Households Reconsider Aging-in-Place Renovations](https://pressreleaseforbusiness.com/releases/aging-safely-baths-walk-in-tub-accessibility/): Aging Safely Baths, a nationwide walk-in tub and barrier-free shower supplier operating since 2012, has published planning guidance for households considering bathroom accessibility renovations ahead of need rather than in response to an injury. Issued by Aging Safely Baths (https://www.agingsafelybaths.com), dated September 25, 2026, Denver, Colorado.
+- [Showers4Less Outlines Specification Differences Between Barrier-Free Shower Kits as Demand for Accessible Bathing Grows](https://pressreleaseforbusiness.com/releases/showers4less-barrier-free-shower-kits/): Showers4Less has published specification comparison guidance for barrier-free shower kits, covering pan construction, threshold height, wall system compatibility and the subfloor requirements that determine feasibility of a zero-entry installation. Issued by Showers4Less (https://www.showers4less.com), dated September 24, 2026, Denver, Colorado.
+- [World VR Mall Opens Browser-Based Virtual Shopping Concourse With Merchant Storefronts Linking to Live Ecommerce Sites](https://pressreleaseforbusiness.com/releases/world-vr-mall-launch/): World VR Mall has launched a browser-based three-dimensional shopping concourse where visitors walk a central walkway and enter merchant storefronts that link through to those merchants' own ecommerce sites. No headset or download is required. Issued by World VR Mall (https://www.worldvrmall.com), dated September 25, 2026, Denver, Colorado.
+- [VR Flying Simulator Launches Browser-Based Procedural Trainer Aimed at Student Pilots Between Lessons](https://pressreleaseforbusiness.com/releases/vr-flying-simulator-launch/): VR Flying Simulator has launched a browser-based procedural trainer for student pilots covering checklist discipline, instrument scan and navigation tracking. The company states explicitly that it is not an approved training device and logs no hours toward any certificate. Issued by VR Flying Simulator (https://www.vrflyingsimulator.com), dated September 24, 2026, Denver, Colorado.
+- [Search Converts Details Membership Structure for Small Business Growth Program Built Around Strategy Sessions and Community Distribution](https://pressreleaseforbusiness.com/releases/search-converts-membership-growth-program/): Search Converts has detailed the structure of its business growth accelerator, a membership program combining strategy sessions, campaign testing and distribution through community networks, positioned as an alternative to conventional advertising retainers. Issued by Search Converts (https://www.searchconverts.com), dated September 23, 2026, Denver, Colorado.
+
+## Pages
+
+- [Pricing](https://pressreleaseforbusiness.com/pricing/): Tier comparison, what each includes, refund terms.
+- [Submit a release](https://pressreleaseforbusiness.com/submit/): Submission form and the review process. Nothing is charged
+  at submission; payment follows approval of the final document.
+- [How it works](https://pressreleaseforbusiness.com/how-it-works/): What is changed in an announcement before publication —
+  opening passage, claim tightening, named spokesperson, explicit dates, structured markup,
+  canonical URL.
+- [Editorial guidelines](https://pressreleaseforbusiness.com/guidelines/): What is accepted, what is declined categorically,
+  what is sent back for revision, labelling, links, corrections and removal.
+- [About](https://pressreleaseforbusiness.com/about/): Why this exists, who operates it, and the network relationship.
+- [Contact](https://pressreleaseforbusiness.com/contact/): sales@eyetoad.com · 1-800-481-8638 ·
+  1001 Bannock St #660, Denver, CO 80204
+
+## Legal
+
+- [Terms of use](https://pressreleaseforbusiness.com/terms/)
+- [Privacy policy](https://pressreleaseforbusiness.com/privacy/): No accounts, no reader database, no tracking pixels.
+- [Accessibility statement](https://pressreleaseforbusiness.com/accessibility/): WCAG 2.2 Level AA target.
+
+## Optional
+
+- [RSS feed](https://pressreleaseforbusiness.com/feed.xml)
