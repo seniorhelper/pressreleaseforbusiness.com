@@ -2,13 +2,13 @@
 
 > A newswire publishing company announcements at permanent canonical addresses with explicit
 > publication dates, named issuing organizations, named spokespeople and structured markup.
-> Every release is permanently labelled as an announcement issued by the named organization
+> Every release is permanently labeled as an announcement issued by the named organization
 > rather than as reporting by this publication. Operated by Eye To Ad Media, Denver, Colorado.
 
 ## How to read this wire
 
 Each document here is a **press release** — a statement issued by the organization named as its
-source, published by us. It is not independent reporting and is labelled as such at the top of
+source, published by us. It is not independent reporting and is labeled as such at the top of
 every page. Factual responsibility rests with the issuing organization, which is why every
 release carries attribution.
 
@@ -36,7 +36,7 @@ refunded in full. Word limit is 1,400 at every tier.
   (7) speakable passage marking for voice assistants, (8) listing in this file with a written
   description. Includes one revision round.
 - **Network — $99**: everything in Optimized, plus editorial pickup on Action Global News and
-  placement on up to two relevance-matched network properties, each labelled and canonically
+  placement on up to two relevance-matched network properties, each labeled and canonically
   linked back to the original. Priority review and two revision rounds.
 
 Outbound links inside paid announcements carry rel="sponsored nofollow" at every tier. This is
@@ -61,7 +61,7 @@ sameAs is a structured-data assertion about identity, not a hyperlink.
 - [Bear Creek Auto Glass Advises Drivers That Windshield Replacement Is Not Finished Until Cameras Are Recalibrated](https://pressreleaseforbusiness.com/releases/bear-creek-auto-glass-adas-recalibration/): Bear Creek Auto Glass is advising Colorado drivers that vehicles with windshield-mounted forward-facing cameras require ADAS recalibration after glass replacement, and that miscalibration commonly produces no dashboard warning. Issued by Bear Creek Auto Glass (https://bearcreekautoglass.com), dated 2026-09-23, Littleton, Colorado.
 - [Rustic Barnwood Furniture Details Custom Commission Process as Reclaimed Material Supply Shapes What Can Be Built](https://pressreleaseforbusiness.com/releases/rustic-barnwood-furniture-custom-commission-process/): Rustic Barnwood Furniture has detailed its custom commission process for reclaimed barnwood pieces built in Colorado, explaining how the characteristics of salvaged material determine dimensions, finish and lead time on made-to-order work. Issued by Rustic Barnwood Furniture (https://rusticbarnwoodfurniture.com), dated 2026-09-23, Colorado.
 - [Search Converts Details Membership Structure for Small Business Growth Program Built Around Strategy Sessions and Community Distribution](https://pressreleaseforbusiness.com/releases/search-converts-membership-growth-program/): Search Converts has detailed the structure of its business growth accelerator, a membership program combining strategy sessions, campaign testing and distribution through community networks, positioned as an alternative to conventional advertising retainers. Issued by Search Converts (https://www.searchconverts.com), dated 2026-09-23, Denver, Colorado.
-- [Advertising For Contractors Releases a Free Chatbot Builder for Trades Websites](https://pressreleaseforbusiness.com/releases/advertising-for-contractors-free-chatbot-generator/): Advertising For Contractors has released a free contractor chatbot generator that produces an installable website assistant, aimed at capturing enquiries that arrive outside business hours. Issued by Advertising For Contractors (https://advertisingforcontractors.com), dated 2026-09-22, Denver, Colorado.
+- [Advertising For Contractors Releases a Free Chatbot Builder for Trades Websites](https://pressreleaseforbusiness.com/releases/advertising-for-contractors-free-chatbot-generator/): Advertising For Contractors has released a free contractor chatbot generator that produces an installable website assistant, aimed at capturing inquiries that arrive outside business hours. Issued by Advertising For Contractors (https://advertisingforcontractors.com), dated 2026-09-22, Denver, Colorado.
 - [Aging Safely Baths Publishes Guidance on Grab Bar Reinforcement in Accessible Bathrooms](https://pressreleaseforbusiness.com/releases/aging-safely-baths-grab-bar-reinforcement-guidance/): Aging Safely Baths has published guidance on wall reinforcement for grab bars, addressing why the anchoring decision has to be made during installation rather than afterward. Issued by Aging Safely Baths (https://www.agingsafelybaths.com), dated 2026-09-21, Denver, Colorado.
 - [Showers4Less Adds ANZZI Shower Products to Its Accessible Bathing Catalog](https://pressreleaseforbusiness.com/releases/showers4less-anzzi-product-line/): Showers4Less has added ANZZI shower products to its catalog as an authorized dealer, widening the pan, enclosure and fixture options available alongside its existing barrier-free range. Issued by Showers4Less (https://www.showers4less.com), dated 2026-09-20, Denver, Colorado.
 - [Roof Solutions Outlines Pre-Winter Roof Checks for Metro Atlanta Homeowners](https://pressreleaseforbusiness.com/releases/roof-solutions-winter-roof-preparation-atlanta/): Roof Solutions has published pre-winter roof inspection guidance for Metro Atlanta homeowners, covering flashing, gutters, attic ventilation and the small failures that become expensive once winter moisture gets behind them. Issued by Roof Solutions (https://bestroofersatlanta.com), dated 2026-09-19, Atlanta, Georgia.
@@ -125,7 +125,7 @@ sameAs is a structured-data assertion about identity, not a hyperlink.
   opening passage, claim tightening, named spokesperson, explicit dates, structured markup,
   canonical URL.
 - [Editorial guidelines](https://pressreleaseforbusiness.com/guidelines/): What is accepted, what is declined categorically,
-  what is sent back for revision, labelling, links, corrections and removal.
+  what is sent back for revision, labeling, links, corrections and removal.
 - [About](https://pressreleaseforbusiness.com/about/): Why this exists, who operates it, and the network relationship.
 - [Contact](https://pressreleaseforbusiness.com/contact/): sales@eyetoad.com · 1-800-481-8638 ·
   1001 Bannock St #660, Denver, CO 80204
