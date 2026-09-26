@@ -140,40 +140,50 @@
           <h2 style="font-size:21px;margin:0 0 6px">Submission form</h2>
           <p style="font-size:14px;color:var(--ink-3);margin:0 0 22px">
             Opens your email client. Nothing is stored on this site.</p>
-          <form data-mailto="sales@eyetoad.com"
-                data-subject="Press release submission - pressreleaseforbusiness.com">
+          <form action="https://formsubmit.co/info@eyetoad.com" method="POST" class="prfb-form">
+            <!-- FormSubmit control fields -->
+            <input type="hidden" name="_subject" value="Press release submission — pressreleaseforbusiness.com">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_next" value="https://pressreleaseforbusiness.com/thank-you/">
+            <!-- honeypot: bots fill this, humans never see it -->
+            <div class="hp" aria-hidden="true">
+              <label for="sub-hp">Leave this field empty</label>
+              <input id="sub-hp" type="text" name="_honey" tabindex="-1" autocomplete="off">
+            </div>
+
             <div class="f2">
               <div class="fld"><label for="sub-name">Your name</label>
-                <input id="sub-name" name="name" type="text" required></div>
+                <input id="sub-name" name="Your name" type="text" required></div>
               <div class="fld"><label for="sub-title">Your title</label>
-                <input id="sub-title" name="title" type="text"
+                <input id="sub-title" name="Your title" type="text"
                   placeholder="For the spokesperson quote"></div>
             </div>
             <div class="f2">
               <div class="fld"><label for="sub-company">Company</label>
-                <input id="sub-company" name="company" type="text" required></div>
+                <input id="sub-company" name="Company" type="text" required></div>
               <div class="fld"><label for="sub-web">Website</label>
-                <input id="sub-web" name="website" type="url" placeholder="https://"></div>
+                <input id="sub-web" name="Website" type="url" placeholder="https://"></div>
             </div>
             <div class="f2">
               <div class="fld"><label for="sub-email">Email</label>
                 <input id="sub-email" name="email" type="email" required></div>
               <div class="fld"><label for="sub-phone">Phone</label>
-                <input id="sub-phone" name="phone" type="tel"></div>
+                <input id="sub-phone" name="Phone" type="tel"></div>
             </div>
             <div class="f2">
               <div class="fld"><label for="sub-tier">Tier</label>
-                <select id="sub-tier" name="tier">
-                  <option value="standard">Standard &mdash; $19.99</option>
-                  <option value="optimized">Optimized &mdash; $49.99</option>
-                  <option value="network">Network &mdash; $99</option>
-                  <option value="unsure">Not sure &mdash; advise me</option>
+                <select id="sub-tier" name="Tier">
+                  <option value="Standard — $19.99">Standard &mdash; $19.99</option>
+                  <option value="Optimized — $49.99">Optimized &mdash; $49.99</option>
+                  <option value="Network — $99">Network &mdash; $99</option>
+                  <option value="Not sure — advise me">Not sure &mdash; advise me</option>
                 </select></div>
               <div class="fld"><label for="sub-date">Date of the news</label>
-                <input id="sub-date" name="newsdate" type="date"></div>
+                <input id="sub-date" name="Date of the news" type="date"></div>
             </div>
             <div class="fld"><label for="sub-type">Announcement type</label>
-              <select id="sub-type" name="type">
+              <select id="sub-type" name="Announcement type">
                 <option>Product or service launch</option>
                 <option>Funding or investment</option>
                 <option>Expansion or new location</option>
@@ -184,34 +194,57 @@
                 <option>Award or certification</option>
                 <option>Other</option>
               </select></div>
-            <div class="fld"><label for="sub-head">Working headline</label>
-              <input id="sub-head" name="headline" type="text"
-                placeholder="What happened, in one line"></div>
+
+            <div class="fld"><label for="sub-head">Headline</label>
+              <input id="sub-head" name="Headline" type="text" required
+                placeholder="What happened, in one line">
+              <span class="hint"><strong>What happened</strong>, in plain words, under about
+              15 words. Not a slogan. A reader should know what occurred from this line alone.
+              <a href="/how-to-write-a-press-release/">How to write one &rarr;</a></span></div>
+
+            <div class="fld"><label for="sub-sub">Subheadline
+              <span class="opt-tag">optional</span></label>
+              <input id="sub-sub" name="Subheadline" type="text"
+                placeholder="One sentence adding the detail the headline could not carry">
+              <span class="hint">This is the &ldquo;so what.&rdquo; It appears under your
+              headline, becomes your link-preview text when the release is shared, and is one of
+              the passages marked for voice assistants. Leave it blank and we will write one
+              during review.</span></div>
+
             <div class="fld">
               <label for="sub-body">Announcement or the facts</label>
-              <textarea id="sub-body" name="body" required
-                placeholder="Paste your draft, or tell us: what happened, when, where, who is involved, and anything we can verify."></textarea>
-              <span class="hint" id="wc">0 words</span>
-            </div>
-            <div class="fld">
-              <label for="sub-profiles">Verified profiles <span style="text-transform:none;font-weight:400;color:var(--ink-3)">(Optimized &amp; Network)</span></label>
-              <textarea id="sub-profiles" name="profiles" style="min-height:96px"
-                placeholder="One per line: website, Google Business Profile, LinkedIn, Facebook, industry registry or directory listings you control."></textarea>
+              <textarea id="sub-body" name="Announcement" required
+                placeholder="Paste your draft, or just tell us: what happened, when, where, who is involved, and anything we can verify. We will structure it."></textarea>
+              <span class="hint"><span id="wc">0 words</span> &middot; 1,400 maximum at every
+              tier. No need to format it &mdash; plain text is fine, and we add the dateline,
+              structure and markup.
+              <a href="/press-release-template/">Free template &rarr;</a></span></div>
+
+            <div class="fld"><label for="sub-quote">Spokesperson quote
+              <span class="opt-tag">optional</span></label>
+              <textarea id="sub-quote" name="Spokesperson quote" style="min-height:86px"
+                placeholder="Something only a person would say — a reason, a judgment, a tradeoff."></textarea>
+              <span class="hint">One quote, from a named person with a title. Read it aloud
+              first &mdash; if nobody would say it in conversation, we will send it back.</span></div>
+
+            <div class="fld"><label for="sub-profiles">Verified profiles
+              <span class="opt-tag">Optimized &amp; Network</span></label>
+              <textarea id="sub-profiles" name="Verified profiles" style="min-height:96px"
+                placeholder="One per line:&#10;https://yourbusiness.com&#10;https://share.google/yourGBP&#10;https://linkedin.com/company/yourbusiness"></textarea>
               <span class="hint">We declare these in structured data as belonging to the same
-              organization, which is how retrieval systems connect your release to your verified
-              identity. Only list addresses you actually control.
-              <a href="/pricing/" style="color:var(--brand)">What this does &rarr;</a></span>
-            </div>
-            <div class="fld"><label for="sub-notes">Anything else we should know</label>
-              <input id="sub-notes" name="notes" type="text"
+              organization &mdash; that is how retrieval systems connect your release to your
+              verified identity. Only list addresses you control, and make sure the details on
+              them agree with each other.
+              <a href="/optimization/">What this does &rarr;</a></span></div>
+
+            <div class="fld"><label for="sub-notes">Anything else we should know
+              <span class="opt-tag">optional</span></label>
+              <input id="sub-notes" name="Notes" type="text"
                 placeholder="Embargo date, related coverage, questions"></div>
-            <button class="btn btn-w" type="submit">Send for review</button>
-            <p class="form-note" style="display:none;font-size:13px;color:var(--ink-3);
-              margin:12px 0 0"></p>
-            <p class="hint" style="margin-top:14px">
-              Prefer email? Write to
-              <a href="mailto:sales@eyetoad.com" style="color:var(--brand)">sales@eyetoad.com</a>
-              or call <a href="tel:18004818638" style="color:var(--brand)">1-800-481-8638</a>.</p>
+
+            <button class="btn" type="submit">Send for review</button>
+            <p class="form-note">Nothing is charged at submission. We read it, tell you what
+            needs changing, and only take payment once you have approved the final document.</p>
           </form>
         </div>
       </div>

@@ -114,7 +114,7 @@
         <h2 style="font-family:var(--serif);font-size:27px;margin:36px 0 14px;letter-spacing:-.5px">
           Direct</h2>
         <p style="font-size:17px;line-height:1.85;color:#1d2436">
-          <strong>Email:</strong> <a href="mailto:sales@eyetoad.com" style="color:var(--brand)">sales@eyetoad.com</a><br>
+          <strong>Email:</strong> <a href="#" class="eml" data-eml="c2FsZXNAZXlldG9hZC5jb20=" style="color:var(--brand)"><span data-eml="c2FsZXNAZXlldG9hZC5jb20="></span></a><br>
           <strong>Telephone:</strong> <a href="tel:18004818638" style="color:var(--brand)">1-800-481-8638</a><br>
           <strong>Post:</strong> Press Release For Business,<br>
           1001 Bannock St #660, Denver, CO 80204
@@ -132,8 +132,12 @@
           <h2 style="font-size:21px;margin:0 0 6px">Send a message</h2>
           <p style="font-size:14px;color:var(--ink-3);margin:0 0 22px">
             Opens your email client. Nothing is stored here.</p>
-          <form data-mailto="sales@eyetoad.com"
-                data-subject="Inquiry - pressreleaseforbusiness.com">
+          <form action="https://formsubmit.co/info@eyetoad.com" method="POST">
+            <input type="hidden" name="_subject" value="Contact — pressreleaseforbusiness.com">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_next" value="https://pressreleaseforbusiness.com/thank-you/">
+            <div class="hp" aria-hidden="true"><label for="c-hp">Leave empty</label><input id="c-hp" type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
             <div class="fld"><label for="c-name">Name</label>
               <input id="c-name" name="name" type="text" required></div>
             <div class="fld"><label for="c-company">Company</label>

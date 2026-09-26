@@ -11,8 +11,25 @@
   "url": "https://pressreleaseforbusiness.com/api/retail.json"
  },
  "generated": "2026-09-26",
- "count": 5,
+ "count": 6,
  "releases": [
+  {
+   "id": "rustic-barnwood-furniture-denver-delivery-custom-pieces",
+   "url": "https://pressreleaseforbusiness.com/releases/rustic-barnwood-furniture-denver-delivery-custom-pieces/",
+   "headline": "Rustic Barnwood Furniture Confirms Delivery of Custom Reclaimed Pieces Across the Denver Metro Area",
+   "snippet": "Rustic Barnwood Furniture has confirmed that its custom reclaimed barnwood pieces — dining tables, desks, benches and case goods — are built to order in Colorado and delivered across the Denver metropolitan area and Front Range.",
+   "organization": "Rustic Barnwood Furniture",
+   "organization_url": "https://rusticbarnwoodfurniture.com",
+   "location": "Colorado",
+   "date": "2026-09-26",
+   "categories": [
+    "retail",
+    "home-services"
+   ],
+   "tier": "Optimized",
+   "featured": true,
+   "optimized": true
+  },
   {
    "id": "a-nu-do-salon-virtual-consultation-after-hours-booking",
    "url": "https://pressreleaseforbusiness.com/releases/a-nu-do-salon-virtual-consultation-after-hours-booking/",

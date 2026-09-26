@@ -11,7 +11,7 @@
   "url": "https://pressreleaseforbusiness.com/api/home-services.json"
  },
  "generated": "2026-09-26",
- "count": 22,
+ "count": 23,
  "releases": [
   {
    "id": "painter-hotline-denver-metro-fall-promotion",
@@ -26,6 +26,23 @@
     "home-services"
    ],
    "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "rustic-barnwood-furniture-denver-delivery-custom-pieces",
+   "url": "https://pressreleaseforbusiness.com/releases/rustic-barnwood-furniture-denver-delivery-custom-pieces/",
+   "headline": "Rustic Barnwood Furniture Confirms Delivery of Custom Reclaimed Pieces Across the Denver Metro Area",
+   "snippet": "Rustic Barnwood Furniture has confirmed that its custom reclaimed barnwood pieces — dining tables, desks, benches and case goods — are built to order in Colorado and delivered across the Denver metropolitan area and Front Range.",
+   "organization": "Rustic Barnwood Furniture",
+   "organization_url": "https://rusticbarnwoodfurniture.com",
+   "location": "Colorado",
+   "date": "2026-09-26",
+   "categories": [
+    "retail",
+    "home-services"
+   ],
+   "tier": "Optimized",
    "featured": true,
    "optimized": true
   },

@@ -15,6 +15,44 @@
   /* ---------------------------------------------------------
      1. MOBILE NAV
      --------------------------------------------------------- */
+
+  /* ---------------------------------------------------------
+     EMAIL OBFUSCATION
+     Addresses are base64 in the HTML so scrapers get nothing.
+     Decoded only when a real person interacts.
+     --------------------------------------------------------- */
+  function initEmail() {
+    function decode(el) {
+      var raw = el.getAttribute('data-eml');
+      if (!raw) return '';
+      try { return atob(raw); } catch (e) { return ''; }
+    }
+    // fill in visible label spans
+    var spans = document.querySelectorAll('span[data-eml]');
+    for (var i = 0; i < spans.length; i++) {
+      spans[i].textContent = decode(spans[i]);
+    }
+    // wire the links
+    var links = document.querySelectorAll('a.eml[data-eml]');
+    for (var j = 0; j < links.length; j++) {
+      (function (a) {
+        function go(e) {
+          var addr = decode(a);
+          if (!addr) return;
+          a.setAttribute('href', 'mailto:' + addr);
+        }
+        a.addEventListener('mouseenter', go);
+        a.addEventListener('focus', go);
+        a.addEventListener('click', function (e) {
+          var addr = decode(a);
+          if (!addr) return;
+          e.preventDefault();
+          window.location.href = 'mailto:' + addr;
+        });
+      })(links[j]);
+    }
+  }
+
   function initNav() {
     var t = document.getElementById('navtoggle');
     var n = document.getElementById('hdrnav');
@@ -257,6 +295,7 @@
   }
 
   function boot() {
+    initEmail();
     initNav(); initSearch(); initShare(); initCheckout();
     initForms(); initCounter(); initYear();
   }

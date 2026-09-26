@@ -746,3 +746,84 @@ button{font-family:inherit}
 .tier-all{margin:0 0 14px;padding:10px 12px;background:#eefbf8;border:1px solid #b9ece2;
   border-radius:7px;font-size:12.5px;line-height:1.5;color:var(--signal-dark);font-weight:600}
 .tier-all a{color:var(--signal-dark);text-decoration:underline}
+
+/* ---------- Form additions ---------- */
+.hp{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;
+  overflow:hidden!important;opacity:0!important;pointer-events:none}
+.opt-tag{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:1px;
+  text-transform:uppercase;color:var(--ink-3);background:var(--paper-3);border-radius:3px;
+  padding:2px 7px;margin-left:8px;vertical-align:middle}
+.fld .hint{display:block;font-size:12.5px;color:var(--ink-3);margin-top:7px;line-height:1.55}
+.fld .hint a{color:var(--brand);font-weight:600}
+.fld .hint strong{color:var(--ink-2)}
+.form-note{font-size:13px;color:var(--ink-3);margin:14px 0 0;line-height:1.55}
+#wc{font-family:var(--mono);font-size:11.5px;color:var(--ink-2)}
+#wc.over{color:#b3000f;font-weight:700}
+
+/* ---------- Thank you ---------- */
+.ty{text-align:center;max-width:56ch;margin:0 auto}
+.ty-icon{width:74px;height:74px;margin:0 auto 24px;border-radius:50%;background:#eefbf8;
+  border:2px solid var(--signal);display:flex;align-items:center;justify-content:center}
+.ty-icon svg{width:36px;height:36px;fill:none;stroke:var(--signal-dark);stroke-width:2.6;
+  stroke-linecap:round;stroke-linejoin:round}
+.ty h1{font-family:var(--serif);font-size:clamp(30px,4.4vw,44px);letter-spacing:-1px;
+  margin:0 0 16px;line-height:1.1}
+.ty p{font-size:17.5px;line-height:1.68;color:var(--ink-2);margin:0 0 18px}
+.ty-next{text-align:left;border:1px solid var(--rule);border-radius:10px;background:var(--paper-2);
+  padding:24px 26px;margin:32px 0 28px}
+.ty-next h3{margin:0 0 14px;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;
+  color:var(--brand);font-weight:800}
+.ty-next ol{margin:0;padding-left:20px;font-size:16px;line-height:1.7;color:var(--ink-2)}
+.ty-next li{margin-bottom:9px}
+.ty-next li:last-child{margin:0}
+
+/* ============================================================
+   TIER CHART — restyled for weight
+   ============================================================ */
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:start}
+@media(max-width:900px){.tiers{grid-template-columns:1fr;max-width:520px;margin:0 auto}}
+.tier{position:relative;background:#fff;border:1px solid var(--rule);border-radius:12px;
+  padding:30px 26px 28px;display:flex;flex-direction:column;
+  transition:transform .18s,box-shadow .18s,border-color .18s}
+.tier:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(15,21,36,.1);
+  border-color:#c7cee0}
+.tier.feat{border:2px solid var(--brand);box-shadow:0 12px 38px rgba(42,63,212,.14)}
+.tier.feat::before{content:'Most chosen';position:absolute;top:-12px;left:50%;
+  transform:translateX(-50%);background:var(--brand);color:#fff;font-size:10px;font-weight:800;
+  letter-spacing:1.5px;text-transform:uppercase;padding:5px 15px;border-radius:20px;
+  white-space:nowrap;box-shadow:0 4px 14px rgba(42,63,212,.35)}
+.tier h3{font-family:var(--sans);font-size:12px;font-weight:800;letter-spacing:2px;
+  text-transform:uppercase;color:var(--ink-3);margin:0 0 12px}
+.tier.feat h3{color:var(--brand)}
+.tier .price{font-family:var(--serif);font-size:46px;font-weight:700;letter-spacing:-1.6px;
+  line-height:1;color:var(--ink);margin:0 0 4px;display:flex;align-items:baseline;gap:4px}
+.tier .price sup{font-size:22px;font-weight:600;letter-spacing:0;top:-.6em;position:relative}
+.tier .per{font-size:12.5px;color:var(--ink-3);margin:0 0 18px;font-family:var(--mono);
+  letter-spacing:.3px}
+.tier .tsub{font-size:15px;line-height:1.55;color:var(--ink-2);margin:0 0 20px;
+  padding-bottom:20px;border-bottom:1px solid var(--rule-soft);min-height:52px}
+.tier ul{list-style:none;margin:0 0 24px;padding:0;flex:1}
+.tier li{position:relative;padding-left:26px;margin-bottom:11px;font-size:14.5px;
+  line-height:1.5;color:var(--ink-2)}
+.tier li::before{content:'';position:absolute;left:0;top:6px;width:15px;height:15px;
+  border-radius:50%;background:var(--brand-tint);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232a3fd4'%3E%3Cpath d='M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/%3E%3C/svg%3E");
+  background-size:11px;background-repeat:no-repeat;background-position:center}
+.tier li.incl-li{color:var(--signal-dark);font-weight:600}
+.tier li.incl-li::before{background-color:#d3f5ee;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23008e7b'%3E%3Cpath d='M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/%3E%3C/svg%3E")}
+.tier li.no{color:var(--ink-3)}
+.tier li.no::before{background-color:var(--paper-3);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%239aa2b8'%3E%3Cpath d='M5 11h14v2H5z'/%3E%3C/svg%3E")}
+.tier .btn{width:100%;text-align:center;justify-content:center}
+.tier-all{margin:0 0 16px;padding:11px 13px;background:#eefbf8;border:1px solid #b9ece2;
+  border-radius:7px;font-size:12.5px;line-height:1.5;color:var(--signal-dark);font-weight:600}
+.tier-all a{color:var(--signal-dark);text-decoration:underline}
+
+/* value callout used under the tier grid */
+.value-strip{margin-top:30px;border:1px solid var(--rule);border-left:4px solid var(--signal);
+  border-radius:0 10px 10px 0;background:linear-gradient(180deg,#f4fdfb,#fff);padding:24px 28px}
+.value-strip h4{margin:0 0 8px;font-size:10.5px;letter-spacing:1.8px;text-transform:uppercase;
+  color:var(--signal-dark);font-weight:800}
+.value-strip p{margin:0;font-size:16.5px;line-height:1.62;color:#1d2436}
+.value-strip strong{color:var(--ink)}

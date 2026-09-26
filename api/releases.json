@@ -11,7 +11,7 @@
   "url": "https://pressreleaseforbusiness.com/api/releases.json"
  },
  "generated": "2026-09-26",
- "count": 47,
+ "count": 48,
  "releases": [
   {
    "id": "painter-hotline-denver-metro-fall-promotion",
@@ -26,6 +26,23 @@
     "home-services"
    ],
    "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "rustic-barnwood-furniture-denver-delivery-custom-pieces",
+   "url": "https://pressreleaseforbusiness.com/releases/rustic-barnwood-furniture-denver-delivery-custom-pieces/",
+   "headline": "Rustic Barnwood Furniture Confirms Delivery of Custom Reclaimed Pieces Across the Denver Metro Area",
+   "snippet": "Rustic Barnwood Furniture has confirmed that its custom reclaimed barnwood pieces — dining tables, desks, benches and case goods — are built to order in Colorado and delivered across the Denver metropolitan area and Front Range.",
+   "organization": "Rustic Barnwood Furniture",
+   "organization_url": "https://rusticbarnwoodfurniture.com",
+   "location": "Colorado",
+   "date": "2026-09-26",
+   "categories": [
+    "retail",
+    "home-services"
+   ],
+   "tier": "Optimized",
    "featured": true,
    "optimized": true
   },
@@ -149,23 +166,6 @@
    "optimized": true
   },
   {
-   "id": "a-nu-do-salon-virtual-consultation-after-hours-booking",
-   "url": "https://pressreleaseforbusiness.com/releases/a-nu-do-salon-virtual-consultation-after-hours-booking/",
-   "headline": "A Nu Do Salon Expands Virtual Consultations as Industry Data Shows Roughly Half of Salon Bookings Happen After Hours",
-   "snippet": "A Nu Do Salon has expanded its virtual consultation service alongside online booking, citing 2026 industry benchmarks placing after-hours booking demand at 46% to 50% of all salon appointments and identifying in-depth consultation as a defining shift in salon service.",
-   "organization": "A Nu Do Salon",
-   "organization_url": "https://anudosalon.com",
-   "location": "Brighton, Colorado",
-   "date": "2026-09-24",
-   "categories": [
-    "small-business",
-    "retail"
-   ],
-   "tier": "Standard",
-   "featured": false,
-   "optimized": false
-  },
-  {
    "id": "aging-safely-baths-new-website-launch",
    "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-new-website-launch/",
    "headline": "Aging Safely Baths Launches Rebuilt Website With Faster Load Times and Clearer Accessibility Product Information",
@@ -181,6 +181,23 @@
    "tier": "Network",
    "featured": true,
    "optimized": true
+  },
+  {
+   "id": "a-nu-do-salon-virtual-consultation-after-hours-booking",
+   "url": "https://pressreleaseforbusiness.com/releases/a-nu-do-salon-virtual-consultation-after-hours-booking/",
+   "headline": "A Nu Do Salon Expands Virtual Consultations as Industry Data Shows Roughly Half of Salon Bookings Happen After Hours",
+   "snippet": "A Nu Do Salon has expanded its virtual consultation service alongside online booking, citing 2026 industry benchmarks placing after-hours booking demand at 46% to 50% of all salon appointments and identifying in-depth consultation as a defining shift in salon service.",
+   "organization": "A Nu Do Salon",
+   "organization_url": "https://anudosalon.com",
+   "location": "Brighton, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "small-business",
+    "retail"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
   },
   {
    "id": "bighorn-painting-colorado-exterior-season-window",
@@ -287,7 +304,7 @@
    "id": "advertising-for-contractors-free-chatbot-generator",
    "url": "https://pressreleaseforbusiness.com/releases/advertising-for-contractors-free-chatbot-generator/",
    "headline": "Advertising For Contractors Releases a Free Chatbot Builder for Trades Websites",
-   "snippet": "Advertising For Contractors has released a free contractor chatbot generator that produces an installable website assistant, aimed at capturing enquiries that arrive outside business hours.",
+   "snippet": "Advertising For Contractors has released a free contractor chatbot generator that produces an installable website assistant, aimed at capturing inquiries that arrive outside business hours.",
    "organization": "Advertising For Contractors",
    "organization_url": "https://advertisingforcontractors.com",
    "location": "Denver, Colorado",
