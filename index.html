@@ -133,7 +133,7 @@
      "@type": "Offer",
      "@id": "https://pressreleaseforbusiness.com/pricing/#standard",
      "name": "Standard",
-     "description": "Published as written at a permanent canonical URL, up to 1,400 words, dated, attributed and labelled.",
+     "description": "Announcement published as written at a permanent canonical URL, up to 1,400 words, with explicit publication date, named issuing organization and permanent announcement label. Includes full distribution: URL submitted via IndexNow to Bing, Yandex, Naver and Seznam on publication, RSS with WebSub hub notification, JSON API inclusion, and distribution through the free embed widget.",
      "price": "19.99",
      "priceCurrency": "USD",
      "availability": "https://schema.org/InStock",
@@ -226,6 +226,22 @@
       "@type": "Answer",
       "text": "Up to 1,400 words. Most effective announcements run considerably shorter. Longer documents stop reading as releases and dilute the factual density that makes the format useful to both editors and retrieval systems."
      }
+    },
+    {
+     "@type": "Question",
+     "name": "Which search engines get notified when a press release is published?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "On publication every release URL is submitted through the IndexNow protocol to Bing, Yandex, Naver and Seznam, which typically index it within minutes rather than the days a crawler-dependent workflow takes. Bing's index also feeds several AI assistants including ChatGPT and Copilot. Google does not participate in IndexNow and discovers releases through the sitemap instead. This distribution is included at every tier, starting at $19.99."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is distribution included in the cheapest press release tier?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Search engine push notification, RSS with real-time hub notification, JSON API inclusion and distribution through the free embed widget are included on every release at every tier, including the $19.99 Standard tier. The higher tiers add editorial and structural work and, at Network tier, placement on relevance-matched properties — not access to distribution."
+     }
     }
    ]
   }
@@ -253,6 +269,7 @@
         <a href="/pricing/">Pricing</a>
         <a href="/optimization/">Optimization</a>
         <a href="/how-it-works/">How It Works</a>
+        <a href="/guides/">Guides</a>
         <a href="/guidelines/">Guidelines</a>
         <a href="/about/">About</a>
         <a class="btn-hdr" href="/submit/">Submit a release</a>
@@ -290,14 +307,22 @@
       <button class="pfilter" data-cat="health" aria-pressed="false">Health</button>
       <button class="pfilter" data-cat="small-business" aria-pressed="false">Small Business</button>
       <button class="pfilter" data-cat="accessibility" aria-pressed="false">Accessibility</button>
-      <button class="pfilter" data-cat="ecommerce" aria-pressed="false">Ecommerce</button>
       <button class="pfilter" data-cat="retail" aria-pressed="false">Retail</button>
+      <button class="pfilter" data-cat="ecommerce" aria-pressed="false">Ecommerce</button>
       <button class="pfilter" data-cat="insurance" aria-pressed="false">Insurance</button>
       <button class="pfilter" data-cat="education" aria-pressed="false">Education</button>
     </div>
     </div>
   </div>
 </section>
+<div class="proof">
+  <div class="wrap"><div class="proof-in">
+    <span>Permanent canonical URL</span>
+    <span>Dated &amp; attributed</span>
+    <span>Structured for retrieval</span>
+    <span><a href="/pricing/">From $19.99</a></span>
+  </div></div>
+</div>
 
 <section class="sec">
   <div class="wrap">
@@ -310,8 +335,19 @@
       </div>
       <a class="more" href="/releases/">Browse all releases &rarr;</a>
     </div>
-    <p class="res-count" id="res-count"></p>
-    <div class="stack" id="release-stack">
+    <div class="stack" id="release-stack" data-per="15">
+      <article class="prow" data-cat="home-services">
+        <div class="prow-date"><strong>26</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/painter-hotline-denver-metro-fall-promotion/">Painter Hotline Announces 25% Off Interior and Exterior Painting Across the Denver Metro Through October 5</a></h3>
+          <p>The promotion lands in the closing weeks of Colorado's exterior painting season, when overnight temperatures still allow coatings to cure properly.</p>
+          <div class="prow-tags"><span class="ptag feat">Featured</span><span class="ptag cat">Home Services</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Painter Hotline</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/painter-hotline-denver-metro-fall-promotion/">Read release &rarr;</a>
+        </div>
+      </article>
       <article class="prow" data-cat="marketing technology">
         <div class="prow-date"><strong>25</strong>SEP<br>2026</div>
         <div class="prow-main">
@@ -322,6 +358,18 @@
         <div class="prow-side">
           <span class="prow-org"><strong>Advertising For Contractors</strong>Denver, Colorado</span>
           <a class="prow-read" href="/releases/advertising-for-contractors-google-lsa-migration/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services accessibility">
+        <div class="prow-date"><strong>25</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/aging-safely-baths-medicare-walk-in-tub-coverage/">Aging Safely Baths Publishes a Direct Answer on Medicare and Walk-In Tubs: Original Medicare Does Not Cover Them</a></h3>
+          <p>The supplier is publishing the answer plainly in response to advertising that implies otherwise, along with the funding routes that do sometimes apply.</p>
+          <div class="prow-tags"><span class="ptag feat">Featured</span><span class="ptag cat">Home Services</span><span class="ptag cat">Accessibility</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Aging Safely Baths</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/aging-safely-baths-medicare-walk-in-tub-coverage/">Read release &rarr;</a>
         </div>
       </article>
       <article class="prow" data-cat="home-services accessibility">
@@ -380,8 +428,20 @@
           <div class="prow-tags"><span class="ptag feat">Featured</span><span class="ptag cat">Technology</span><span class="ptag cat">Ecommerce</span></div>
         </div>
         <div class="prow-side">
-          <span class="prow-org"><strong>World VR Mall</strong>Denver, Colorado</span>
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
           <a class="prow-read" href="/releases/world-vr-mall-launch/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services accessibility">
+        <div class="prow-date"><strong>24</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/aging-safely-baths-new-website-launch/">Aging Safely Baths Launches Rebuilt Website With Faster Load Times and Clearer Accessibility Product Information</a></h3>
+          <p>The walk-in tub and barrier-free shower supplier has moved to a rebuilt site organized around the questions households actually ask before commissioning accessibility work.</p>
+          <div class="prow-tags"><span class="ptag feat">Featured</span><span class="ptag cat">Home Services</span><span class="ptag cat">Accessibility</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Aging Safely Baths</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/aging-safely-baths-new-website-launch/">Read release &rarr;</a>
         </div>
       </article>
       <article class="prow" data-cat="small-business retail">
@@ -428,8 +488,20 @@
           <div class="prow-tags"><span class="ptag cat">Technology</span><span class="ptag cat">Education</span></div>
         </div>
         <div class="prow-side">
-          <span class="prow-org"><strong>VR Flying Simulator</strong>Denver, Colorado</span>
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
           <a class="prow-read" href="/releases/vr-flying-simulator-launch/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services technology">
+        <div class="prow-date"><strong>23</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/bear-creek-auto-glass-adas-recalibration/">Bear Creek Auto Glass Advises Drivers That Windshield Replacement Is Not Finished Until Cameras Are Recalibrated</a></h3>
+          <p>On vehicles with a forward-facing camera behind the glass, manufacturers require recalibration after replacement — and a miscalibrated system frequently shows no warning light.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span><span class="ptag cat">Technology</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Bear Creek Auto Glass</strong>Littleton, Colorado</span>
+          <a class="prow-read" href="/releases/bear-creek-auto-glass-adas-recalibration/">Read release &rarr;</a>
         </div>
       </article>
       <article class="prow" data-cat="retail small-business">
@@ -456,12 +528,392 @@
           <a class="prow-read" href="/releases/search-converts-membership-growth-program/">Read release &rarr;</a>
         </div>
       </article>
+      <article class="prow" data-cat="marketing technology">
+        <div class="prow-date"><strong>22</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/advertising-for-contractors-free-chatbot-generator/">Advertising For Contractors Releases a Free Chatbot Builder for Trades Websites</a></h3>
+          <p>The tool generates a website assistant a contractor can install themselves, aimed at the 35 to 40 percent of home services calls that arrive outside business hours.</p>
+          <div class="prow-tags"><span class="ptag feat">Featured</span><span class="ptag cat">Marketing</span><span class="ptag cat">Technology</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Advertising For Contractors</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/advertising-for-contractors-free-chatbot-generator/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services accessibility">
+        <div class="prow-date"><strong>21</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/aging-safely-baths-grab-bar-reinforcement-guidance/">Aging Safely Baths Publishes Guidance on Grab Bar Reinforcement in Accessible Bathrooms</a></h3>
+          <p>A grab bar is only as sound as what it is anchored into, and the decision that determines that is made before the wall is closed.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span><span class="ptag cat">Accessibility</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Aging Safely Baths</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/aging-safely-baths-grab-bar-reinforcement-guidance/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services retail">
+        <div class="prow-date"><strong>20</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/showers4less-anzzi-product-line/">Showers4Less Adds ANZZI Shower Products to Its Accessible Bathing Catalog</a></h3>
+          <p>The supplier is now an authorized dealer for the line, widening the pan, enclosure and fixture options available alongside its existing barrier-free range.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span><span class="ptag cat">Retail</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Showers4Less</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/showers4less-anzzi-product-line/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services">
+        <div class="prow-date"><strong>19</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/roof-solutions-winter-roof-preparation-atlanta/">Roof Solutions Outlines Pre-Winter Roof Checks for Metro Atlanta Homeowners</a></h3>
+          <p>Small failures found in autumn are repairs. The same failures found in February are frequently replacements.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Roof Solutions</strong>Atlanta, Georgia</span>
+          <a class="prow-read" href="/releases/roof-solutions-winter-roof-preparation-atlanta/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="marketing technology">
+        <div class="prow-date"><strong>18</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/eye-to-ad-media-ai-search-visibility-audit/">Eye To Ad Media Introduces AI Search Visibility Assessments for Small Businesses</a></h3>
+          <p>The assessment runs the questions a company's customers actually ask across the assistants they use, and reports which businesses get named instead.</p>
+          <div class="prow-tags"><span class="ptag feat">Featured</span><span class="ptag cat">Marketing</span><span class="ptag cat">Technology</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/eye-to-ad-media-ai-search-visibility-audit/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="health">
+        <div class="prow-date"><strong>17</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/elevation-health-consultation-process-explained/">Elevation Health Publishes a Plain Description of Its Consultation Process</a></h3>
+          <p>The telehealth provider has set out what happens at each stage, including the point at which a clinician may determine an applicant is not a candidate.</p>
+          <div class="prow-tags"><span class="ptag cat">Health</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Elevation Health</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/elevation-health-consultation-process-explained/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services">
+        <div class="prow-date"><strong>16</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/painting-brighton-colorado-interior-season/">Painting Brighton Shifts to Interior Work as Colorado Exterior Season Closes</a></h3>
+          <p>With overnight temperatures approaching the threshold where exterior coatings stop bonding, the Brighton contractor is booking interior projects through winter.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Painting Brighton</strong>Brighton, Colorado</span>
+          <a class="prow-read" href="/releases/painting-brighton-colorado-interior-season/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="small-business retail">
+        <div class="prow-date"><strong>15</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/a-nu-do-salon-holiday-booking-brighton/">A Nu Do Salon Opens Holiday Season Booking and Gift Card Sales</a></h3>
+          <p>The Brighton salon is advising clients that color work with a specific date attached should be scheduled well ahead of it.</p>
+          <div class="prow-tags"><span class="ptag cat">Small Business</span><span class="ptag cat">Retail</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>A Nu Do Salon</strong>Brighton, Colorado</span>
+          <a class="prow-read" href="/releases/a-nu-do-salon-holiday-booking-brighton/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="marketing">
+        <div class="prow-date"><strong>14</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/denver-seo-local-search-guidance/">DenverSEO.io Publishes Guidance on Local Search for Front Range Businesses</a></h3>
+          <p>The guidance covers service area definition, review velocity and the listing consistency problems that affect map placement.</p>
+          <div class="prow-tags"><span class="ptag cat">Marketing</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/denver-seo-local-search-guidance/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services">
+        <div class="prow-date"><strong>13</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/bear-creek-auto-glass-winter-windshield-guidance/">Bear Creek Auto Glass Advises Colorado Drivers to Address Windshield Chips Before Freezing Weather</a></h3>
+          <p>Temperature swings turn small chips into cracks, and a chip is a repair while a crack is frequently a replacement.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Bear Creek Auto Glass</strong>Littleton, Colorado</span>
+          <a class="prow-read" href="/releases/bear-creek-auto-glass-winter-windshield-guidance/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="marketing small-business">
+        <div class="prow-date"><strong>13</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/eye-to-ad-media-holiday-hours-local-search/">Eye To Ad Media Flags Holiday Hours as the Most Common Fourth Quarter Local Search Failure</a></h3>
+          <p>Businesses spend on fourth quarter advertising and then send customers to a locked door, because nobody updated the hours in eleven places.</p>
+          <div class="prow-tags"><span class="ptag cat">Marketing</span><span class="ptag cat">Small Business</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/eye-to-ad-media-holiday-hours-local-search/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services">
+        <div class="prow-date"><strong>12</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/bighorn-painting-interior-scheduling-arvada/">Bighorn Painting Opens Interior Booking for the Winter Season in Jefferson County</a></h3>
+          <p>Interior work is unaffected by the temperature constraints that close the Colorado exterior window, and scheduling improves once exterior projects stop.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Bighorn Painting</strong>Arvada, Colorado</span>
+          <a class="prow-read" href="/releases/bighorn-painting-interior-scheduling-arvada/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="retail small-business">
+        <div class="prow-date"><strong>11</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/rustic-barnwood-furniture-holiday-lead-times/">Rustic Barnwood Furniture Publishes Lead Times for Holiday Custom Orders</a></h3>
+          <p>Commissioned pieces built from reclaimed material depend on what is in the shop, which makes early ordering more consequential than it is for catalog furniture.</p>
+          <div class="prow-tags"><span class="ptag cat">Retail</span><span class="ptag cat">Small Business</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Rustic Barnwood Furniture</strong>Colorado</span>
+          <a class="prow-read" href="/releases/rustic-barnwood-furniture-holiday-lead-times/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services accessibility">
+        <div class="prow-date"><strong>10</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/aging-safely-baths-anzzi-walk-in-tub-line/">Aging Safely Baths Adds ANZZI Walk-In Tubs to Its Accessible Bathing Range</a></h3>
+          <p>The addition widens the configurations available to households working within an existing bathroom footprint.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span><span class="ptag cat">Accessibility</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Aging Safely Baths</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/aging-safely-baths-anzzi-walk-in-tub-line/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="marketing small-business">
+        <div class="prow-date"><strong>9</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/omaha-seo-pros-nebraska-business-visibility/">Omaha SEO Pros Publishes Local Visibility Guidance for Nebraska Businesses</a></h3>
+          <p>The guidance addresses the specific position of businesses in mid-sized markets, where national advice frequently does not apply.</p>
+          <div class="prow-tags"><span class="ptag cat">Marketing</span><span class="ptag cat">Small Business</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Omaha, Nebraska</span>
+          <a class="prow-read" href="/releases/omaha-seo-pros-nebraska-business-visibility/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services">
+        <div class="prow-date"><strong>8</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/roof-solutions-commercial-flat-roof-winter-checks/">Roof Solutions Outlines Pre-Winter Checks for Commercial Flat Roofs in Metro Atlanta</a></h3>
+          <p>Flat roofs fail differently from pitched roofs, and the failures are quieter — a commercial roof can leak for months before anyone inside notices.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Roof Solutions</strong>Atlanta, Georgia</span>
+          <a class="prow-read" href="/releases/roof-solutions-commercial-flat-roof-winter-checks/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="marketing small-business">
+        <div class="prow-date"><strong>8</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/search-converts-local-visibility-service/">Search Converts Adds Listing Consistency Audits to Its Small Business Services</a></h3>
+          <p>The audit identifies where a business's name, address, hours and service description disagree across the listings that describe it.</p>
+          <div class="prow-tags"><span class="ptag cat">Marketing</span><span class="ptag cat">Small Business</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Search Converts</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/search-converts-local-visibility-service/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="marketing technology">
+        <div class="prow-date"><strong>7</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/denver-web-design-site-speed-guidance/">Denver Web Design Publishes Guidance on Small Business Site Speed</a></h3>
+          <p>Most small business sites are slow for a small number of predictable reasons, and none of them require a rebuild to diagnose.</p>
+          <div class="prow-tags"><span class="ptag cat">Marketing</span><span class="ptag cat">Technology</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/denver-web-design-site-speed-guidance/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="small-business">
+        <div class="prow-date"><strong>6</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/my-sales-help-objection-handling-practice/">My Sales Help Publishes Free Objection Handling Practice Tools</a></h3>
+          <p>The tools are aimed at in-home sales and trades, where the objection usually arrives at the kitchen table rather than over email.</p>
+          <div class="prow-tags"><span class="ptag cat">Small Business</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/my-sales-help-objection-handling-practice/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="technology ecommerce">
+        <div class="prow-date"><strong>5</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/world-vr-mall-merchant-storefront-openings/">World VR Mall Opens Merchant Storefront Applications</a></h3>
+          <p>Retailers can apply for a space on the browser-based concourse, with checkout remaining entirely on the merchant's own site.</p>
+          <div class="prow-tags"><span class="ptag cat">Technology</span><span class="ptag cat">Ecommerce</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/world-vr-mall-merchant-storefront-openings/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="marketing small-business">
+        <div class="prow-date"><strong>4</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/eye-to-ad-media-review-response-guidance/">Eye To Ad Media Publishes Review Response Guidance for Owner-Operated Businesses</a></h3>
+          <p>The guidance addresses the negative review specifically, and the responses that make a bad situation measurably worse.</p>
+          <div class="prow-tags"><span class="ptag cat">Marketing</span><span class="ptag cat">Small Business</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/eye-to-ad-media-review-response-guidance/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="marketing small-business">
+        <div class="prow-date"><strong>3</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/maui-seo-hawaii-tourism-business-search/">Maui SEO Publishes Search Guidance for Hawaii Tourism and Service Businesses</a></h3>
+          <p>Visitor-dependent businesses face a search problem most local advice does not address: their customers are not local.</p>
+          <div class="prow-tags"><span class="ptag cat">Marketing</span><span class="ptag cat">Small Business</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Maui, Hawaii</span>
+          <a class="prow-read" href="/releases/maui-seo-hawaii-tourism-business-search/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services accessibility">
+        <div class="prow-date"><strong>2</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/showers4less-contractor-specification-guidance/">Showers4Less Publishes Rough-In Guidance for Contractors Quoting Accessible Shower Installations</a></h3>
+          <p>Most accessible shower change orders trace back to something that could have been measured before the quote went out.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span><span class="ptag cat">Accessibility</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Showers4Less</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/showers4less-contractor-specification-guidance/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="technology education">
+        <div class="prow-date"><strong>2</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/vr-flying-simulator-checklist-library-update/">VR Flying Simulator Expands Its Checklist Practice Library</a></h3>
+          <p>The browser-based procedural trainer has added additional checklist sequences for student pilots rehearsing between lessons.</p>
+          <div class="prow-tags"><span class="ptag cat">Technology</span><span class="ptag cat">Education</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/vr-flying-simulator-checklist-library-update/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services accessibility">
+        <div class="prow-date"><strong>1</strong>SEP<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/walk-in-tubs-florida-humidity-considerations/">Walk In Tubs Florida Addresses Ventilation and Humidity in Accessible Bathroom Planning</a></h3>
+          <p>Florida bathrooms dry more slowly than bathrooms in drier climates, which affects material choice and ventilation requirements.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span><span class="ptag cat">Accessibility</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Aging Safely Baths</strong>Florida</span>
+          <a class="prow-read" href="/releases/walk-in-tubs-florida-humidity-considerations/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services accessibility">
+        <div class="prow-date"><strong>31</strong>AUG<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/bathroom-remodel-littleton-accessibility-planning/">Bathroom Remodel Littleton CO Publishes Accessibility Planning Guidance for Local Homeowners</a></h3>
+          <p>The guidance covers what Littleton housing stock typically allows, and where structural constraints commonly appear.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span><span class="ptag cat">Accessibility</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Aging Safely Baths</strong>Littleton, Colorado</span>
+          <a class="prow-read" href="/releases/bathroom-remodel-littleton-accessibility-planning/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services">
+        <div class="prow-date"><strong>30</strong>AUG<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/painting-brighton-cabinet-refinishing-guidance/">Painting Brighton Publishes Guidance on When Cabinet Refinishing Works and When It Does Not</a></h3>
+          <p>Refinishing costs a fraction of replacement, and there are specific conditions under which it is the wrong choice anyway.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Painting Brighton</strong>Brighton, Colorado</span>
+          <a class="prow-read" href="/releases/painting-brighton-cabinet-refinishing-guidance/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services accessibility">
+        <div class="prow-date"><strong>29</strong>AUG<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/senior-walk-in-bathtubs-selection-guidance/">Senior Walk In Bathtubs Publishes a Selection Checklist for Families</a></h3>
+          <p>The checklist is aimed at family members researching on behalf of a parent, who frequently have less information about the bathroom than they need.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span><span class="ptag cat">Accessibility</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Aging Safely Baths</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/senior-walk-in-bathtubs-selection-guidance/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="small-business marketing">
+        <div class="prow-date"><strong>28</strong>AUG<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/link-restaurants-independent-operator-visibility/">Link Restaurants Publishes Visibility Guidance for Independent Operators</a></h3>
+          <p>Independent restaurants compete for search attention against aggregators that have more resources and no kitchen to run.</p>
+          <div class="prow-tags"><span class="ptag cat">Small Business</span><span class="ptag cat">Marketing</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/link-restaurants-independent-operator-visibility/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="small-business marketing">
+        <div class="prow-date"><strong>27</strong>AUG<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/best-domains-for-business-portfolio-listings/">Best Domains For Business Lists Keyword Domain Portfolio for Sale</a></h3>
+          <p>The portfolio covers service and location keyword domains across several US markets and international destinations.</p>
+          <div class="prow-tags"><span class="ptag cat">Small Business</span><span class="ptag cat">Marketing</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Eye To Ad Media</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/best-domains-for-business-portfolio-listings/">Read release &rarr;</a>
+        </div>
+      </article>
+      <article class="prow" data-cat="home-services accessibility">
+        <div class="prow-date"><strong>26</strong>AUG<br>2026</div>
+        <div class="prow-main">
+          <h3><a href="/releases/showers4less-shower-pan-slip-resistance/">Showers4Less Publishes Guidance on Shower Pan Slip Resistance Ratings</a></h3>
+          <p>Slip resistance is a measurable property with a published rating, and it is one of the few specifications on an accessible shower that is worth checking directly.</p>
+          <div class="prow-tags"><span class="ptag cat">Home Services</span><span class="ptag cat">Accessibility</span></div>
+        </div>
+        <div class="prow-side">
+          <span class="prow-org"><strong>Showers4Less</strong>Denver, Colorado</span>
+          <a class="prow-read" href="/releases/showers4less-shower-pan-slip-resistance/">Read release &rarr;</a>
+        </div>
+      </article>
     </div>
     <div class="no-res" id="no-res" style="display:none">
       <h3>No releases match that search</h3>
       <p>Try a broader term, clear the category filter, or browse everything.</p>
       <a class="btn btn-ghost" href="/releases/">Browse all releases</a>
     </div>
+    <nav class="pager" id="pager" aria-label="Release pages">
+      <button class="pgbtn" id="pg-prev" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.4 7.4 14 6l-6 6 6 6 1.4-1.4L10.8 12z"/></svg>
+        Back</button>
+      <button class="pgbtn" id="pg-next" type="button">Next
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.6 16.6 10 18l6-6-6-6-1.4 1.4L13.2 12z"/></svg>
+      </button>
+    </nav>
   </div>
 </section>
 
@@ -541,6 +993,64 @@
   </div>
 </section>
 
+<section class="incl">
+  <div class="wrap">
+    <div class="incl-hd">
+      <span class="eyebrow">Included at every tier &mdash; starting at $19.99</span>
+      <h2>Your announcement doesn&rsquo;t just sit here.<br>It gets <em style="font-style:normal;color:#00c2a8">pushed out</em>.</h2>
+      <p>Most services publish your release and wait for a crawler to wander past. We tell the
+      search engines the moment it goes live &mdash; <strong>on every release, at every
+      tier</strong>, including the $19.99 one.</p>
+    </div>
+
+    <div class="pipe">
+      <div class="pipe-s">
+        <div class="dot"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></div>
+        <h4>You approve it</h4>
+        <p>Nothing is charged until the final document is signed off.</p>
+        <span class="t">Step one</span>
+      </div>
+      <div class="pipe-s">
+        <div class="dot"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg></div>
+        <h4>It publishes</h4>
+        <p>Permanent canonical URL, dated, attributed, structurally marked up.</p>
+        <span class="t">Instantly</span>
+      </div>
+      <div class="pipe-s">
+        <div class="dot"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/>
+          <path d="M12 2v5M12 17v5M2 12h5M17 12h5"/></svg></div>
+        <h4>Engines are notified</h4>
+        <p>Pushed directly rather than waiting to be discovered.</p>
+        <span class="t">Within minutes</span>
+      </div>
+      <div class="pipe-s">
+        <div class="dot"><svg viewBox="0 0 24 24"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/>
+          <circle cx="5" cy="19" r="1.6"/></svg></div>
+        <h4>Subscribers get it</h4>
+        <p>RSS, JSON and every site running our free widget.</p>
+        <span class="t">Seconds</span>
+      </div>
+    </div>
+
+    <div class="engines">
+      <span class="eng"><i></i>Bing <span>&mdash; feeds ChatGPT &amp; Copilot</span></span>
+      <span class="eng"><i></i>Yandex <span>&mdash; Russia</span></span>
+      <span class="eng"><i></i>Naver <span>&mdash; South Korea</span></span>
+      <span class="eng"><i></i>Seznam <span>&mdash; Czechia</span></span>
+    </div>
+    <p class="incl-note">
+      <strong>Google does not take these notifications</strong> &mdash; nobody&rsquo;s does, it
+      hasn&rsquo;t joined the protocol. Google finds your release through our sitemap like any
+      other page. We&rsquo;d rather tell you that than let you assume otherwise.
+    </p>
+
+    <div class="incl-cta">
+      <a class="btn" href="/distribution/">See exactly what happens on publication &rarr;</a>
+      <p>Or <a href="/embed/">put the wire on your own site free</a></p>
+    </div>
+  </div>
+</section>
+
 <section class="sec">
   <div class="wrap">
     <div class="sec-head">
@@ -558,12 +1068,15 @@
         <p class="tsub">Your announcement, published as written, at a permanent address.</p>
         <div class="price">$19<small>.99</small></div>
         <p class="pnote">Per release &middot; one-time</p>
+        <p class="tier-all">Every tier includes search engine push notification, RSS, JSON API and <a href="/embed/">free widget</a> distribution.</p>
         <ul>
           <li>Up to 1,400 words</li>
           <li>Permanent canonical URL</li>
           <li>Publication date and attribution</li>
           <li>Labelled as an announcement</li>
-          <li>Listed on the wire and in our RSS feed</li>
+          <li>Listed on the wire</li>
+          <li class="incl-li">Pushed to Bing, Yandex, Naver &amp; Seznam within minutes</li>
+          <li class="incl-li">Syndicated via RSS, JSON API and the free embed widget</li>
           <li>Share tools and print-ready formatting</li>
         </ul>
         <a class="btn btn-ghost btn-w" data-tier="standard" href="/submit/?tier=standard">Choose Standard</a>
@@ -575,7 +1088,7 @@
         <div class="price">$49<small>.99</small></div>
         <p class="pnote">Per release &middot; one-time</p>
         <ul>
-          <li>Everything in Standard</li>
+          <li>Everything in Standard, including full distribution</li>
           <li>Opening passage rewritten to stand alone</li>
           <li>Unverifiable claims tightened into facts</li>
           <li>Full entity and article structured data</li>
@@ -687,6 +1200,9 @@
           <li><a href="/submit/">Submit a release</a></li>
           <li><a href="/pricing/">Pricing</a></li>
           <li><a href="/optimization/">What optimization does</a></li>
+          <li><a href="/distribution/">Where releases go</a></li>
+          <li><a href="/embed/">Free embed widget</a></li>
+          <li><a href="/guides/">Guides &amp; template</a></li>
           <li><a href="/how-it-works/">How it works</a></li>
           <li><a href="/guidelines/">Editorial guidelines</a></li>
         </ul>

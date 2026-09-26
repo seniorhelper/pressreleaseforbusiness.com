@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Free Press Release Widget — Embed the Newswire | Press Release For Business</title>
+<meta name="description" content="A free embeddable press release widget. One line of code shows the latest announcements as headlines and snippets linking back. No account, no dependencies.">
+<link rel="canonical" href="https://pressreleaseforbusiness.com/embed/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Press Release For Business">
+<meta property="og:title" content="Put the newswire on your own site">
+<meta property="og:description" content="Free embeddable press release widget. Two lines of code.">
+<meta property="og:url" content="https://pressreleaseforbusiness.com/embed/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0f1524">
+<link rel="icon" type="image/png" href="/images/press-release-for-business-favicon.png">
+<link rel="apple-touch-icon" href="/images/press-release-for-business-favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/prfb.css">
+<link rel="alternate" type="application/rss+xml" title="Press Release For Business" href="/feed.xml">
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebPage",
+   "@id": "https://pressreleaseforbusiness.com/embed/#page",
+   "url": "https://pressreleaseforbusiness.com/embed/",
+   "name": "Free Press Release Widget — Embed the Newswire on Your Site",
+   "description": "A free embeddable widget showing the latest press releases as headlines, dates and snippets linking back to the canonical release. One line of code, no account.",
+   "isPartOf": {
+    "@id": "https://pressreleaseforbusiness.com/#website"
+   },
+   "publisher": {
+    "@id": "https://pressreleaseforbusiness.com/#org"
+   },
+   "inLanguage": "en-US"
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://pressreleaseforbusiness.com/#org",
+   "name": "Press Release For Business",
+   "url": "https://pressreleaseforbusiness.com/",
+   "email": "sales@eyetoad.com",
+   "telephone": "+1-800-481-8638",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1001 Bannock St #660",
+    "addressLocality": "Denver",
+    "addressRegion": "CO",
+    "postalCode": "80204",
+    "addressCountry": "US"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://pressreleaseforbusiness.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Embed widget"
+    }
+   ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://pressreleaseforbusiness.com/embed/#widget",
+   "name": "Press Release For Business newswire widget",
+   "applicationCategory": "BrowserApplication",
+   "operatingSystem": "Any",
+   "description": "An embeddable JavaScript widget that displays recent press release headlines, dates, issuing organizations and short snippets, each linking to the canonical release. No dependencies and no account required.",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "publisher": {
+    "@id": "https://pressreleaseforbusiness.com/#org"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://pressreleaseforbusiness.com/embed/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Is the press release widget free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. There is no charge, no account and no registration. Paste two lines of code into any site and it works."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does the widget duplicate full press release text?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, and it is built so that it cannot. The widget renders only headline, date, issuing organization and a snippet of roughly forty words, each linking to the canonical release. Duplicating full announcements across many sites is the pattern search engines act against, which is why the full text is not available through the widget or the JSON API."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can the widget show only certain categories?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Set data-feed to a category slug such as home-services, technology, health or marketing, or to optimized or featured, and only matching announcements are shown."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is there a JSON API for press releases?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Every feed is available as JSON at /api/releases.json, /api/optimized.json, /api/featured.json and one endpoint per category. RSS is available at /feed.xml with a WebSub hub declared, so subscribers are notified immediately on publication."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hdr">
+  <div class="wrap">
+    <div class="hdr-bar">
+      <a class="brand" href="/" aria-label="Press Release For Business home">
+        <img src="/images/press-release-for-business-logo.png"
+             alt="Press Release For Business" width="300" height="60" fetchpriority="high">
+      </a>
+      <span class="hdr-sp"></span>
+      <button class="navtoggle" id="navtoggle" aria-expanded="false" aria-controls="hdrnav"
+              aria-label="Menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+      </button>
+      <nav class="hdr-nav" id="hdrnav" aria-label="Main">
+        <a href="/releases/">Releases</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/how-it-works/">How It Works</a>
+        <a href="/guides/">Guides</a>
+        <a href="/guidelines/">Guidelines</a>
+        <a href="/about/">About</a>
+        <a class="btn-hdr" href="/submit/">Submit a release</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="wrap"><div class="hero-in" style="padding:54px 0 44px">
+    <span class="hero-eyebrow"><i aria-hidden="true"></i>Free &middot; no account required</span>
+    <h1>Put the newswire <span>on your own site</span>.</h1>
+    <p class="lede">One line of code. Headlines, dates and short snippets that link back here.
+    Works on any site, costs nothing, and never duplicates full release text.</p>
+  </div></div>
+</section>
+<div class="proof">
+  <div class="wrap"><div class="proof-in">
+    <span>No dependencies</span>
+    <span>Light &amp; dark aware</span>
+    <span>Filter by category</span>
+    <span>Snippet only, never full text</span>
+  </div></div>
+</div>
+
+<section class="sec">
+  <div class="wrap-narrow">
+    <span class="eyebrow">Install</span>
+    <h2 style="font-family:var(--serif);font-size:31px;margin:0 0 14px;letter-spacing:-.6px">
+      Two lines, anywhere on the page</h2>
+    <p style="font-size:17px;line-height:1.7;color:#1d2436;margin:0 0 18px">
+      Drop the container where you want the widget to appear, and the script anywhere on the
+      page. That is the whole installation.</p>
+
+    <div class="codeblk"><span class="c">&lt;!-- where the widget should appear --&gt;</span>
+&lt;<span class="k">div</span> <span class="s">data-prfb-wire</span>&gt;&lt;/<span class="k">div</span>&gt;
+
+<span class="c">&lt;!-- anywhere on the page --&gt;</span>
+&lt;<span class="k">script</span> <span class="s">src</span>=<span class="s">"https://pressreleaseforbusiness.com/embed.js"</span> <span class="s">defer</span>&gt;&lt;/<span class="k">script</span>&gt;</div>
+
+    <div class="notice sig">
+      <strong>What it renders</strong>
+      Headline, date, issuing organization and a short snippet &mdash; each linking to the full
+      release here. It does not and cannot render full release text.
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-alt">
+  <div class="wrap-narrow">
+    <span class="eyebrow">Options</span>
+    <h2 style="font-family:var(--serif);font-size:29px;margin:0 0 16px;letter-spacing:-.5px">
+      Configure it with attributes</h2>
+    <table class="tbl">
+      <caption>Every option is set on the container div</caption>
+      <thead><tr><th>Attribute</th><th>Values</th><th>Default</th></tr></thead>
+      <tbody>
+        <tr><td><code>data-feed</code></td><td><code>all</code>, <code>optimized</code>,
+          <code>featured</code>, or a category slug</td><td><code>all</code></td></tr>
+        <tr><td><code>data-count</code></td><td>1&ndash;20</td><td><code>5</code></td></tr>
+        <tr><td><code>data-theme</code></td><td><code>auto</code>, <code>light</code>,
+          <code>dark</code></td><td><code>auto</code></td></tr>
+        <tr><td><code>data-layout</code></td><td><code>list</code>, <code>compact</code>,
+          <code>cards</code></td><td><code>list</code></td></tr>
+        <tr><td><code>data-title</code></td><td>Any text, or empty for no heading</td>
+          <td>Latest announcements</td></tr>
+        <tr><td><code>data-snippet</code></td><td><code>true</code>, <code>false</code></td>
+          <td><code>true</code></td></tr>
+      </tbody>
+    </table>
+
+    <h3 style="font-size:19px;margin:30px 0 10px">Category feeds</h3>
+    <p style="font-size:16.5px;line-height:1.66;color:#1d2436;margin:0 0 14px">
+      Show only announcements relevant to your audience:</p>
+    <div class="codeblk">&lt;<span class="k">div</span> <span class="s">data-prfb-wire</span> <span class="s">data-feed</span>=<span class="s">"home-services"</span> <span class="s">data-count</span>=<span class="s">"4"</span>&gt;&lt;/<span class="k">div</span>&gt;</div>
+    <p style="font-size:15.5px;line-height:1.6;color:var(--ink-2);margin:0">
+      Available: <code>accessibility</code>, <code>ecommerce</code>, <code>education</code>,
+      <code>health</code>, <code>home-services</code>, <code>insurance</code>,
+      <code>marketing</code>, <code>retail</code>, <code>small-business</code>,
+      <code>technology</code></p>
+
+    <h3 style="font-size:19px;margin:30px 0 10px">A sidebar on a dark site</h3>
+    <div class="codeblk">&lt;<span class="k">div</span> <span class="s">data-prfb-wire</span>
+     <span class="s">data-feed</span>=<span class="s">"technology"</span>
+     <span class="s">data-count</span>=<span class="s">"6"</span>
+     <span class="s">data-layout</span>=<span class="s">"compact"</span>
+     <span class="s">data-theme</span>=<span class="s">"dark"</span>
+     <span class="s">data-title</span>=<span class="s">"Industry announcements"</span>&gt;&lt;/<span class="k">div</span>&gt;</div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap-narrow">
+    <span class="eyebrow">For developers</span>
+    <h2 style="font-family:var(--serif);font-size:29px;margin:0 0 16px;letter-spacing:-.5px">
+      Or use the JSON directly</h2>
+    <p style="font-size:17px;line-height:1.7;color:#1d2436;margin:0 0 16px">
+      If you would rather render it yourself, every feed is available as JSON with permissive
+      cross-origin access.</p>
+    <div class="codeblk"><span class="c">// all releases</span>
+https://pressreleaseforbusiness.com/api/releases.json
+
+<span class="c">// optimized and network tier only</span>
+https://pressreleaseforbusiness.com/api/optimized.json
+
+<span class="c">// by category</span>
+https://pressreleaseforbusiness.com/api/home-services.json</div>
+
+    <p style="font-size:16.5px;line-height:1.66;color:#1d2436;margin:0 0 16px">
+      Each release carries <code>headline</code>, <code>snippet</code>, <code>url</code>,
+      <code>organization</code>, <code>date</code>, <code>categories</code>, <code>tier</code>
+      and <code>optimized</code>. RSS is at
+      <a href="/feed.xml" style="color:var(--brand)">/feed.xml</a> with a WebSub hub declared,
+      so subscribers are notified the moment something publishes.</p>
+
+    <div class="notice warn">
+      <strong>Republishing terms</strong>
+      Headline, snippet and link may be republished freely with attribution and a link to the
+      canonical release. Full release text may not be republished. This is not a licensing
+      technicality &mdash; duplicating full announcements across many sites is the pattern search
+      engines act against, and it would damage both of us.
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-alt">
+  <div class="wrap-narrow" style="text-align:center">
+    <h2 style="font-family:var(--serif);font-size:29px;margin:0 0 14px;letter-spacing:-.5px">
+      Want your announcement in that widget?</h2>
+    <p style="font-size:17px;color:var(--ink-2);margin:0 0 24px;line-height:1.6">
+      Every release published here appears in the feed automatically, on every site running it.</p>
+    <a class="btn" href="/submit/">Publish a release &mdash; from $19.99</a>
+  </div>
+</section>
+
+<div class="wrap"><aside class="adunit" aria-label="Advertisement">
+  <span class="adlbl">Advertisement</span>
+  <div class="ad-holo">
+    <span class="ad-flag">Eye To Ad Media</span>
+    <div class="ad-holo-in">
+      <div class="ad-stage">
+        <svg viewBox="0 0 160 160" role="img" aria-label="Holographic one-eyed toad, the Eye To Ad Media mark">
+          <defs>
+            <linearGradient id="adTg" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#00c2a8" stop-opacity=".95"/>
+              <stop offset="1" stop-color="#2a3fd4" stop-opacity=".55"/></linearGradient>
+            <radialGradient id="adIg"><stop offset="0" stop-color="#fff"/>
+              <stop offset=".35" stop-color="#00c2a8"/><stop offset="1" stop-color="#0a2540"/></radialGradient>
+          </defs>
+          <path d="M80 138c-33 0-52-17-52-38 0-24 21-40 52-40s52 16 52 40c0 21-19 38-52 38z" fill="url(#adTg)" opacity=".3"/>
+          <path d="M80 138c-33 0-52-17-52-38 0-24 21-40 52-40s52 16 52 40c0 21-19 38-52 38z" fill="none" stroke="#00c2a8" stroke-width="2.2"/>
+          <path d="M30 108c-10 4-14 14-9 22s17 8 22 1" fill="none" stroke="#00c2a8" stroke-width="2"/>
+          <path d="M130 108c10 4 14 14 9 22s-17 8-22 1" fill="none" stroke="#00c2a8" stroke-width="2"/>
+          <path d="M80 62c-24 0-40-14-40-28S58 8 80 8s40 12 40 26-16 28-40 28z" fill="url(#adTg)" opacity=".32"/>
+          <path d="M80 62c-24 0-40-14-40-28S58 8 80 8s40 12 40 26-16 28-40 28z" fill="none" stroke="#00c2a8" stroke-width="2.2"/>
+          <circle cx="80" cy="30" r="19" fill="#061220" stroke="#00c2a8" stroke-width="2.4"/>
+          <circle cx="80" cy="30" r="13" fill="url(#adIg)"/>
+          <ellipse cx="80" cy="30" rx="4" ry="12" fill="#061220"/>
+          <circle cx="74" cy="23" r="3.4" fill="#fff" opacity=".9"/>
+          <path d="M52 56q28 16 56 0" fill="none" stroke="#00c2a8" stroke-width="2.2"/>
+          <path d="M52 112q28 12 56 0M56 124q24 9 48 0" fill="none" stroke="#2a3fd4" stroke-width="1.4" opacity=".8"/>
+        </svg>
+        <span class="ad-base" aria-hidden="true"></span>
+      </div>
+      <div class="ad-copy">
+        <span class="ad-eyebrow"><i aria-hidden="true"></i>AIO &amp; Generative Engine Optimization</span>
+        <h4>One eye on every answer engine.</h4>
+        <p>Publishing the release is step one. Being the business the answer names is the
+        work after it. Eye To Ad Media builds the entity consistency and structured
+        publishing that gets you cited.</p>
+        <a class="ad-cta" href="https://www.eyetoad.com" target="_blank" rel="noopener sponsored">Request a visibility assessment &rarr;</a>
+      </div>
+    </div>
+  </div>
+</aside></div>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-g">
+      <div>
+        <img src="/images/press-release-for-business-logo.png" alt="Press Release For Business"
+             width="240" height="48" class="ftr-logo">
+        <p class="ftr-blurb">Company announcements published at a permanent address, structured
+        so both people and machines can read them. Every release is labelled, dated and
+        attributed to the organization that issued it.</p>
+      </div>
+      <div>
+        <h4>Publish</h4>
+        <ul>
+          <li><a href="/submit/">Submit a release</a></li>
+          <li><a href="/pricing/">Pricing</a></li>
+          <li><a href="/optimization/">What optimization does</a></li>
+          <li><a href="/distribution/">Where releases go</a></li>
+          <li><a href="/embed/">Free embed widget</a></li>
+          <li><a href="/guides/">Guides &amp; template</a></li>
+          <li><a href="/how-it-works/">How it works</a></li>
+          <li><a href="/guidelines/">Editorial guidelines</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Browse</h4>
+        <ul>
+          <li><a href="/releases/">All releases</a></li>
+          <li><a href="/feed.xml">RSS feed</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/terms/">Terms of use</a></li>
+          <li><a href="/privacy/">Privacy policy</a></li>
+          <li><a href="/accessibility/">Accessibility</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ftr-bot">
+      <span>&copy; <span data-yr>2026</span> Press Release For Business. All rights reserved.</span>
+      <span class="ftr-by">Powered by
+        <a href="https://www.eyetoad.com" target="_blank" rel="noopener">Eye To Ad Media</a></span>
+      <span>Paid announcements are labelled. Links in paid releases carry sponsored attributes.</span>
+    </div>
+  </div>
+</footer>
+
+<div id="quill-root">
+  <div id="quill-panel" role="dialog" aria-label="Quill tier recommender">
+    <div class="q-head">
+      <svg viewBox="0 0 64 64" role="img" aria-label="Quill">
+        <rect x="12" y="10" width="34" height="44" rx="3" fill="#f7f8fb" stroke="#0f1524" stroke-width="3"/>
+        <path d="M20 20h18M20 28h18M20 36h12" stroke="#94a1ba" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M52 8c-9 4-16 13-18 23l-2 9 8-4c9-5 14-14 14-24z" fill="#00c2a8" stroke="#0f1524" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M32 40l-6 10" stroke="#0f1524" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="44" cy="20" r="2.4" fill="#0f1524"/>
+      </svg>
+      <div>
+        <strong>Quill</strong>
+        <span><i aria-hidden="true"></i>Tier recommender</span>
+      </div>
+    </div>
+    <div id="quill-log"></div>
+    <div class="q-opts" id="quill-opts"></div>
+    <p class="q-foot">Quill is a guided helper, not a live model. It answers from our published
+    pricing and guidelines.</p>
+  </div>
+  <button id="quill-toggle" aria-expanded="false" aria-controls="quill-panel">
+    <span id="quill-dot"></span>
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <rect x="12" y="10" width="34" height="44" rx="3" fill="#fff" stroke="#fff" stroke-width="3"/>
+      <path d="M20 20h18M20 28h18M20 36h12" stroke="#2a3fd4" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M52 8c-9 4-16 13-18 23l-2 9 8-4c9-5 14-14 14-24z" fill="#00c2a8" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M32 40l-6 10" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+    <span class="ql">Which tier?<small>Ask Quill &middot; 30 seconds</small></span>
+  </button>
+</div>
+
+<script src="/assets/prfb.js"></script>
+</body>
+</html>

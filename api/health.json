@@ -1,0 +1,50 @@
+{
+ "version": "1.0",
+ "source": {
+  "name": "Press Release For Business",
+  "url": "https://pressreleaseforbusiness.com/",
+  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+ },
+ "feed": {
+  "name": "Health",
+  "description": "Announcements categorized as health.",
+  "url": "https://pressreleaseforbusiness.com/api/health.json"
+ },
+ "generated": "2026-09-26",
+ "count": 2,
+ "releases": [
+  {
+   "id": "elevation-health-dietitian-led-glp1-support",
+   "url": "https://pressreleaseforbusiness.com/releases/elevation-health-dietitian-led-glp1-support/",
+   "headline": "Elevation Health Pairs Registered-Dietitian Support With Physician-Prescribed GLP-1 Care as Research Highlights an Industry-Wide Support Gap",
+   "snippet": "Elevation Health structures its telehealth GLP-1 program around registered-dietitian support alongside physician prescribing, in response to published 2026 research identifying high discontinuation rates and limited nutritional oversight across the telehealth weight-management sector.",
+   "organization": "Elevation Health",
+   "organization_url": "https://loseweightonglp1.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "health",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "elevation-health-consultation-process-explained",
+   "url": "https://pressreleaseforbusiness.com/releases/elevation-health-consultation-process-explained/",
+   "headline": "Elevation Health Publishes a Plain Description of Its Consultation Process",
+   "snippet": "Elevation Health has published a step-by-step description of its telehealth consultation process, including the assessment stage at which a clinician may determine that an applicant is not a candidate.",
+   "organization": "Elevation Health",
+   "organization_url": "https://loseweightonglp1.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-17",
+   "categories": [
+    "health"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "version": "1.0",
+ "source": {
+  "name": "Press Release For Business",
+  "url": "https://pressreleaseforbusiness.com/",
+  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+ },
+ "feed": {
+  "name": "Small Business",
+  "description": "Announcements categorized as small business.",
+  "url": "https://pressreleaseforbusiness.com/api/small-business.json"
+ },
+ "generated": "2026-09-26",
+ "count": 13,
+ "releases": [
+  {
+   "id": "a-nu-do-salon-virtual-consultation-after-hours-booking",
+   "url": "https://pressreleaseforbusiness.com/releases/a-nu-do-salon-virtual-consultation-after-hours-booking/",
+   "headline": "A Nu Do Salon Expands Virtual Consultations as Industry Data Shows Roughly Half of Salon Bookings Happen After Hours",
+   "snippet": "A Nu Do Salon has expanded its virtual consultation service alongside online booking, citing 2026 industry benchmarks placing after-hours booking demand at 46% to 50% of all salon appointments and identifying in-depth consultation as a defining shift in salon service.",
+   "organization": "A Nu Do Salon",
+   "organization_url": "https://anudosalon.com",
+   "location": "Brighton, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "small-business",
+    "retail"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "rustic-barnwood-furniture-custom-commission-process",
+   "url": "https://pressreleaseforbusiness.com/releases/rustic-barnwood-furniture-custom-commission-process/",
+   "headline": "Rustic Barnwood Furniture Details Custom Commission Process as Reclaimed Material Supply Shapes What Can Be Built",
+   "snippet": "Rustic Barnwood Furniture has detailed its custom commission process for reclaimed barnwood pieces built in Colorado, explaining how the characteristics of salvaged material determine dimensions, finish and lead time on made-to-order work.",
+   "organization": "Rustic Barnwood Furniture",
+   "organization_url": "https://rusticbarnwoodfurniture.com",
+   "location": "Colorado",
+   "date": "2026-09-23",
+   "categories": [
+    "retail",
+    "small-business"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "search-converts-membership-growth-program",
+   "url": "https://pressreleaseforbusiness.com/releases/search-converts-membership-growth-program/",
+   "headline": "Search Converts Details Membership Structure for Small Business Growth Program Built Around Strategy Sessions and Community Distribution",
+   "snippet": "Search Converts has detailed the structure of its business growth accelerator, a membership program combining strategy sessions, campaign testing and distribution through community networks, positioned as an alternative to conventional advertising retainers.",
+   "organization": "Search Converts",
+   "organization_url": "https://www.searchconverts.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-23",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "a-nu-do-salon-holiday-booking-brighton",
+   "url": "https://pressreleaseforbusiness.com/releases/a-nu-do-salon-holiday-booking-brighton/",
+   "headline": "A Nu Do Salon Opens Holiday Season Booking and Gift Card Sales",
+   "snippet": "A Nu Do Salon has opened holiday season booking and gift card sales, advising clients that color work tied to a specific event date should be scheduled with time for a correction appointment if needed.",
+   "organization": "A Nu Do Salon",
+   "organization_url": "https://anudosalon.com",
+   "location": "Brighton, Colorado",
+   "date": "2026-09-15",
+   "categories": [
+    "small-business",
+    "retail"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "eye-to-ad-media-holiday-hours-local-search",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-holiday-hours-local-search/",
+   "headline": "Eye To Ad Media Flags Holiday Hours as the Most Common Fourth Quarter Local Search Failure",
+   "snippet": "Eye To Ad Media has published fourth quarter local search guidance identifying incorrect holiday hours across business listings as the most common and most avoidable failure heading into the holiday season.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-13",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "rustic-barnwood-furniture-holiday-lead-times",
+   "url": "https://pressreleaseforbusiness.com/releases/rustic-barnwood-furniture-holiday-lead-times/",
+   "headline": "Rustic Barnwood Furniture Publishes Lead Times for Holiday Custom Orders",
+   "snippet": "Rustic Barnwood Furniture has published lead time guidance for holiday custom orders, noting that reclaimed material availability affects scheduling differently than catalog furniture production.",
+   "organization": "Rustic Barnwood Furniture",
+   "organization_url": "https://rusticbarnwoodfurniture.com",
+   "location": "Colorado",
+   "date": "2026-09-11",
+   "categories": [
+    "retail",
+    "small-business"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "omaha-seo-pros-nebraska-business-visibility",
+   "url": "https://pressreleaseforbusiness.com/releases/omaha-seo-pros-nebraska-business-visibility/",
+   "headline": "Omaha SEO Pros Publishes Local Visibility Guidance for Nebraska Businesses",
+   "snippet": "Omaha SEO Pros has published local visibility guidance aimed at businesses in Omaha and the wider Nebraska market, addressing how mid-sized market dynamics differ from national advice.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Omaha, Nebraska",
+   "date": "2026-09-09",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "search-converts-local-visibility-service",
+   "url": "https://pressreleaseforbusiness.com/releases/search-converts-local-visibility-service/",
+   "headline": "Search Converts Adds Listing Consistency Audits to Its Small Business Services",
+   "snippet": "Search Converts has added listing consistency audits to its small business services, identifying where a company's name, address, hours and service description disagree across public listings.",
+   "organization": "Search Converts",
+   "organization_url": "https://www.searchconverts.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-08",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "my-sales-help-objection-handling-practice",
+   "url": "https://pressreleaseforbusiness.com/releases/my-sales-help-objection-handling-practice/",
+   "headline": "My Sales Help Publishes Free Objection Handling Practice Tools",
+   "snippet": "My Sales Help has published free objection handling practice tools aimed at in-home sales representatives and trades businesses.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-06",
+   "categories": [
+    "small-business"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "eye-to-ad-media-review-response-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-review-response-guidance/",
+   "headline": "Eye To Ad Media Publishes Review Response Guidance for Owner-Operated Businesses",
+   "snippet": "Eye To Ad Media has published review response guidance for owner-operated businesses, focusing on how to respond to negative reviews and which common responses compound the damage.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-04",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "maui-seo-hawaii-tourism-business-search",
+   "url": "https://pressreleaseforbusiness.com/releases/maui-seo-hawaii-tourism-business-search/",
+   "headline": "Maui SEO Publishes Search Guidance for Hawaii Tourism and Service Businesses",
+   "snippet": "Maui SEO has published search guidance for Hawaii tourism and service businesses, addressing the distinct problem faced by operators whose customers search from outside the market.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Maui, Hawaii",
+   "date": "2026-09-03",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "link-restaurants-independent-operator-visibility",
+   "url": "https://pressreleaseforbusiness.com/releases/link-restaurants-independent-operator-visibility/",
+   "headline": "Link Restaurants Publishes Visibility Guidance for Independent Operators",
+   "snippet": "Link Restaurants has published search visibility guidance for independent restaurant operators, addressing competition from aggregator platforms.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-08-28",
+   "categories": [
+    "small-business",
+    "marketing"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "best-domains-for-business-portfolio-listings",
+   "url": "https://pressreleaseforbusiness.com/releases/best-domains-for-business-portfolio-listings/",
+   "headline": "Best Domains For Business Lists Keyword Domain Portfolio for Sale",
+   "snippet": "Best Domains For Business has listed a keyword domain portfolio for sale, covering service and location terms across US markets and international destinations.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-08-27",
+   "categories": [
+    "small-business",
+    "marketing"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  }
+ ]
+}

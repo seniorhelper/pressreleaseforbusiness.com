@@ -1,0 +1,404 @@
+{
+ "version": "1.0",
+ "source": {
+  "name": "Press Release For Business",
+  "url": "https://pressreleaseforbusiness.com/",
+  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+ },
+ "feed": {
+  "name": "Optimized and Network releases",
+  "description": "Announcements that have been editorially restructured and carry full entity markup.",
+  "url": "https://pressreleaseforbusiness.com/api/optimized.json"
+ },
+ "generated": "2026-09-26",
+ "count": 23,
+ "releases": [
+  {
+   "id": "painter-hotline-denver-metro-fall-promotion",
+   "url": "https://pressreleaseforbusiness.com/releases/painter-hotline-denver-metro-fall-promotion/",
+   "headline": "Painter Hotline Announces 25% Off Interior and Exterior Painting Across the Denver Metro Through October 5",
+   "snippet": "Painter Hotline has announced 25% off interior and exterior painting projects across the Denver metropolitan area, running through October 5, 2026. The discount applies to project labor and does not include the cost of paint.",
+   "organization": "Painter Hotline",
+   "organization_url": "https://paintingbrighton.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-26",
+   "categories": [
+    "home-services"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "advertising-for-contractors-google-lsa-migration",
+   "url": "https://pressreleaseforbusiness.com/releases/advertising-for-contractors-google-lsa-migration/",
+   "headline": "Advertising For Contractors Warns Trades Businesses to Prepare Now as Google Folds Local Services Ads Into Google Ads",
+   "snippet": "Advertising For Contractors is advising trades businesses to prepare for Google's migration of Local Services Ads into Google Ads via pay-per-lead Performance Max campaigns, which began for US advertisers in August 2026 and removes the standalone LSA dashboard and manual…",
+   "organization": "Advertising For Contractors",
+   "organization_url": "https://advertisingforcontractors.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Optimized",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-medicare-walk-in-tub-coverage",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-medicare-walk-in-tub-coverage/",
+   "headline": "Aging Safely Baths Publishes a Direct Answer on Medicare and Walk-In Tubs: Original Medicare Does Not Cover Them",
+   "snippet": "Aging Safely Baths has published guidance stating that Original Medicare does not cover walk-in tubs, which are classified as home modifications rather than durable medical equipment, and outlining the alternative funding routes that may apply.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-walk-in-tub-accessibility",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-walk-in-tub-accessibility/",
+   "headline": "Aging Safely Baths Highlights Bathroom Accessibility Planning as Households Reconsider Aging-in-Place Renovations",
+   "snippet": "Aging Safely Baths, a nationwide walk-in tub and barrier-free shower supplier operating since 2012, has published planning guidance for households considering bathroom accessibility renovations ahead of need rather than in response to an injury.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "elevation-health-dietitian-led-glp1-support",
+   "url": "https://pressreleaseforbusiness.com/releases/elevation-health-dietitian-led-glp1-support/",
+   "headline": "Elevation Health Pairs Registered-Dietitian Support With Physician-Prescribed GLP-1 Care as Research Highlights an Industry-Wide Support Gap",
+   "snippet": "Elevation Health structures its telehealth GLP-1 program around registered-dietitian support alongside physician prescribing, in response to published 2026 research identifying high discontinuation rates and limited nutritional oversight across the telehealth weight-management sector.",
+   "organization": "Elevation Health",
+   "organization_url": "https://loseweightonglp1.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "health",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "eye-to-ad-media-generative-engine-optimization",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-generative-engine-optimization/",
+   "headline": "Eye To Ad Media Expands Generative Engine Optimization Practice as AI Assistants Reshape How Customers Find Local Businesses",
+   "snippet": "Eye To Ad Media has expanded its generative engine optimization practice, formalizing a service line focused on entity consistency, structured data and machine-readable publishing for businesses that need to appear in AI-generated answers.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "roof-solutions-photo-documentation-atlanta-insurance",
+   "url": "https://pressreleaseforbusiness.com/releases/roof-solutions-photo-documentation-atlanta-insurance/",
+   "headline": "Roof Solutions Urges Metro Atlanta Homeowners to Photograph Roofs Before Storm Season as Georgia Insurance Rules Shift in 2026",
+   "snippet": "Roof Solutions is advising Metro Atlanta homeowners to establish photographic documentation of roof condition ahead of storm season, citing 2026 changes to Georgia insurance legislation, a City of Atlanta cool roof ordinance and increased carrier scrutiny of roofs over 15…",
+   "organization": "Roof Solutions",
+   "organization_url": "https://bestroofersatlanta.com",
+   "location": "Atlanta, Georgia",
+   "date": "2026-09-25",
+   "categories": [
+    "home-services",
+    "insurance"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "world-vr-mall-launch",
+   "url": "https://pressreleaseforbusiness.com/releases/world-vr-mall-launch/",
+   "headline": "World VR Mall Opens Browser-Based Virtual Shopping Concourse With Merchant Storefronts Linking to Live Ecommerce Sites",
+   "snippet": "World VR Mall has launched a browser-based three-dimensional shopping concourse where visitors walk a central walkway and enter merchant storefronts that link through to those merchants' own ecommerce sites. No headset or download is required.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "technology",
+    "ecommerce"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-new-website-launch",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-new-website-launch/",
+   "headline": "Aging Safely Baths Launches Rebuilt Website With Faster Load Times and Clearer Accessibility Product Information",
+   "snippet": "Aging Safely Baths has launched a rebuilt website at agingsafelybaths.com, reorganized around configuration questions households face when planning walk-in tub and barrier-free shower installations.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "bighorn-painting-colorado-exterior-season-window",
+   "url": "https://pressreleaseforbusiness.com/releases/bighorn-painting-colorado-exterior-season-window/",
+   "headline": "Bighorn Painting Flags Closing Exterior Painting Window as Colorado Overnight Temperatures Approach the Coating Threshold",
+   "snippet": "Bighorn Painting is advising Front Range homeowners that the Colorado exterior painting season is closing, as most exterior coatings fail to bond below 50°F and overnight lows approach that threshold. The Arvada contractor has outlined what can still be completed…",
+   "organization": "Bighorn Painting",
+   "organization_url": "https://www.bighornpainting.com",
+   "location": "Arvada, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "home-services"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "showers4less-barrier-free-shower-kits",
+   "url": "https://pressreleaseforbusiness.com/releases/showers4less-barrier-free-shower-kits/",
+   "headline": "Showers4Less Outlines Specification Differences Between Barrier-Free Shower Kits as Demand for Accessible Bathing Grows",
+   "snippet": "Showers4Less has published specification comparison guidance for barrier-free shower kits, covering pan construction, threshold height, wall system compatibility and the subfloor requirements that determine feasibility of a zero-entry installation.",
+   "organization": "Showers4Less",
+   "organization_url": "https://www.showers4less.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "vr-flying-simulator-launch",
+   "url": "https://pressreleaseforbusiness.com/releases/vr-flying-simulator-launch/",
+   "headline": "VR Flying Simulator Launches Browser-Based Procedural Trainer Aimed at Student Pilots Between Lessons",
+   "snippet": "VR Flying Simulator has launched a browser-based procedural trainer for student pilots covering checklist discipline, instrument scan and navigation tracking. The company states explicitly that it is not an approved training device and logs no hours toward any certificate.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "technology",
+    "education"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "search-converts-membership-growth-program",
+   "url": "https://pressreleaseforbusiness.com/releases/search-converts-membership-growth-program/",
+   "headline": "Search Converts Details Membership Structure for Small Business Growth Program Built Around Strategy Sessions and Community Distribution",
+   "snippet": "Search Converts has detailed the structure of its business growth accelerator, a membership program combining strategy sessions, campaign testing and distribution through community networks, positioned as an alternative to conventional advertising retainers.",
+   "organization": "Search Converts",
+   "organization_url": "https://www.searchconverts.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-23",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "advertising-for-contractors-free-chatbot-generator",
+   "url": "https://pressreleaseforbusiness.com/releases/advertising-for-contractors-free-chatbot-generator/",
+   "headline": "Advertising For Contractors Releases a Free Chatbot Builder for Trades Websites",
+   "snippet": "Advertising For Contractors has released a free contractor chatbot generator that produces an installable website assistant, aimed at capturing enquiries that arrive outside business hours.",
+   "organization": "Advertising For Contractors",
+   "organization_url": "https://advertisingforcontractors.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-22",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-grab-bar-reinforcement-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-grab-bar-reinforcement-guidance/",
+   "headline": "Aging Safely Baths Publishes Guidance on Grab Bar Reinforcement in Accessible Bathrooms",
+   "snippet": "Aging Safely Baths has published guidance on wall reinforcement for grab bars, addressing why the anchoring decision has to be made during installation rather than afterward.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-21",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "showers4less-anzzi-product-line",
+   "url": "https://pressreleaseforbusiness.com/releases/showers4less-anzzi-product-line/",
+   "headline": "Showers4Less Adds ANZZI Shower Products to Its Accessible Bathing Catalog",
+   "snippet": "Showers4Less has added ANZZI shower products to its catalog as an authorized dealer, widening the pan, enclosure and fixture options available alongside its existing barrier-free range.",
+   "organization": "Showers4Less",
+   "organization_url": "https://www.showers4less.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-20",
+   "categories": [
+    "home-services",
+    "retail"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "eye-to-ad-media-ai-search-visibility-audit",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-ai-search-visibility-audit/",
+   "headline": "Eye To Ad Media Introduces AI Search Visibility Assessments for Small Businesses",
+   "snippet": "Eye To Ad Media has introduced AI search visibility assessments that test how a business is represented when customers ask AI assistants about its category, and identify which competitors are named instead.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-18",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "painting-brighton-colorado-interior-season",
+   "url": "https://pressreleaseforbusiness.com/releases/painting-brighton-colorado-interior-season/",
+   "headline": "Painting Brighton Shifts to Interior Work as Colorado Exterior Season Closes",
+   "snippet": "Painting Brighton has shifted its scheduling to interior projects as Front Range overnight temperatures approach the threshold below which exterior coatings will not bond properly.",
+   "organization": "Painting Brighton",
+   "organization_url": "https://paintingbrighton.com",
+   "location": "Brighton, Colorado",
+   "date": "2026-09-16",
+   "categories": [
+    "home-services"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "eye-to-ad-media-holiday-hours-local-search",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-holiday-hours-local-search/",
+   "headline": "Eye To Ad Media Flags Holiday Hours as the Most Common Fourth Quarter Local Search Failure",
+   "snippet": "Eye To Ad Media has published fourth quarter local search guidance identifying incorrect holiday hours across business listings as the most common and most avoidable failure heading into the holiday season.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-13",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-anzzi-walk-in-tub-line",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-anzzi-walk-in-tub-line/",
+   "headline": "Aging Safely Baths Adds ANZZI Walk-In Tubs to Its Accessible Bathing Range",
+   "snippet": "Aging Safely Baths has added ANZZI walk-in tubs to its accessible bathing range, widening the configurations available to households working within an existing bathroom footprint.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-10",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "search-converts-local-visibility-service",
+   "url": "https://pressreleaseforbusiness.com/releases/search-converts-local-visibility-service/",
+   "headline": "Search Converts Adds Listing Consistency Audits to Its Small Business Services",
+   "snippet": "Search Converts has added listing consistency audits to its small business services, identifying where a company's name, address, hours and service description disagree across public listings.",
+   "organization": "Search Converts",
+   "organization_url": "https://www.searchconverts.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-08",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "eye-to-ad-media-review-response-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-review-response-guidance/",
+   "headline": "Eye To Ad Media Publishes Review Response Guidance for Owner-Operated Businesses",
+   "snippet": "Eye To Ad Media has published review response guidance for owner-operated businesses, focusing on how to respond to negative reviews and which common responses compound the damage.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-04",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "painting-brighton-cabinet-refinishing-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/painting-brighton-cabinet-refinishing-guidance/",
+   "headline": "Painting Brighton Publishes Guidance on When Cabinet Refinishing Works and When It Does Not",
+   "snippet": "Painting Brighton has published guidance on cabinet refinishing, setting out the conditions under which refinishing is appropriate and the cases where replacement is the better decision.",
+   "organization": "Painting Brighton",
+   "organization_url": "https://paintingbrighton.com",
+   "location": "Brighton, Colorado",
+   "date": "2026-08-30",
+   "categories": [
+    "home-services"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  }
+ ]
+}

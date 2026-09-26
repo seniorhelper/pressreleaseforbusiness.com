@@ -15,3 +15,8 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://pressreleaseforbusiness.com/sitemap.xml
+
+# Machine-readable feeds
+# RSS:  https://pressreleaseforbusiness.com/feed.xml (WebSub hub declared)
+# JSON: https://pressreleaseforbusiness.com/api/releases.json
+# Free embed widget: https://pressreleaseforbusiness.com/embed/

@@ -1,0 +1,203 @@
+{
+ "version": "1.0",
+ "source": {
+  "name": "Press Release For Business",
+  "url": "https://pressreleaseforbusiness.com/",
+  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+ },
+ "feed": {
+  "name": "Featured releases",
+  "description": "Editor-selected announcements.",
+  "url": "https://pressreleaseforbusiness.com/api/featured.json"
+ },
+ "generated": "2026-09-26",
+ "count": 11,
+ "releases": [
+  {
+   "id": "painter-hotline-denver-metro-fall-promotion",
+   "url": "https://pressreleaseforbusiness.com/releases/painter-hotline-denver-metro-fall-promotion/",
+   "headline": "Painter Hotline Announces 25% Off Interior and Exterior Painting Across the Denver Metro Through October 5",
+   "snippet": "Painter Hotline has announced 25% off interior and exterior painting projects across the Denver metropolitan area, running through October 5, 2026. The discount applies to project labor and does not include the cost of paint.",
+   "organization": "Painter Hotline",
+   "organization_url": "https://paintingbrighton.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-26",
+   "categories": [
+    "home-services"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "advertising-for-contractors-google-lsa-migration",
+   "url": "https://pressreleaseforbusiness.com/releases/advertising-for-contractors-google-lsa-migration/",
+   "headline": "Advertising For Contractors Warns Trades Businesses to Prepare Now as Google Folds Local Services Ads Into Google Ads",
+   "snippet": "Advertising For Contractors is advising trades businesses to prepare for Google's migration of Local Services Ads into Google Ads via pay-per-lead Performance Max campaigns, which began for US advertisers in August 2026 and removes the standalone LSA dashboard and manual…",
+   "organization": "Advertising For Contractors",
+   "organization_url": "https://advertisingforcontractors.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Optimized",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-medicare-walk-in-tub-coverage",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-medicare-walk-in-tub-coverage/",
+   "headline": "Aging Safely Baths Publishes a Direct Answer on Medicare and Walk-In Tubs: Original Medicare Does Not Cover Them",
+   "snippet": "Aging Safely Baths has published guidance stating that Original Medicare does not cover walk-in tubs, which are classified as home modifications rather than durable medical equipment, and outlining the alternative funding routes that may apply.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-walk-in-tub-accessibility",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-walk-in-tub-accessibility/",
+   "headline": "Aging Safely Baths Highlights Bathroom Accessibility Planning as Households Reconsider Aging-in-Place Renovations",
+   "snippet": "Aging Safely Baths, a nationwide walk-in tub and barrier-free shower supplier operating since 2012, has published planning guidance for households considering bathroom accessibility renovations ahead of need rather than in response to an injury.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "elevation-health-dietitian-led-glp1-support",
+   "url": "https://pressreleaseforbusiness.com/releases/elevation-health-dietitian-led-glp1-support/",
+   "headline": "Elevation Health Pairs Registered-Dietitian Support With Physician-Prescribed GLP-1 Care as Research Highlights an Industry-Wide Support Gap",
+   "snippet": "Elevation Health structures its telehealth GLP-1 program around registered-dietitian support alongside physician prescribing, in response to published 2026 research identifying high discontinuation rates and limited nutritional oversight across the telehealth weight-management sector.",
+   "organization": "Elevation Health",
+   "organization_url": "https://loseweightonglp1.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "health",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "eye-to-ad-media-generative-engine-optimization",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-generative-engine-optimization/",
+   "headline": "Eye To Ad Media Expands Generative Engine Optimization Practice as AI Assistants Reshape How Customers Find Local Businesses",
+   "snippet": "Eye To Ad Media has expanded its generative engine optimization practice, formalizing a service line focused on entity consistency, structured data and machine-readable publishing for businesses that need to appear in AI-generated answers.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "roof-solutions-photo-documentation-atlanta-insurance",
+   "url": "https://pressreleaseforbusiness.com/releases/roof-solutions-photo-documentation-atlanta-insurance/",
+   "headline": "Roof Solutions Urges Metro Atlanta Homeowners to Photograph Roofs Before Storm Season as Georgia Insurance Rules Shift in 2026",
+   "snippet": "Roof Solutions is advising Metro Atlanta homeowners to establish photographic documentation of roof condition ahead of storm season, citing 2026 changes to Georgia insurance legislation, a City of Atlanta cool roof ordinance and increased carrier scrutiny of roofs over 15…",
+   "organization": "Roof Solutions",
+   "organization_url": "https://bestroofersatlanta.com",
+   "location": "Atlanta, Georgia",
+   "date": "2026-09-25",
+   "categories": [
+    "home-services",
+    "insurance"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "world-vr-mall-launch",
+   "url": "https://pressreleaseforbusiness.com/releases/world-vr-mall-launch/",
+   "headline": "World VR Mall Opens Browser-Based Virtual Shopping Concourse With Merchant Storefronts Linking to Live Ecommerce Sites",
+   "snippet": "World VR Mall has launched a browser-based three-dimensional shopping concourse where visitors walk a central walkway and enter merchant storefronts that link through to those merchants' own ecommerce sites. No headset or download is required.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "technology",
+    "ecommerce"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-new-website-launch",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-new-website-launch/",
+   "headline": "Aging Safely Baths Launches Rebuilt Website With Faster Load Times and Clearer Accessibility Product Information",
+   "snippet": "Aging Safely Baths has launched a rebuilt website at agingsafelybaths.com, reorganized around configuration questions households face when planning walk-in tub and barrier-free shower installations.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "advertising-for-contractors-free-chatbot-generator",
+   "url": "https://pressreleaseforbusiness.com/releases/advertising-for-contractors-free-chatbot-generator/",
+   "headline": "Advertising For Contractors Releases a Free Chatbot Builder for Trades Websites",
+   "snippet": "Advertising For Contractors has released a free contractor chatbot generator that produces an installable website assistant, aimed at capturing enquiries that arrive outside business hours.",
+   "organization": "Advertising For Contractors",
+   "organization_url": "https://advertisingforcontractors.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-22",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "eye-to-ad-media-ai-search-visibility-audit",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-ai-search-visibility-audit/",
+   "headline": "Eye To Ad Media Introduces AI Search Visibility Assessments for Small Businesses",
+   "snippet": "Eye To Ad Media has introduced AI search visibility assessments that test how a business is represented when customers ask AI assistants about its category, and identify which competitors are named instead.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-18",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  }
+ ]
+}

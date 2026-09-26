@@ -1,0 +1,51 @@
+{
+ "version": "1.0",
+ "source": {
+  "name": "Press Release For Business",
+  "url": "https://pressreleaseforbusiness.com/",
+  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+ },
+ "feed": {
+  "name": "Ecommerce",
+  "description": "Announcements categorized as ecommerce.",
+  "url": "https://pressreleaseforbusiness.com/api/ecommerce.json"
+ },
+ "generated": "2026-09-26",
+ "count": 2,
+ "releases": [
+  {
+   "id": "world-vr-mall-launch",
+   "url": "https://pressreleaseforbusiness.com/releases/world-vr-mall-launch/",
+   "headline": "World VR Mall Opens Browser-Based Virtual Shopping Concourse With Merchant Storefronts Linking to Live Ecommerce Sites",
+   "snippet": "World VR Mall has launched a browser-based three-dimensional shopping concourse where visitors walk a central walkway and enter merchant storefronts that link through to those merchants' own ecommerce sites. No headset or download is required.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "technology",
+    "ecommerce"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "world-vr-mall-merchant-storefront-openings",
+   "url": "https://pressreleaseforbusiness.com/releases/world-vr-mall-merchant-storefront-openings/",
+   "headline": "World VR Mall Opens Merchant Storefront Applications",
+   "snippet": "World VR Mall has opened storefront applications to retailers, offering placement on its browser-based three-dimensional concourse with checkout remaining on the merchant's own ecommerce site.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-05",
+   "categories": [
+    "technology",
+    "ecommerce"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  }
+ ]
+}

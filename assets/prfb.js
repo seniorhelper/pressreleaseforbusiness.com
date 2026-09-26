@@ -38,47 +38,55 @@
     if (!stack) return;
 
     var rows = Array.prototype.slice.call(stack.querySelectorAll('.prow'));
-    var count = document.getElementById('res-count');
     var empty = document.getElementById('no-res');
     var filters = Array.prototype.slice.call(document.querySelectorAll('.pfilter'));
+    var pager = document.getElementById('pager');
+    var prevBtn = document.getElementById('pg-prev');
+    var nextBtn = document.getElementById('pg-next');
+    var PER = parseInt(stack.getAttribute('data-per') || '15', 10);
     var activeCat = 'all';
+    var page = 0;
 
     rows.forEach(function (r) {
       r.dataset.hay = (r.textContent || '').toLowerCase().replace(/\s+/g, ' ');
     });
 
-    function apply() {
+    function matching() {
       var term = (input && input.value || '').trim().toLowerCase();
       var words = term ? term.split(/\s+/) : [];
-      var shown = 0;
-
-      rows.forEach(function (r) {
+      return rows.filter(function (r) {
         var catOK = activeCat === 'all' ||
                     (r.dataset.cat || '').split(' ').indexOf(activeCat) !== -1;
         var textOK = !words.length || words.every(function (w) {
           return r.dataset.hay.indexOf(w) !== -1;
         });
-        var vis = catOK && textOK;
-        r.style.display = vis ? '' : 'none';
-        if (vis) shown++;
+        return catOK && textOK;
       });
-
-      if (count) {
-        if (term || activeCat !== 'all') {
-          count.textContent = shown + (shown === 1 ? ' release' : ' releases') +
-            (term ? ' matching "' + input.value.trim() + '"' : '') +
-            (activeCat !== 'all' ? ' in ' + activeCat : '');
-          count.style.display = '';
-        } else {
-          count.textContent = rows.length + ' releases';
-          count.style.display = '';
-        }
-      }
-      if (empty) empty.style.display = shown ? 'none' : '';
     }
 
-    if (form) form.addEventListener('submit', function (e) { e.preventDefault(); apply(); });
-    if (input) input.addEventListener('input', apply);
+    function render() {
+      var hits = matching();
+      var maxPage = Math.max(0, Math.ceil(hits.length / PER) - 1);
+      if (page > maxPage) page = maxPage;
+      if (page < 0) page = 0;
+
+      rows.forEach(function (r) { r.style.display = 'none'; });
+      hits.slice(page * PER, page * PER + PER).forEach(function (r) {
+        r.style.display = '';
+      });
+
+      if (empty) empty.style.display = hits.length ? 'none' : '';
+      if (pager) {
+        pager.style.display = hits.length > PER ? '' : 'none';
+        if (prevBtn) prevBtn.disabled = page === 0;
+        if (nextBtn) nextBtn.disabled = page >= maxPage;
+      }
+    }
+
+    function reset() { page = 0; render(); }
+
+    if (form) form.addEventListener('submit', function (e) { e.preventDefault(); reset(); });
+    if (input) input.addEventListener('input', reset);
 
     filters.forEach(function (b) {
       b.addEventListener('click', function () {
@@ -86,13 +94,22 @@
         filters.forEach(function (x) {
           x.setAttribute('aria-pressed', x === b ? 'true' : 'false');
         });
-        apply();
+        reset();
       });
     });
 
+    function jump(delta) {
+      page += delta;
+      render();
+      var top = stack.getBoundingClientRect().top + window.pageYOffset - 90;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+    }
+    if (prevBtn) prevBtn.addEventListener('click', function () { jump(-1); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { jump(1); });
+
     var q = new URLSearchParams(location.search).get('q');
-    if (q && input) { input.value = q; }
-    apply();
+    if (q && input) input.value = q;
+    render();
   }
 
   /* ---------------------------------------------------------
@@ -266,7 +283,8 @@
         ["Which tier do I need?", "goal"],
         ["Will you publish my announcement?", "elig"],
         ["What does 'Optimized' actually do?", "optwhat"],
-        ["What does it cost?", "cost"]
+        ["What does it cost?", "cost"],
+        ["I haven't written it yet", "writing"]
       ]
     },
 
@@ -275,7 +293,7 @@
       opts: [
         ["Get the news on the record at a real URL", "r_standard"],
         ["Be found when people ask AI assistants about us", "q_profiles"],
-        ["Reach beyond our own audience", "r_network"],
+        ["Reach beyond our own audience", "dist"],
         ["Honestly not sure", "q_profiles"]
       ]
     },
@@ -344,6 +362,52 @@
       ]
     },
 
+    writing: {
+      bot: "That's the easy part to fix. We publish a free template and a full writing guide " +
+           "&mdash; both complete on the page, no email required.",
+      opts: [
+        ["Give me the template", "link_tmpl"],
+        ["How do I write one?", "link_howto"],
+        ["Can you write it for me?", "r_write"]
+      ]
+    },
+
+    r_write: {
+      bot: "Not from scratch, no. But every Optimized and Network release gets editorially " +
+           "restructured before it publishes &mdash; we rewrite the opening to stand alone, " +
+           "turn vague claims into checkable ones, and send it back if something doesn't hold " +
+           "up.<br><br>So: you supply the facts, we make them publishable.",
+      rec: ["Optimized", "$49.99", "You supply the facts. We restructure it before it goes live.",
+            "/submit/?tier=optimized", "Submit an Optimized release"]
+    },
+
+    dist: {
+      bot: "Every release gets pushed to participating search engines on publication, plus " +
+           "real-time feed notification to subscribers.<br><br>" +
+           "<strong>Network</strong> adds placement on up to three named, relevance-matched " +
+           "properties. Capped deliberately &mdash; forty placements is the pattern search " +
+           "engines act against.",
+      opts: [
+        ["Show me the detail", "link_dist"],
+        ["Do you guarantee media pickup?", "r_pickup"],
+        ["I want the placements", "r_network"],
+        ["Which tier do I need?", "goal"]
+      ]
+    },
+
+    r_pickup: {
+      bot: "No. Nobody can, and any service claiming guaranteed national pickup is describing " +
+           "automated syndication rather than editorial coverage.<br><br>" +
+           "What we guarantee is the infrastructure: indexed fast, fed to subscribers, and at " +
+           "Network tier placed on named relevant properties. Outcomes downstream of that aren't " +
+           "ours to promise.",
+      rec: ["Network", "$99", "Named placements, capped at three, relevance-matched.",
+            "/submit/?tier=network", "Submit a Network release"]
+    },
+
+    link_tmpl:  { rec: ["Free template", "", "Fill-in-the-blanks format with inline guidance. No email required.", "/press-release-template/", "Get the template"] },
+    link_howto: { rec: ["Writing guide", "", "Structure, what to cut, length, and a checklist before you send.", "/how-to-write-a-press-release/", "Read the guide"] },
+    link_dist:  { rec: ["Distribution", "", "What actually happens on publication, and what placement does.", "/distribution/", "See the detail"] },
     link_opt:     { rec: ["Optimized", "$49.99", "All eight items, itemized with what each one actually does.", "/optimization/", "Read the breakdown"] },
     link_pricing: { rec: ["Compare tiers", "", "Full line-by-line comparison of what each tier includes.", "/pricing/", "See pricing"] },
     link_submit:  { rec: ["Submit", "", "Send it for review. Nothing is charged until you approve the final document.", "/submit/", "Submit a release"] },

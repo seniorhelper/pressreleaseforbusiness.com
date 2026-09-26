@@ -1,0 +1,254 @@
+{
+ "version": "1.0",
+ "source": {
+  "name": "Press Release For Business",
+  "url": "https://pressreleaseforbusiness.com/",
+  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+ },
+ "feed": {
+  "name": "Marketing",
+  "description": "Announcements categorized as marketing.",
+  "url": "https://pressreleaseforbusiness.com/api/marketing.json"
+ },
+ "generated": "2026-09-26",
+ "count": 14,
+ "releases": [
+  {
+   "id": "advertising-for-contractors-google-lsa-migration",
+   "url": "https://pressreleaseforbusiness.com/releases/advertising-for-contractors-google-lsa-migration/",
+   "headline": "Advertising For Contractors Warns Trades Businesses to Prepare Now as Google Folds Local Services Ads Into Google Ads",
+   "snippet": "Advertising For Contractors is advising trades businesses to prepare for Google's migration of Local Services Ads into Google Ads via pay-per-lead Performance Max campaigns, which began for US advertisers in August 2026 and removes the standalone LSA dashboard and manual…",
+   "organization": "Advertising For Contractors",
+   "organization_url": "https://advertisingforcontractors.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Optimized",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "eye-to-ad-media-generative-engine-optimization",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-generative-engine-optimization/",
+   "headline": "Eye To Ad Media Expands Generative Engine Optimization Practice as AI Assistants Reshape How Customers Find Local Businesses",
+   "snippet": "Eye To Ad Media has expanded its generative engine optimization practice, formalizing a service line focused on entity consistency, structured data and machine-readable publishing for businesses that need to appear in AI-generated answers.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "search-converts-membership-growth-program",
+   "url": "https://pressreleaseforbusiness.com/releases/search-converts-membership-growth-program/",
+   "headline": "Search Converts Details Membership Structure for Small Business Growth Program Built Around Strategy Sessions and Community Distribution",
+   "snippet": "Search Converts has detailed the structure of its business growth accelerator, a membership program combining strategy sessions, campaign testing and distribution through community networks, positioned as an alternative to conventional advertising retainers.",
+   "organization": "Search Converts",
+   "organization_url": "https://www.searchconverts.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-23",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "advertising-for-contractors-free-chatbot-generator",
+   "url": "https://pressreleaseforbusiness.com/releases/advertising-for-contractors-free-chatbot-generator/",
+   "headline": "Advertising For Contractors Releases a Free Chatbot Builder for Trades Websites",
+   "snippet": "Advertising For Contractors has released a free contractor chatbot generator that produces an installable website assistant, aimed at capturing enquiries that arrive outside business hours.",
+   "organization": "Advertising For Contractors",
+   "organization_url": "https://advertisingforcontractors.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-22",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "eye-to-ad-media-ai-search-visibility-audit",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-ai-search-visibility-audit/",
+   "headline": "Eye To Ad Media Introduces AI Search Visibility Assessments for Small Businesses",
+   "snippet": "Eye To Ad Media has introduced AI search visibility assessments that test how a business is represented when customers ask AI assistants about its category, and identify which competitors are named instead.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-18",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "denver-seo-local-search-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/denver-seo-local-search-guidance/",
+   "headline": "DenverSEO.io Publishes Guidance on Local Search for Front Range Businesses",
+   "snippet": "DenverSEO.io has published local search guidance for Front Range businesses covering service area definition, review velocity and listing consistency.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-14",
+   "categories": [
+    "marketing"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "eye-to-ad-media-holiday-hours-local-search",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-holiday-hours-local-search/",
+   "headline": "Eye To Ad Media Flags Holiday Hours as the Most Common Fourth Quarter Local Search Failure",
+   "snippet": "Eye To Ad Media has published fourth quarter local search guidance identifying incorrect holiday hours across business listings as the most common and most avoidable failure heading into the holiday season.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-13",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "omaha-seo-pros-nebraska-business-visibility",
+   "url": "https://pressreleaseforbusiness.com/releases/omaha-seo-pros-nebraska-business-visibility/",
+   "headline": "Omaha SEO Pros Publishes Local Visibility Guidance for Nebraska Businesses",
+   "snippet": "Omaha SEO Pros has published local visibility guidance aimed at businesses in Omaha and the wider Nebraska market, addressing how mid-sized market dynamics differ from national advice.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Omaha, Nebraska",
+   "date": "2026-09-09",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "search-converts-local-visibility-service",
+   "url": "https://pressreleaseforbusiness.com/releases/search-converts-local-visibility-service/",
+   "headline": "Search Converts Adds Listing Consistency Audits to Its Small Business Services",
+   "snippet": "Search Converts has added listing consistency audits to its small business services, identifying where a company's name, address, hours and service description disagree across public listings.",
+   "organization": "Search Converts",
+   "organization_url": "https://www.searchconverts.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-08",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "denver-web-design-site-speed-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/denver-web-design-site-speed-guidance/",
+   "headline": "Denver Web Design Publishes Guidance on Small Business Site Speed",
+   "snippet": "Denver Web Design has published guidance on diagnosing and improving small business website speed, covering the common causes of slow loading.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-07",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "eye-to-ad-media-review-response-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-review-response-guidance/",
+   "headline": "Eye To Ad Media Publishes Review Response Guidance for Owner-Operated Businesses",
+   "snippet": "Eye To Ad Media has published review response guidance for owner-operated businesses, focusing on how to respond to negative reviews and which common responses compound the damage.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-04",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "maui-seo-hawaii-tourism-business-search",
+   "url": "https://pressreleaseforbusiness.com/releases/maui-seo-hawaii-tourism-business-search/",
+   "headline": "Maui SEO Publishes Search Guidance for Hawaii Tourism and Service Businesses",
+   "snippet": "Maui SEO has published search guidance for Hawaii tourism and service businesses, addressing the distinct problem faced by operators whose customers search from outside the market.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Maui, Hawaii",
+   "date": "2026-09-03",
+   "categories": [
+    "marketing",
+    "small-business"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "link-restaurants-independent-operator-visibility",
+   "url": "https://pressreleaseforbusiness.com/releases/link-restaurants-independent-operator-visibility/",
+   "headline": "Link Restaurants Publishes Visibility Guidance for Independent Operators",
+   "snippet": "Link Restaurants has published search visibility guidance for independent restaurant operators, addressing competition from aggregator platforms.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-08-28",
+   "categories": [
+    "small-business",
+    "marketing"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "best-domains-for-business-portfolio-listings",
+   "url": "https://pressreleaseforbusiness.com/releases/best-domains-for-business-portfolio-listings/",
+   "headline": "Best Domains For Business Lists Keyword Domain Portfolio for Sale",
+   "snippet": "Best Domains For Business has listed a keyword domain portfolio for sale, covering service and location terms across US markets and international destinations.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-08-27",
+   "categories": [
+    "small-business",
+    "marketing"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  }
+ ]
+}

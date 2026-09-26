@@ -1,0 +1,102 @@
+{
+ "version": "1.0",
+ "source": {
+  "name": "Press Release For Business",
+  "url": "https://pressreleaseforbusiness.com/",
+  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+ },
+ "feed": {
+  "name": "Retail",
+  "description": "Announcements categorized as retail.",
+  "url": "https://pressreleaseforbusiness.com/api/retail.json"
+ },
+ "generated": "2026-09-26",
+ "count": 5,
+ "releases": [
+  {
+   "id": "a-nu-do-salon-virtual-consultation-after-hours-booking",
+   "url": "https://pressreleaseforbusiness.com/releases/a-nu-do-salon-virtual-consultation-after-hours-booking/",
+   "headline": "A Nu Do Salon Expands Virtual Consultations as Industry Data Shows Roughly Half of Salon Bookings Happen After Hours",
+   "snippet": "A Nu Do Salon has expanded its virtual consultation service alongside online booking, citing 2026 industry benchmarks placing after-hours booking demand at 46% to 50% of all salon appointments and identifying in-depth consultation as a defining shift in salon service.",
+   "organization": "A Nu Do Salon",
+   "organization_url": "https://anudosalon.com",
+   "location": "Brighton, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "small-business",
+    "retail"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "rustic-barnwood-furniture-custom-commission-process",
+   "url": "https://pressreleaseforbusiness.com/releases/rustic-barnwood-furniture-custom-commission-process/",
+   "headline": "Rustic Barnwood Furniture Details Custom Commission Process as Reclaimed Material Supply Shapes What Can Be Built",
+   "snippet": "Rustic Barnwood Furniture has detailed its custom commission process for reclaimed barnwood pieces built in Colorado, explaining how the characteristics of salvaged material determine dimensions, finish and lead time on made-to-order work.",
+   "organization": "Rustic Barnwood Furniture",
+   "organization_url": "https://rusticbarnwoodfurniture.com",
+   "location": "Colorado",
+   "date": "2026-09-23",
+   "categories": [
+    "retail",
+    "small-business"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "showers4less-anzzi-product-line",
+   "url": "https://pressreleaseforbusiness.com/releases/showers4less-anzzi-product-line/",
+   "headline": "Showers4Less Adds ANZZI Shower Products to Its Accessible Bathing Catalog",
+   "snippet": "Showers4Less has added ANZZI shower products to its catalog as an authorized dealer, widening the pan, enclosure and fixture options available alongside its existing barrier-free range.",
+   "organization": "Showers4Less",
+   "organization_url": "https://www.showers4less.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-20",
+   "categories": [
+    "home-services",
+    "retail"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "a-nu-do-salon-holiday-booking-brighton",
+   "url": "https://pressreleaseforbusiness.com/releases/a-nu-do-salon-holiday-booking-brighton/",
+   "headline": "A Nu Do Salon Opens Holiday Season Booking and Gift Card Sales",
+   "snippet": "A Nu Do Salon has opened holiday season booking and gift card sales, advising clients that color work tied to a specific event date should be scheduled with time for a correction appointment if needed.",
+   "organization": "A Nu Do Salon",
+   "organization_url": "https://anudosalon.com",
+   "location": "Brighton, Colorado",
+   "date": "2026-09-15",
+   "categories": [
+    "small-business",
+    "retail"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "rustic-barnwood-furniture-holiday-lead-times",
+   "url": "https://pressreleaseforbusiness.com/releases/rustic-barnwood-furniture-holiday-lead-times/",
+   "headline": "Rustic Barnwood Furniture Publishes Lead Times for Holiday Custom Orders",
+   "snippet": "Rustic Barnwood Furniture has published lead time guidance for holiday custom orders, noting that reclaimed material availability affects scheduling differently than catalog furniture production.",
+   "organization": "Rustic Barnwood Furniture",
+   "organization_url": "https://rusticbarnwoodfurniture.com",
+   "location": "Colorado",
+   "date": "2026-09-11",
+   "categories": [
+    "retail",
+    "small-business"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  }
+ ]
+}

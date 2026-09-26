@@ -1,0 +1,34 @@
+{
+ "version": "1.0",
+ "source": {
+  "name": "Press Release For Business",
+  "url": "https://pressreleaseforbusiness.com/",
+  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+ },
+ "feed": {
+  "name": "Insurance",
+  "description": "Announcements categorized as insurance.",
+  "url": "https://pressreleaseforbusiness.com/api/insurance.json"
+ },
+ "generated": "2026-09-26",
+ "count": 1,
+ "releases": [
+  {
+   "id": "roof-solutions-photo-documentation-atlanta-insurance",
+   "url": "https://pressreleaseforbusiness.com/releases/roof-solutions-photo-documentation-atlanta-insurance/",
+   "headline": "Roof Solutions Urges Metro Atlanta Homeowners to Photograph Roofs Before Storm Season as Georgia Insurance Rules Shift in 2026",
+   "snippet": "Roof Solutions is advising Metro Atlanta homeowners to establish photographic documentation of roof condition ahead of storm season, citing 2026 changes to Georgia insurance legislation, a City of Atlanta cool roof ordinance and increased carrier scrutiny of roofs over 15…",
+   "organization": "Roof Solutions",
+   "organization_url": "https://bestroofersatlanta.com",
+   "location": "Atlanta, Georgia",
+   "date": "2026-09-25",
+   "categories": [
+    "home-services",
+    "insurance"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  }
+ ]
+}

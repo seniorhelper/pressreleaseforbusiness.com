@@ -1,0 +1,204 @@
+{
+ "version": "1.0",
+ "source": {
+  "name": "Press Release For Business",
+  "url": "https://pressreleaseforbusiness.com/",
+  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+ },
+ "feed": {
+  "name": "Technology",
+  "description": "Announcements categorized as technology.",
+  "url": "https://pressreleaseforbusiness.com/api/technology.json"
+ },
+ "generated": "2026-09-26",
+ "count": 11,
+ "releases": [
+  {
+   "id": "advertising-for-contractors-google-lsa-migration",
+   "url": "https://pressreleaseforbusiness.com/releases/advertising-for-contractors-google-lsa-migration/",
+   "headline": "Advertising For Contractors Warns Trades Businesses to Prepare Now as Google Folds Local Services Ads Into Google Ads",
+   "snippet": "Advertising For Contractors is advising trades businesses to prepare for Google's migration of Local Services Ads into Google Ads via pay-per-lead Performance Max campaigns, which began for US advertisers in August 2026 and removes the standalone LSA dashboard and manual…",
+   "organization": "Advertising For Contractors",
+   "organization_url": "https://advertisingforcontractors.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Optimized",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "elevation-health-dietitian-led-glp1-support",
+   "url": "https://pressreleaseforbusiness.com/releases/elevation-health-dietitian-led-glp1-support/",
+   "headline": "Elevation Health Pairs Registered-Dietitian Support With Physician-Prescribed GLP-1 Care as Research Highlights an Industry-Wide Support Gap",
+   "snippet": "Elevation Health structures its telehealth GLP-1 program around registered-dietitian support alongside physician prescribing, in response to published 2026 research identifying high discontinuation rates and limited nutritional oversight across the telehealth weight-management sector.",
+   "organization": "Elevation Health",
+   "organization_url": "https://loseweightonglp1.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "health",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "eye-to-ad-media-generative-engine-optimization",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-generative-engine-optimization/",
+   "headline": "Eye To Ad Media Expands Generative Engine Optimization Practice as AI Assistants Reshape How Customers Find Local Businesses",
+   "snippet": "Eye To Ad Media has expanded its generative engine optimization practice, formalizing a service line focused on entity consistency, structured data and machine-readable publishing for businesses that need to appear in AI-generated answers.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "world-vr-mall-launch",
+   "url": "https://pressreleaseforbusiness.com/releases/world-vr-mall-launch/",
+   "headline": "World VR Mall Opens Browser-Based Virtual Shopping Concourse With Merchant Storefronts Linking to Live Ecommerce Sites",
+   "snippet": "World VR Mall has launched a browser-based three-dimensional shopping concourse where visitors walk a central walkway and enter merchant storefronts that link through to those merchants' own ecommerce sites. No headset or download is required.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "technology",
+    "ecommerce"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "vr-flying-simulator-launch",
+   "url": "https://pressreleaseforbusiness.com/releases/vr-flying-simulator-launch/",
+   "headline": "VR Flying Simulator Launches Browser-Based Procedural Trainer Aimed at Student Pilots Between Lessons",
+   "snippet": "VR Flying Simulator has launched a browser-based procedural trainer for student pilots covering checklist discipline, instrument scan and navigation tracking. The company states explicitly that it is not an approved training device and logs no hours toward any certificate.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "technology",
+    "education"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "bear-creek-auto-glass-adas-recalibration",
+   "url": "https://pressreleaseforbusiness.com/releases/bear-creek-auto-glass-adas-recalibration/",
+   "headline": "Bear Creek Auto Glass Advises Drivers That Windshield Replacement Is Not Finished Until Cameras Are Recalibrated",
+   "snippet": "Bear Creek Auto Glass is advising Colorado drivers that vehicles with windshield-mounted forward-facing cameras require ADAS recalibration after glass replacement, and that miscalibration commonly produces no dashboard warning.",
+   "organization": "Bear Creek Auto Glass",
+   "organization_url": "https://bearcreekautoglass.com",
+   "location": "Littleton, Colorado",
+   "date": "2026-09-23",
+   "categories": [
+    "home-services",
+    "technology"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "advertising-for-contractors-free-chatbot-generator",
+   "url": "https://pressreleaseforbusiness.com/releases/advertising-for-contractors-free-chatbot-generator/",
+   "headline": "Advertising For Contractors Releases a Free Chatbot Builder for Trades Websites",
+   "snippet": "Advertising For Contractors has released a free contractor chatbot generator that produces an installable website assistant, aimed at capturing enquiries that arrive outside business hours.",
+   "organization": "Advertising For Contractors",
+   "organization_url": "https://advertisingforcontractors.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-22",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "eye-to-ad-media-ai-search-visibility-audit",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-ai-search-visibility-audit/",
+   "headline": "Eye To Ad Media Introduces AI Search Visibility Assessments for Small Businesses",
+   "snippet": "Eye To Ad Media has introduced AI search visibility assessments that test how a business is represented when customers ask AI assistants about its category, and identify which competitors are named instead.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-18",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "denver-web-design-site-speed-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/denver-web-design-site-speed-guidance/",
+   "headline": "Denver Web Design Publishes Guidance on Small Business Site Speed",
+   "snippet": "Denver Web Design has published guidance on diagnosing and improving small business website speed, covering the common causes of slow loading.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-07",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "world-vr-mall-merchant-storefront-openings",
+   "url": "https://pressreleaseforbusiness.com/releases/world-vr-mall-merchant-storefront-openings/",
+   "headline": "World VR Mall Opens Merchant Storefront Applications",
+   "snippet": "World VR Mall has opened storefront applications to retailers, offering placement on its browser-based three-dimensional concourse with checkout remaining on the merchant's own ecommerce site.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-05",
+   "categories": [
+    "technology",
+    "ecommerce"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "vr-flying-simulator-checklist-library-update",
+   "url": "https://pressreleaseforbusiness.com/releases/vr-flying-simulator-checklist-library-update/",
+   "headline": "VR Flying Simulator Expands Its Checklist Practice Library",
+   "snippet": "VR Flying Simulator has expanded the checklist sequences available in its browser-based procedural trainer for student pilots. The software remains explicitly not an approved training device.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-02",
+   "categories": [
+    "technology",
+    "education"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  }
+ ]
+}

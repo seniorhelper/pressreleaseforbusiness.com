@@ -1,0 +1,204 @@
+{
+ "version": "1.0",
+ "source": {
+  "name": "Press Release For Business",
+  "url": "https://pressreleaseforbusiness.com/",
+  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+ },
+ "feed": {
+  "name": "Accessibility",
+  "description": "Announcements categorized as accessibility.",
+  "url": "https://pressreleaseforbusiness.com/api/accessibility.json"
+ },
+ "generated": "2026-09-26",
+ "count": 11,
+ "releases": [
+  {
+   "id": "aging-safely-baths-medicare-walk-in-tub-coverage",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-medicare-walk-in-tub-coverage/",
+   "headline": "Aging Safely Baths Publishes a Direct Answer on Medicare and Walk-In Tubs: Original Medicare Does Not Cover Them",
+   "snippet": "Aging Safely Baths has published guidance stating that Original Medicare does not cover walk-in tubs, which are classified as home modifications rather than durable medical equipment, and outlining the alternative funding routes that may apply.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-walk-in-tub-accessibility",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-walk-in-tub-accessibility/",
+   "headline": "Aging Safely Baths Highlights Bathroom Accessibility Planning as Households Reconsider Aging-in-Place Renovations",
+   "snippet": "Aging Safely Baths, a nationwide walk-in tub and barrier-free shower supplier operating since 2012, has published planning guidance for households considering bathroom accessibility renovations ahead of need rather than in response to an injury.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-25",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-new-website-launch",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-new-website-launch/",
+   "headline": "Aging Safely Baths Launches Rebuilt Website With Faster Load Times and Clearer Accessibility Product Information",
+   "snippet": "Aging Safely Baths has launched a rebuilt website at agingsafelybaths.com, reorganized around configuration questions households face when planning walk-in tub and barrier-free shower installations.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Network",
+   "featured": true,
+   "optimized": true
+  },
+  {
+   "id": "showers4less-barrier-free-shower-kits",
+   "url": "https://pressreleaseforbusiness.com/releases/showers4less-barrier-free-shower-kits/",
+   "headline": "Showers4Less Outlines Specification Differences Between Barrier-Free Shower Kits as Demand for Accessible Bathing Grows",
+   "snippet": "Showers4Less has published specification comparison guidance for barrier-free shower kits, covering pan construction, threshold height, wall system compatibility and the subfloor requirements that determine feasibility of a zero-entry installation.",
+   "organization": "Showers4Less",
+   "organization_url": "https://www.showers4less.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-24",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-grab-bar-reinforcement-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-grab-bar-reinforcement-guidance/",
+   "headline": "Aging Safely Baths Publishes Guidance on Grab Bar Reinforcement in Accessible Bathrooms",
+   "snippet": "Aging Safely Baths has published guidance on wall reinforcement for grab bars, addressing why the anchoring decision has to be made during installation rather than afterward.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-21",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "aging-safely-baths-anzzi-walk-in-tub-line",
+   "url": "https://pressreleaseforbusiness.com/releases/aging-safely-baths-anzzi-walk-in-tub-line/",
+   "headline": "Aging Safely Baths Adds ANZZI Walk-In Tubs to Its Accessible Bathing Range",
+   "snippet": "Aging Safely Baths has added ANZZI walk-in tubs to its accessible bathing range, widening the configurations available to households working within an existing bathroom footprint.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-10",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Optimized",
+   "featured": false,
+   "optimized": true
+  },
+  {
+   "id": "showers4less-contractor-specification-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/showers4less-contractor-specification-guidance/",
+   "headline": "Showers4Less Publishes Rough-In Guidance for Contractors Quoting Accessible Shower Installations",
+   "snippet": "Showers4Less has published rough-in and specification guidance for contractors quoting barrier-free shower installations, aimed at reducing the change orders that commonly arise mid-project.",
+   "organization": "Showers4Less",
+   "organization_url": "https://www.showers4less.com",
+   "location": "Denver, Colorado",
+   "date": "2026-09-02",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "walk-in-tubs-florida-humidity-considerations",
+   "url": "https://pressreleaseforbusiness.com/releases/walk-in-tubs-florida-humidity-considerations/",
+   "headline": "Walk In Tubs Florida Addresses Ventilation and Humidity in Accessible Bathroom Planning",
+   "snippet": "Walk In Tubs Florida has published guidance on ventilation and material selection for accessible bathroom installations in humid climates.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Florida",
+   "date": "2026-09-01",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "bathroom-remodel-littleton-accessibility-planning",
+   "url": "https://pressreleaseforbusiness.com/releases/bathroom-remodel-littleton-accessibility-planning/",
+   "headline": "Bathroom Remodel Littleton CO Publishes Accessibility Planning Guidance for Local Homeowners",
+   "snippet": "Bathroom Remodel Littleton CO has published accessibility planning guidance addressing the structural constraints commonly found in local housing stock.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Littleton, Colorado",
+   "date": "2026-08-31",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "senior-walk-in-bathtubs-selection-guidance",
+   "url": "https://pressreleaseforbusiness.com/releases/senior-walk-in-bathtubs-selection-guidance/",
+   "headline": "Senior Walk In Bathtubs Publishes a Selection Checklist for Families",
+   "snippet": "Senior Walk In Bathtubs has published a walk-in tub selection checklist aimed at family members researching on behalf of a parent or relative.",
+   "organization": "Aging Safely Baths",
+   "organization_url": "https://www.agingsafelybaths.com",
+   "location": "Denver, Colorado",
+   "date": "2026-08-29",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  },
+  {
+   "id": "showers4less-shower-pan-slip-resistance",
+   "url": "https://pressreleaseforbusiness.com/releases/showers4less-shower-pan-slip-resistance/",
+   "headline": "Showers4Less Publishes Guidance on Shower Pan Slip Resistance Ratings",
+   "snippet": "Showers4Less has published guidance on shower pan slip resistance ratings, explaining how the measurement works and why it matters more in accessible bathing than in conventional bathrooms.",
+   "organization": "Showers4Less",
+   "organization_url": "https://www.showers4less.com",
+   "location": "Denver, Colorado",
+   "date": "2026-08-26",
+   "categories": [
+    "home-services",
+    "accessibility"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false
+  }
+ ]
+}

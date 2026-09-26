@@ -6,8 +6,18 @@
   <description>Company announcements published at permanent addresses with structured data.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Press Release For Business</copyright>
-  <lastBuildDate>Fri, 25 Sep 2026 08:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 26 Sep 2026 08:00:00 GMT</lastBuildDate>
   <atom:link href="https://pressreleaseforbusiness.com/feed.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
+  <item>
+    <title>Painter Hotline Announces 25% Off Interior and Exterior Painting Across the Denver Metro Through October 5</title>
+    <link>https://pressreleaseforbusiness.com/releases/painter-hotline-denver-metro-fall-promotion/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/painter-hotline-denver-metro-fall-promotion/</guid>
+    <description>Painter Hotline has announced 25% off interior and exterior painting projects across the Denver metropolitan area, running through October 5, 2026. The discount applies to project labor and does not include the cost of paint.</description>
+    <category>Home Services</category>
+    <source url="https://paintingbrighton.com">Painter Hotline</source>
+    <pubDate>Sat, 26 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
   <item>
     <title>Advertising For Contractors Warns Trades Businesses to Prepare Now as Google Folds Local Services Ads Into Google Ads</title>
     <link>https://pressreleaseforbusiness.com/releases/advertising-for-contractors-google-lsa-migration/</link>
@@ -15,6 +25,15 @@
     <description>Advertising For Contractors is advising trades businesses to prepare for Google&#x27;s migration of Local Services Ads into Google Ads via pay-per-lead Performance Max campaigns, which began for US advertisers in August 2026 and removes the standalone LSA dashboard and manual cost-per-lead controls.</description>
     <category>Marketing</category>
     <source url="https://advertisingforcontractors.com">Advertising For Contractors</source>
+    <pubDate>Fri, 25 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Aging Safely Baths Publishes a Direct Answer on Medicare and Walk-In Tubs: Original Medicare Does Not Cover Them</title>
+    <link>https://pressreleaseforbusiness.com/releases/aging-safely-baths-medicare-walk-in-tub-coverage/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/aging-safely-baths-medicare-walk-in-tub-coverage/</guid>
+    <description>Aging Safely Baths has published guidance stating that Original Medicare does not cover walk-in tubs, which are classified as home modifications rather than durable medical equipment, and outlining the alternative funding routes that may apply.</description>
+    <category>Home Services</category>
+    <source url="https://www.agingsafelybaths.com">Aging Safely Baths</source>
     <pubDate>Fri, 25 Sep 2026 08:00:00 GMT</pubDate>
   </item>
   <item>
@@ -59,8 +78,17 @@
     <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/world-vr-mall-launch/</guid>
     <description>World VR Mall has launched a browser-based three-dimensional shopping concourse where visitors walk a central walkway and enter merchant storefronts that link through to those merchants&#x27; own ecommerce sites. No headset or download is required.</description>
     <category>Technology</category>
-    <source url="https://www.worldvrmall.com">World VR Mall</source>
+    <source url="https://www.eyetoad.com">Eye To Ad Media</source>
     <pubDate>Fri, 25 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Aging Safely Baths Launches Rebuilt Website With Faster Load Times and Clearer Accessibility Product Information</title>
+    <link>https://pressreleaseforbusiness.com/releases/aging-safely-baths-new-website-launch/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/aging-safely-baths-new-website-launch/</guid>
+    <description>Aging Safely Baths has launched a rebuilt website at agingsafelybaths.com, reorganized around configuration questions households face when planning walk-in tub and barrier-free shower installations.</description>
+    <category>Home Services</category>
+    <source url="https://www.agingsafelybaths.com">Aging Safely Baths</source>
+    <pubDate>Thu, 24 Sep 2026 08:00:00 GMT</pubDate>
   </item>
   <item>
     <title>A Nu Do Salon Expands Virtual Consultations as Industry Data Shows Roughly Half of Salon Bookings Happen After Hours</title>
@@ -95,8 +123,17 @@
     <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/vr-flying-simulator-launch/</guid>
     <description>VR Flying Simulator has launched a browser-based procedural trainer for student pilots covering checklist discipline, instrument scan and navigation tracking. The company states explicitly that it is not an approved training device and logs no hours toward any certificate.</description>
     <category>Technology</category>
-    <source url="https://www.vrflyingsimulator.com">VR Flying Simulator</source>
+    <source url="https://www.eyetoad.com">Eye To Ad Media</source>
     <pubDate>Thu, 24 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Bear Creek Auto Glass Advises Drivers That Windshield Replacement Is Not Finished Until Cameras Are Recalibrated</title>
+    <link>https://pressreleaseforbusiness.com/releases/bear-creek-auto-glass-adas-recalibration/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/bear-creek-auto-glass-adas-recalibration/</guid>
+    <description>Bear Creek Auto Glass is advising Colorado drivers that vehicles with windshield-mounted forward-facing cameras require ADAS recalibration after glass replacement, and that miscalibration commonly produces no dashboard warning.</description>
+    <category>Home Services</category>
+    <source url="https://bearcreekautoglass.com">Bear Creek Auto Glass</source>
+    <pubDate>Wed, 23 Sep 2026 08:00:00 GMT</pubDate>
   </item>
   <item>
     <title>Rustic Barnwood Furniture Details Custom Commission Process as Reclaimed Material Supply Shapes What Can Be Built</title>
@@ -115,6 +152,132 @@
     <category>Marketing</category>
     <source url="https://www.searchconverts.com">Search Converts</source>
     <pubDate>Wed, 23 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Advertising For Contractors Releases a Free Chatbot Builder for Trades Websites</title>
+    <link>https://pressreleaseforbusiness.com/releases/advertising-for-contractors-free-chatbot-generator/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/advertising-for-contractors-free-chatbot-generator/</guid>
+    <description>Advertising For Contractors has released a free contractor chatbot generator that produces an installable website assistant, aimed at capturing enquiries that arrive outside business hours.</description>
+    <category>Marketing</category>
+    <source url="https://advertisingforcontractors.com">Advertising For Contractors</source>
+    <pubDate>Tue, 22 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Aging Safely Baths Publishes Guidance on Grab Bar Reinforcement in Accessible Bathrooms</title>
+    <link>https://pressreleaseforbusiness.com/releases/aging-safely-baths-grab-bar-reinforcement-guidance/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/aging-safely-baths-grab-bar-reinforcement-guidance/</guid>
+    <description>Aging Safely Baths has published guidance on wall reinforcement for grab bars, addressing why the anchoring decision has to be made during installation rather than afterward.</description>
+    <category>Home Services</category>
+    <source url="https://www.agingsafelybaths.com">Aging Safely Baths</source>
+    <pubDate>Mon, 21 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Showers4Less Adds ANZZI Shower Products to Its Accessible Bathing Catalog</title>
+    <link>https://pressreleaseforbusiness.com/releases/showers4less-anzzi-product-line/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/showers4less-anzzi-product-line/</guid>
+    <description>Showers4Less has added ANZZI shower products to its catalog as an authorized dealer, widening the pan, enclosure and fixture options available alongside its existing barrier-free range.</description>
+    <category>Home Services</category>
+    <source url="https://www.showers4less.com">Showers4Less</source>
+    <pubDate>Sun, 20 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Roof Solutions Outlines Pre-Winter Roof Checks for Metro Atlanta Homeowners</title>
+    <link>https://pressreleaseforbusiness.com/releases/roof-solutions-winter-roof-preparation-atlanta/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/roof-solutions-winter-roof-preparation-atlanta/</guid>
+    <description>Roof Solutions has published pre-winter roof inspection guidance for Metro Atlanta homeowners, covering flashing, gutters, attic ventilation and the small failures that become expensive once winter moisture gets behind them.</description>
+    <category>Home Services</category>
+    <source url="https://bestroofersatlanta.com">Roof Solutions</source>
+    <pubDate>Sat, 19 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Eye To Ad Media Introduces AI Search Visibility Assessments for Small Businesses</title>
+    <link>https://pressreleaseforbusiness.com/releases/eye-to-ad-media-ai-search-visibility-audit/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/eye-to-ad-media-ai-search-visibility-audit/</guid>
+    <description>Eye To Ad Media has introduced AI search visibility assessments that test how a business is represented when customers ask AI assistants about its category, and identify which competitors are named instead.</description>
+    <category>Marketing</category>
+    <source url="https://www.eyetoad.com">Eye To Ad Media</source>
+    <pubDate>Fri, 18 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Elevation Health Publishes a Plain Description of Its Consultation Process</title>
+    <link>https://pressreleaseforbusiness.com/releases/elevation-health-consultation-process-explained/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/elevation-health-consultation-process-explained/</guid>
+    <description>Elevation Health has published a step-by-step description of its telehealth consultation process, including the assessment stage at which a clinician may determine that an applicant is not a candidate.</description>
+    <category>Health</category>
+    <source url="https://loseweightonglp1.com">Elevation Health</source>
+    <pubDate>Thu, 17 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Painting Brighton Shifts to Interior Work as Colorado Exterior Season Closes</title>
+    <link>https://pressreleaseforbusiness.com/releases/painting-brighton-colorado-interior-season/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/painting-brighton-colorado-interior-season/</guid>
+    <description>Painting Brighton has shifted its scheduling to interior projects as Front Range overnight temperatures approach the threshold below which exterior coatings will not bond properly.</description>
+    <category>Home Services</category>
+    <source url="https://paintingbrighton.com">Painting Brighton</source>
+    <pubDate>Wed, 16 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>A Nu Do Salon Opens Holiday Season Booking and Gift Card Sales</title>
+    <link>https://pressreleaseforbusiness.com/releases/a-nu-do-salon-holiday-booking-brighton/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/a-nu-do-salon-holiday-booking-brighton/</guid>
+    <description>A Nu Do Salon has opened holiday season booking and gift card sales, advising clients that color work tied to a specific event date should be scheduled with time for a correction appointment if needed.</description>
+    <category>Small Business</category>
+    <source url="https://anudosalon.com">A Nu Do Salon</source>
+    <pubDate>Tue, 15 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>DenverSEO.io Publishes Guidance on Local Search for Front Range Businesses</title>
+    <link>https://pressreleaseforbusiness.com/releases/denver-seo-local-search-guidance/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/denver-seo-local-search-guidance/</guid>
+    <description>DenverSEO.io has published local search guidance for Front Range businesses covering service area definition, review velocity and listing consistency.</description>
+    <category>Marketing</category>
+    <source url="https://www.eyetoad.com">Eye To Ad Media</source>
+    <pubDate>Mon, 14 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Bear Creek Auto Glass Advises Colorado Drivers to Address Windshield Chips Before Freezing Weather</title>
+    <link>https://pressreleaseforbusiness.com/releases/bear-creek-auto-glass-winter-windshield-guidance/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/bear-creek-auto-glass-winter-windshield-guidance/</guid>
+    <description>Bear Creek Auto Glass is advising Colorado drivers to repair windshield chips before freezing weather, as temperature cycling commonly turns repairable chips into cracks requiring full replacement.</description>
+    <category>Home Services</category>
+    <source url="https://bearcreekautoglass.com">Bear Creek Auto Glass</source>
+    <pubDate>Sun, 13 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Eye To Ad Media Flags Holiday Hours as the Most Common Fourth Quarter Local Search Failure</title>
+    <link>https://pressreleaseforbusiness.com/releases/eye-to-ad-media-holiday-hours-local-search/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/eye-to-ad-media-holiday-hours-local-search/</guid>
+    <description>Eye To Ad Media has published fourth quarter local search guidance identifying incorrect holiday hours across business listings as the most common and most avoidable failure heading into the holiday season.</description>
+    <category>Marketing</category>
+    <source url="https://www.eyetoad.com">Eye To Ad Media</source>
+    <pubDate>Sun, 13 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Bighorn Painting Opens Interior Booking for the Winter Season in Jefferson County</title>
+    <link>https://pressreleaseforbusiness.com/releases/bighorn-painting-interior-scheduling-arvada/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/bighorn-painting-interior-scheduling-arvada/</guid>
+    <description>Bighorn Painting has opened winter interior booking across Jefferson County, noting that interior work is unaffected by the temperature constraints closing the Colorado exterior painting season.</description>
+    <category>Home Services</category>
+    <source url="https://www.bighornpainting.com">Bighorn Painting</source>
+    <pubDate>Sat, 12 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Rustic Barnwood Furniture Publishes Lead Times for Holiday Custom Orders</title>
+    <link>https://pressreleaseforbusiness.com/releases/rustic-barnwood-furniture-holiday-lead-times/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/rustic-barnwood-furniture-holiday-lead-times/</guid>
+    <description>Rustic Barnwood Furniture has published lead time guidance for holiday custom orders, noting that reclaimed material availability affects scheduling differently than catalog furniture production.</description>
+    <category>Retail</category>
+    <source url="https://rusticbarnwoodfurniture.com">Rustic Barnwood Furniture</source>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Aging Safely Baths Adds ANZZI Walk-In Tubs to Its Accessible Bathing Range</title>
+    <link>https://pressreleaseforbusiness.com/releases/aging-safely-baths-anzzi-walk-in-tub-line/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/aging-safely-baths-anzzi-walk-in-tub-line/</guid>
+    <description>Aging Safely Baths has added ANZZI walk-in tubs to its accessible bathing range, widening the configurations available to households working within an existing bathroom footprint.</description>
+    <category>Home Services</category>
+    <source url="https://www.agingsafelybaths.com">Aging Safely Baths</source>
+    <pubDate>Thu, 10 Sep 2026 08:00:00 GMT</pubDate>
   </item>
 </channel>
 </rss>
