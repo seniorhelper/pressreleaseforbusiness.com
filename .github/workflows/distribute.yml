@@ -1,0 +1,73 @@
+name: Distribute on publish
+
+# Fires on every push to the live branch. Notifies participating search engines
+# via IndexNow and pings the WebSub hub so feed subscribers are told immediately.
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  distribute:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Collect changed and new release URLs
+        id: urls
+        run: |
+          BASE="https://pressreleaseforbusiness.com"
+          {
+            git diff --name-only HEAD^ HEAD 2>/dev/null || find . -name 'index.html'
+          } | grep -E '(^|/)index\.html$' \
+            | sed 's|/index.html$|/|; s|^index.html$|/|; s|^\./||' \
+            | sed "s|^|$BASE/|; s|//*$|/|" \
+            | sed "s|^$BASE//|$BASE/|" \
+            | sort -u > urls.txt
+          echo "$BASE/" >> urls.txt
+          sort -u urls.txt -o urls.txt
+          echo "count=$(wc -l < urls.txt)" >> $GITHUB_OUTPUT
+          echo "Submitting:"; cat urls.txt
+
+      - name: Submit to IndexNow
+        if: steps.urls.outputs.count != '0'
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request
+          KEY = "912936d060efe152822b2890b67512b6"
+          HOST = "pressreleaseforbusiness.com"
+          urls = [u.strip() for u in open('urls.txt') if u.strip()][:10000]
+          payload = json.dumps({
+              "host": HOST,
+              "key": KEY,
+              "keyLocation": f"https://{HOST}/{KEY}.txt",
+              "urlList": urls,
+          }).encode()
+          req = urllib.request.Request(
+              "https://api.indexnow.org/IndexNow",
+              data=payload,
+              headers={"Content-Type": "application/json; charset=utf-8"},
+              method="POST")
+          try:
+              with urllib.request.urlopen(req, timeout=25) as r:
+                  print("IndexNow:", r.status, "-", len(urls), "URLs submitted")
+          except Exception as e:
+              print("IndexNow submission failed (non-fatal):", e)
+          PY
+
+      - name: Ping WebSub hub
+        run: |
+          curl -sS -m 25 -X POST https://pubsubhubbub.appspot.com/ \
+            -d "hub.mode=publish" \
+            -d "hub.url=https://pressreleaseforbusiness.com/feed.xml" \
+            -w "\nWebSub hub responded: %{http_code}\n" || echo "WebSub ping failed (non-fatal)"
+
+      - name: Ping sitemap
+        run: |
+          curl -sS -m 20 "https://www.bing.com/ping?sitemap=https://pressreleaseforbusiness.com/sitemap.xml" \
+            -w "\nBing sitemap ping: %{http_code}\n" || true
