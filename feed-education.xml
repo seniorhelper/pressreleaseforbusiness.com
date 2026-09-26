@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Press Release For Business — Education</title>
+  <link>https://pressreleaseforbusiness.com/</link>
+  <description>Announcements categorized as education. All items are paid announcements published on behalf of the named organization and are not independently verified.</description>
+  <language>en-us</language>
+  <copyright>Copyright 2026 Press Release For Business</copyright>
+  <lastBuildDate>Sat, 26 Sep 2026 08:00:00 GMT</lastBuildDate>
+  <atom:link href="https://pressreleaseforbusiness.com/feed-education.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>VR Flying Simulator Launches Browser-Based Procedural Trainer Aimed at Student Pilots Between Lessons</title>
+    <link>https://pressreleaseforbusiness.com/releases/vr-flying-simulator-launch/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/vr-flying-simulator-launch/</guid>
+    <description>VR Flying Simulator has launched a browser-based procedural trainer for student pilots covering checklist discipline, instrument scan and navigation tracking. The company states explicitly that it is not an approved training device and logs no hours toward any certificate.</description>
+    <category>Technology</category>
+    <source url="https://www.eyetoad.com">Eye To Ad Media</source>
+    <pubDate>Thu, 24 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>VR Flying Simulator Expands Its Checklist Practice Library</title>
+    <link>https://pressreleaseforbusiness.com/releases/vr-flying-simulator-checklist-library-update/</link>
+    <guid isPermaLink="true">https://pressreleaseforbusiness.com/releases/vr-flying-simulator-checklist-library-update/</guid>
+    <description>VR Flying Simulator has expanded the checklist sequences available in its browser-based procedural trainer for student pilots. The software remains explicitly not an approved training device.</description>
+    <category>Technology</category>
+    <source url="https://www.eyetoad.com">Eye To Ad Media</source>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>

@@ -1,9 +1,12 @@
 {
- "version": "1.0",
+ "version": "1.1",
  "source": {
   "name": "Press Release For Business",
   "url": "https://pressreleaseforbusiness.com/",
-  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+  "content_type": "paid press releases",
+  "operated_by": "Eye To Ad Media",
+  "terms": "Headline, an excerpt of up to approximately 40 words, and a link to the canonical URL may be republished with attribution to the issuing organization. Full text may not be republished. All content on this wire is PAID content published on behalf of the named organization; it is their own statement and has not been independently verified. Publishers republishing this material should carry the same disclosure. See https://pressreleaseforbusiness.com/for-newsrooms/",
+  "newsroom": "https://pressreleaseforbusiness.com/for-newsrooms/"
  },
  "feed": {
   "name": "Insurance",
@@ -28,7 +31,8 @@
    ],
    "tier": "Network",
    "featured": true,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   }
  ]
 }

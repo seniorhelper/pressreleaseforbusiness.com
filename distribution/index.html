@@ -195,11 +195,12 @@
       <div class="optcard">
         <span class="n">01</span>
         <h4>Search engine push notification</h4>
-        <p>On publication your URL is submitted through IndexNow to Bing, Yandex, Naver and
-        Seznam, rather than waiting for a crawler to find it.</p>
-        <p class="why"><strong>Why it matters:</strong> Bing's index feeds several AI assistants.
-        Reaching it quickly is one of the few levers that genuinely affects AI answer
-        visibility.</p>
+        <p>On publication your URL is submitted through IndexNow to Bing &mdash; and, in the same
+        request, to Yandex, Naver and Seznam &mdash; rather than waiting for a crawler.</p>
+        <p class="why"><strong>Why it matters:</strong> ChatGPT's search layer runs on Bing.
+        Reaching Bing quickly is one of the few levers that genuinely affects AI answer
+        visibility. The other three engines come free in the same request and matter only if you
+        sell into those markets.</p>
       </div>
       <div class="optcard">
         <span class="n">02</span>
@@ -234,6 +235,16 @@
       <a href="/feed.xml" style="color:#fff;text-decoration:underline">/feed.xml</a>, JSON
       endpoints under <code>/api/</code>, and a build step that fires both on every publish. You
       can verify each of these yourself rather than taking our word for it.
+    </div>
+
+    <div class="notice warn">
+      <strong>What nobody can automate for Google</strong>
+      Google deprecated its sitemap ping endpoint at the end of 2023. Its Indexing API is
+      restricted to job postings and livestream events &mdash; using it for articles breaches
+      their terms and risks losing access. There is no legitimate button. What moves Google is a
+      clean sitemap, a site it already crawls regularly, and genuine links pointing at the new
+      page. We do the first, your release inherits the second, and the third is what the Network
+      tier is for.
     </div>
   </div>
 </section>
@@ -276,6 +287,56 @@
   </div>
 </section>
 
+<section class="sec band-dark">
+  <div class="wrap-narrow">
+    <span class="eyebrow eyebrow-l">Where it actually goes</span>
+    <h2 class="band-h2">One submission. Five places that matter.</h2>
+    <div class="chain">
+      <div class="chain-row chain-primary">
+        <div class="chain-node chain-start">
+          <span class="chain-k">Your release</span>
+          <strong>Published</strong>
+          <em>permanent address</em>
+        </div>
+        <svg class="chain-arrow" viewBox="0 0 40 24" aria-hidden="true">
+          <path d="M2 12h32M27 5l7 7-7 7"/></svg>
+        <div class="chain-node chain-hub">
+          <span class="chain-k">IndexNow</span>
+          <strong>Bing</strong>
+          <em>indexed in minutes</em>
+        </div>
+        <svg class="chain-arrow" viewBox="0 0 40 24" aria-hidden="true">
+          <path d="M2 12h32M27 5l7 7-7 7"/></svg>
+        <div class="chain-fan">
+          <span class="chain-f">ChatGPT search</span>
+          <span class="chain-f">Microsoft Copilot</span>
+          <span class="chain-f">DuckDuckGo</span>
+          <span class="chain-f">Yahoo</span>
+          <span class="chain-f">Ecosia</span>
+        </div>
+      </div>
+      <p class="chain-note"><strong>Why Bing is the one that matters.</strong>
+      ChatGPT&rsquo;s search layer runs on Bing&rsquo;s index, and DuckDuckGo, Yahoo and Ecosia
+      source their web results from it too. Reaching Bing quickly is one of the few levers that
+      genuinely moves AI visibility.</p>
+      <div class="chain-secondary">
+        <span class="chain-s-label">Same submission, no extra cost</span>
+        <span class="chain-f sm">Yandex</span>
+        <span class="chain-f sm">Naver</span>
+        <span class="chain-f sm">Seznam</span>
+        <span class="chain-f sm">Yep</span>
+        <span class="chain-s-note">Useful if you sell internationally. Harmless if you don&rsquo;t.</span>
+      </div>
+      <div class="chain-excluded">
+        <span class="chain-x">&times;</span>
+        <span><strong>Google does not participate in IndexNow.</strong> It deprecated its sitemap
+        ping endpoint at the end of 2023 and restricts its indexing API to job postings and
+        livestream events. Google finds your release through our sitemap, like any other page.
+        There is no button, and we would rather tell you that than imply one exists.</span>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="sec sec-alt">
   <div class="wrap-narrow">
     <span class="eyebrow">Expectations</span>
@@ -284,9 +345,10 @@
     <div class="impact">
       <div class="impact-c">
         <span class="tag">Happens every time</span>
-        <h4>Indexed fast</h4>
-        <p>Push notification to participating search engines on publication. This is
-        deterministic infrastructure, not a promise about outcomes.</p>
+        <h4>Submitted immediately</h4>
+        <p>Your URL is pushed to participating search engines the moment it publishes. The
+        submission is deterministic infrastructure and it always happens. What each engine then
+        does with it is their decision, not ours, and we will not pretend otherwise.</p>
       </div>
       <div class="impact-c">
         <span class="tag">Happens over time</span>

@@ -20,3 +20,4 @@ Sitemap: https://pressreleaseforbusiness.com/sitemap.xml
 # RSS:  https://pressreleaseforbusiness.com/feed.xml (WebSub hub declared)
 # JSON: https://pressreleaseforbusiness.com/api/releases.json
 # Free embed widget: https://pressreleaseforbusiness.com/embed/
+Sitemap: https://pressreleaseforbusiness.com/news-sitemap.xml

@@ -1,9 +1,12 @@
 {
- "version": "1.0",
+ "version": "1.1",
  "source": {
   "name": "Press Release For Business",
   "url": "https://pressreleaseforbusiness.com/",
-  "terms": "Headline, snippet and link may be republished with attribution and a link to the canonical URL. Full text may not be republished."
+  "content_type": "paid press releases",
+  "operated_by": "Eye To Ad Media",
+  "terms": "Headline, an excerpt of up to approximately 40 words, and a link to the canonical URL may be republished with attribution to the issuing organization. Full text may not be republished. All content on this wire is PAID content published on behalf of the named organization; it is their own statement and has not been independently verified. Publishers republishing this material should carry the same disclosure. See https://pressreleaseforbusiness.com/for-newsrooms/",
+  "newsroom": "https://pressreleaseforbusiness.com/for-newsrooms/"
  },
  "feed": {
   "name": "Home Services",
@@ -16,8 +19,8 @@
   {
    "id": "painter-hotline-denver-metro-fall-promotion",
    "url": "https://pressreleaseforbusiness.com/releases/painter-hotline-denver-metro-fall-promotion/",
-   "headline": "Painter Hotline Announces 25% Off Interior and Exterior Painting Across the Denver Metro Through October 5",
-   "snippet": "Painter Hotline has announced 25% off interior and exterior painting projects across the Denver metropolitan area, running through October 5, 2026. The discount applies to project labor and does not include the cost of paint.",
+   "headline": "Painter Hotline Announces 25% Off Interior and Exterior Painting Across the Denver Metro Through October 31",
+   "snippet": "Painter Hotline has announced 25% off interior and exterior painting projects across the Denver metropolitan area, running through October 31, 2026. The discount applies to project labor and does not include the cost of paint.",
    "organization": "Painter Hotline",
    "organization_url": "https://paintingbrighton.com",
    "location": "Denver, Colorado",
@@ -27,7 +30,8 @@
    ],
    "tier": "Network",
    "featured": true,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "rustic-barnwood-furniture-denver-delivery-custom-pieces",
@@ -44,7 +48,8 @@
    ],
    "tier": "Optimized",
    "featured": true,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "aging-safely-baths-medicare-walk-in-tub-coverage",
@@ -61,7 +66,8 @@
    ],
    "tier": "Network",
    "featured": true,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "aging-safely-baths-walk-in-tub-accessibility",
@@ -78,7 +84,8 @@
    ],
    "tier": "Network",
    "featured": true,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "roof-solutions-photo-documentation-atlanta-insurance",
@@ -95,7 +102,8 @@
    ],
    "tier": "Network",
    "featured": true,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "aging-safely-baths-new-website-launch",
@@ -112,7 +120,8 @@
    ],
    "tier": "Network",
    "featured": true,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "bighorn-painting-colorado-exterior-season-window",
@@ -128,7 +137,8 @@
    ],
    "tier": "Optimized",
    "featured": false,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "showers4less-barrier-free-shower-kits",
@@ -145,7 +155,8 @@
    ],
    "tier": "Optimized",
    "featured": false,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "bear-creek-auto-glass-adas-recalibration",
@@ -162,7 +173,8 @@
    ],
    "tier": "Standard",
    "featured": false,
-   "optimized": false
+   "optimized": false,
+   "paid_content": true
   },
   {
    "id": "aging-safely-baths-grab-bar-reinforcement-guidance",
@@ -179,7 +191,8 @@
    ],
    "tier": "Optimized",
    "featured": false,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "showers4less-anzzi-product-line",
@@ -196,7 +209,8 @@
    ],
    "tier": "Optimized",
    "featured": false,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "roof-solutions-winter-roof-preparation-atlanta",
@@ -212,7 +226,8 @@
    ],
    "tier": "Standard",
    "featured": false,
-   "optimized": false
+   "optimized": false,
+   "paid_content": true
   },
   {
    "id": "painting-brighton-colorado-interior-season",
@@ -228,7 +243,8 @@
    ],
    "tier": "Optimized",
    "featured": false,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "bear-creek-auto-glass-winter-windshield-guidance",
@@ -244,7 +260,8 @@
    ],
    "tier": "Standard",
    "featured": false,
-   "optimized": false
+   "optimized": false,
+   "paid_content": true
   },
   {
    "id": "bighorn-painting-interior-scheduling-arvada",
@@ -260,7 +277,8 @@
    ],
    "tier": "Standard",
    "featured": false,
-   "optimized": false
+   "optimized": false,
+   "paid_content": true
   },
   {
    "id": "aging-safely-baths-anzzi-walk-in-tub-line",
@@ -277,7 +295,8 @@
    ],
    "tier": "Optimized",
    "featured": false,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "roof-solutions-commercial-flat-roof-winter-checks",
@@ -293,7 +312,8 @@
    ],
    "tier": "Standard",
    "featured": false,
-   "optimized": false
+   "optimized": false,
+   "paid_content": true
   },
   {
    "id": "showers4less-contractor-specification-guidance",
@@ -310,7 +330,8 @@
    ],
    "tier": "Standard",
    "featured": false,
-   "optimized": false
+   "optimized": false,
+   "paid_content": true
   },
   {
    "id": "walk-in-tubs-florida-humidity-considerations",
@@ -327,7 +348,8 @@
    ],
    "tier": "Standard",
    "featured": false,
-   "optimized": false
+   "optimized": false,
+   "paid_content": true
   },
   {
    "id": "bathroom-remodel-littleton-accessibility-planning",
@@ -344,7 +366,8 @@
    ],
    "tier": "Standard",
    "featured": false,
-   "optimized": false
+   "optimized": false,
+   "paid_content": true
   },
   {
    "id": "painting-brighton-cabinet-refinishing-guidance",
@@ -360,7 +383,8 @@
    ],
    "tier": "Optimized",
    "featured": false,
-   "optimized": true
+   "optimized": true,
+   "paid_content": true
   },
   {
    "id": "senior-walk-in-bathtubs-selection-guidance",
@@ -377,7 +401,8 @@
    ],
    "tier": "Standard",
    "featured": false,
-   "optimized": false
+   "optimized": false,
+   "paid_content": true
   },
   {
    "id": "showers4less-shower-pan-slip-resistance",
@@ -394,7 +419,8 @@
    ],
    "tier": "Standard",
    "featured": false,
-   "optimized": false
+   "optimized": false,
+   "paid_content": true
   }
  ]
 }
