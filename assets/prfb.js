@@ -248,6 +248,34 @@
   /* ---------------------------------------------------------
      5. FORMS — mailto handoff, no backend required
      --------------------------------------------------------- */
+
+  /* Hardened FormSubmit forms: address assembled at runtime, honeypot, time gate */
+  (function () {
+    var loaded = Date.now();
+    Array.prototype.forEach.call(document.querySelectorAll('form[data-fs]'), function (f) {
+      var st = f.querySelector('.form-status');
+      var btn = f.querySelector('[type=submit]');
+      function say(m) { if (st) st.textContent = m; }
+      f.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var hp = f.querySelector('[name="_honey"]');
+        if (hp && hp.value) return;
+        if (Date.now() - loaded < 3500) { say('Give the form a moment, then send again.'); return; }
+        var req = f.querySelectorAll('[required]');
+        for (var i = 0; i < req.length; i++) {
+          if (!req[i].value.trim()) { say('Please fill in every required field.'); req[i].focus(); return; }
+        }
+        var addr = atob(f.getAttribute('data-a')) + String.fromCharCode(64) + atob(f.getAttribute('data-b'));
+        var label = btn ? btn.textContent : '';
+        if (btn) { btn.disabled = true; btn.textContent = 'Sending\u2026'; }
+        fetch('https://formsubmit.co/ajax/' + addr, { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(f) })
+          .then(function (r) { if (!r.ok) throw 0; f.reset(); say('Sent. We will reply shortly.'); })
+          .catch(function () { say('That did not go through. Please call 1-800-481-8638.'); })
+          .then(function () { if (btn) { btn.disabled = false; btn.textContent = label; } });
+      });
+    });
+  })();
+
   function initForms() {
     Array.prototype.forEach.call(document.querySelectorAll('[data-mailto]'), function (f) {
       f.addEventListener('submit', function (e) {

@@ -140,13 +140,12 @@
         <div class="formcard">
           <h2 style="font-size:21px;margin:0 0 6px">Submission form</h2>
           <p style="font-size:14px;color:var(--ink-3);margin:0 0 22px">
-            Opens your email client. Nothing is stored on this site.</p>
-          <form action="https://formsubmit.co/info@eyetoad.com" method="POST" class="prfb-form">
+            Goes straight to our editors. Nothing is stored on this site.</p>
+          <form method="POST" data-fs data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" novalidate class="prfb-form">
             <!-- FormSubmit control fields -->
             <input type="hidden" name="_subject" value="Press release submission — pressreleaseforbusiness.com">
             <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_captcha" value="true">
-            <input type="hidden" name="_next" value="https://pressreleaseforbusiness.com/thank-you/">
+            <input type="hidden" name="_captcha" value="false">
             <!-- honeypot: bots fill this, humans never see it -->
             <div class="hp" aria-hidden="true">
               <label for="sub-hp">Leave this field empty</label>
@@ -272,6 +271,7 @@
                 placeholder="Embargo date, related coverage, questions"></div>
 
             <button class="btn" type="submit">Send for review</button>
+            <p class="form-status" role="status" style="font-size:14px;margin:10px 0 0"></p>
             <p class="form-note">Nothing is charged at submission. We read it, tell you what
             needs changing, and only take payment once you have approved the final document.</p>
           </form>

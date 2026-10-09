@@ -133,11 +133,10 @@
           <h2 style="font-size:21px;margin:0 0 6px">Send a message</h2>
           <p style="font-size:14px;color:var(--ink-3);margin:0 0 22px">
             Opens your email client. Nothing is stored here.</p>
-          <form action="https://formsubmit.co/info@eyetoad.com" method="POST">
+          <form method="POST" data-fs data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" novalidate>
             <input type="hidden" name="_subject" value="Contact — pressreleaseforbusiness.com">
             <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_captcha" value="true">
-            <input type="hidden" name="_next" value="https://pressreleaseforbusiness.com/thank-you/">
+            <input type="hidden" name="_captcha" value="false">
             <div class="hp" aria-hidden="true"><label for="c-hp">Leave empty</label><input id="c-hp" type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
             <div class="fld"><label for="c-name">Name</label>
               <input id="c-name" name="name" type="text" required></div>
@@ -158,7 +157,7 @@
             <div class="fld"><label for="c-msg">Message</label>
               <textarea id="c-msg" name="message" required></textarea></div>
             <button class="btn btn-w" type="submit">Send</button>
-            <p class="form-note" style="display:none;font-size:13px;color:var(--ink-3);margin:12px 0 0"></p>
+            <p class="form-status" role="status" style="font-size:13px;color:var(--ink-3);margin:12px 0 0"></p>
           </form>
         </div>
       </div>
