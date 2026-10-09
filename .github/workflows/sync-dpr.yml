@@ -1,0 +1,34 @@
+name: Sync Distribute Press Releases
+
+# Carries releases routed here by distributepressreleases.com.
+on:
+  schedule:
+    - cron: '47 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-dpr
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python .github/scripts/sync_dpr.py
+      - name: Commit
+        run: |
+          git config user.name "prfb-sync-bot"
+          git config user.email "prfb-sync-bot@users.noreply.github.com"
+          git add index.html releases
+          git diff --cached --quiet && exit 0
+          git commit -m "Carry new releases from Distribute Press Releases"
+          git pull --rebase origin main
+          git push
