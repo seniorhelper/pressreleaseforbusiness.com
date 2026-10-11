@@ -13,9 +13,26 @@
   "description": "Every paid announcement published on this wire, newest first.",
   "url": "https://pressreleaseforbusiness.com/api/releases.json"
  },
- "generated": "2026-09-26",
- "count": 48,
+ "generated": "2026-10-11",
+ "count": 49,
  "releases": [
+  {
+   "id": "allofus-one-open-beta-feed-3d-vr-one-account",
+   "url": "https://pressreleaseforbusiness.com/releases/allofus-one-open-beta-feed-3d-vr-one-account/",
+   "headline": "allofus.one Opens Its Free Social Platform in Beta: One Account for a Chronological Feed, 3D Worlds and VR in the Browser",
+   "snippet": "allofus.one, a free social platform built in Denver, is open to the public in beta, with one account for a chronological feed, a 3D world and VR on a Quest headset in the browser.",
+   "organization": "allofus.one",
+   "organization_url": "https://allofus.one",
+   "location": "Denver, Colorado",
+   "date": "2026-10-11",
+   "categories": [
+    "technology"
+   ],
+   "tier": "Standard",
+   "featured": false,
+   "optimized": false,
+   "paid_content": true
+  },
   {
    "id": "painter-hotline-denver-metro-fall-promotion",
    "url": "https://pressreleaseforbusiness.com/releases/painter-hotline-denver-metro-fall-promotion/",
