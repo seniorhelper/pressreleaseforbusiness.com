@@ -26,7 +26,7 @@ following links and does not represent itself as a link-building product.
 ## Publishing tiers and prices
 
 All prices are one-time, per release, in USD. There is no subscription and no contract.
-Payment is taken after the customer approves the final document. Declined announcements are
+If the customer hasn't paid upfront, payment is taken after the customer approves the final document. Declined announcements are
 refunded in full. Word limit is 1,400 at every tier.
 
 - **Standard — $19.99**: published as written at a permanent canonical URL, explicit publication
@@ -108,7 +108,7 @@ sameAs is a structured-data assertion about identity, not a hyperlink.
 
 - [Pricing](https://pressreleaseforbusiness.com/pricing/): Tier comparison, what each includes, refund terms.
 - [Submit a release](https://pressreleaseforbusiness.com/submit/): Submission form and the review process. Nothing is charged
-  at submission; payment follows approval of the final document.
+  at submission; if you haven't paid upfront, payment follows approval of the final document.
 - [Press release optimization explained](https://pressreleaseforbusiness.com/optimization/): The eight items of work in
   an Optimized release, itemized with what each does. Covers sameAs entity linking in full —
   what it is, why it is not a hyperlink, and the condition under which it helps. Also states
