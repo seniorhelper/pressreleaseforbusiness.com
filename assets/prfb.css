@@ -1047,3 +1047,33 @@ button{font-family:inherit}
   color:#fff;margin:0 0 26px;line-height:1.16}
 .chain-xref{display:block}
 .chain-xref a{display:inline-block;margin-top:8px;color:var(--brand);font-weight:700}
+
+/* ---------- Checkout buttons (Authorize.net Simple Checkout) ---------- */
+.pay-form{margin:0 0 10px}
+.pay-form .btn{width:100%}
+.tier .pay-form{margin:0 0 12px}
+.pay-note{font-size:13px;line-height:1.55;color:var(--ink-3);margin:8px 0 0}
+.pay-sec{font-size:13px;line-height:1.55;color:var(--ink-3);margin:12px 0 0}
+.pay-band{margin-top:28px;border:1px solid var(--rule);border-radius:10px;background:var(--paper-2);
+  padding:22px 26px}
+.pay-band h4{margin:0 0 10px;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;
+  color:var(--brand);font-weight:800}
+.pay-band ol{margin:0 0 12px;padding-left:20px;font-size:15.5px;line-height:1.65;color:var(--ink-2)}
+.pay-band p{margin:0;font-size:15px;line-height:1.6;color:var(--ink-2)}
+.pay-band a{color:var(--brand);font-weight:600}
+.pay-set{display:grid;gap:10px;margin:14px 0 0}
+.pay-set .pay-form{margin:0}
+.pay-call{margin:14px 0 0;font-size:15px}
+.pay-call a{color:var(--brand);font-weight:600}
+.ty-up{text-align:left;border:1px solid var(--rule);border-radius:10px;background:#fff;
+  padding:22px 26px;margin:0 0 22px}
+.ty-up h3{margin:0 0 8px;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;
+  color:var(--signal-dark);font-weight:800}
+.ty-up p{font-size:15.5px;line-height:1.6;margin:0 0 14px}
+.ty-up .pay-form{margin:0}
+.ty .ty-next ul{margin:0;padding-left:20px;font-size:15.5px;line-height:1.65;color:var(--ink-2)}
+.pay-band .pay-note,.pay-band .pay-sec{font-size:13px;color:var(--ink-3);margin:12px 0 0}
+.pay-band .pay-call{font-size:15px;margin:12px 0 0}
+.pay-call a{white-space:nowrap}
+.ty-next a,.ty-up a:not(.btn){color:var(--brand);font-weight:600}
+.ty .ty-up .pay-sec{font-size:13px;color:var(--ink-3);margin:10px 0 0}
