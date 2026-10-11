@@ -395,7 +395,7 @@
            "so retrieval systems can parse and cite it.<br><br>" +
            "<strong>Network &mdash; $99</strong><br>Adds editorial pickup and up to two " +
            "relevance-matched placements.<br><br>" +
-           "Nothing is charged until you approve the final document.",
+           "If you haven't paid upfront, nothing is charged until you approve the final document.",
       opts: [
         ["Which one fits me?", "goal"],
         ["What's in the Optimized work?", "optwhat"],
