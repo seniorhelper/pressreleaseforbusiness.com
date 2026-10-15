@@ -13,9 +13,27 @@
   "description": "Announcements categorized as marketing.",
   "url": "https://pressreleaseforbusiness.com/api/marketing.json"
  },
- "generated": "2026-09-26",
- "count": 14,
+ "generated": "2026-10-15",
+ "count": 15,
  "releases": [
+  {
+   "id": "eye-to-ad-media-custom-business-dashboards",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-custom-business-dashboards/",
+   "headline": "Eye To Ad Media Launches Custom Business Dashboards Built Around Each Company's Own KPIs",
+   "snippet": "Eye To Ad Media has launched custom business dashboards built around each company's own KPIs, with a live sample-data demo and three build tiers.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-10-15",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Operator",
+   "featured": false,
+   "optimized": false,
+   "paid_content": false
+  },
   {
    "id": "advertising-for-contractors-google-lsa-migration",
    "url": "https://pressreleaseforbusiness.com/releases/advertising-for-contractors-google-lsa-migration/",
