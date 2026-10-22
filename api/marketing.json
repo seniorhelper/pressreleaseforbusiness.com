@@ -13,9 +13,27 @@
   "description": "Announcements categorized as marketing.",
   "url": "https://pressreleaseforbusiness.com/api/marketing.json"
  },
- "generated": "2026-10-15",
- "count": 15,
+ "generated": "2026-10-22",
+ "count": 16,
  "releases": [
+  {
+   "id": "eye-to-ad-media-free-ai-visibility-self-check",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-free-ai-visibility-self-check/",
+   "headline": "Eye To Ad Media Releases a Free Ten-Minute Self-Check That Shows Whether AI Assistants Name a Local Business",
+   "snippet": "The free self-check runs six checks across Google AI Mode, AI Overviews, ChatGPT and Perplexity, scores a business out of 24 and asks for no email.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-10-22",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Operator",
+   "featured": false,
+   "optimized": false,
+   "paid_content": false
+  },
   {
    "id": "eye-to-ad-media-custom-business-dashboards",
    "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-custom-business-dashboards/",

@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://pressreleaseforbusiness.com/releases/action-global-news-relaunch-original-reporting/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Press Release For Business</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22</news:publication_date>
+      <news:title>Action Global News Relaunches as an Original-Reporting News Site With a Named Editor and Published Standards</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://pressreleaseforbusiness.com/releases/eye-to-ad-media-free-ai-visibility-self-check/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Press Release For Business</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22</news:publication_date>
+      <news:title>Eye To Ad Media Releases a Free Ten-Minute Self-Check That Shows Whether AI Assistants Name a Local Business</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://pressreleaseforbusiness.com/releases/eye-to-ad-media-custom-business-dashboards/</loc>
     <news:news>
       <news:publication>

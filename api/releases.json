@@ -13,9 +13,45 @@
   "description": "Every paid announcement published on this wire, newest first.",
   "url": "https://pressreleaseforbusiness.com/api/releases.json"
  },
- "generated": "2026-10-15",
- "count": 49,
+ "generated": "2026-10-22",
+ "count": 51,
  "releases": [
+  {
+   "id": "action-global-news-relaunch-original-reporting",
+   "url": "https://pressreleaseforbusiness.com/releases/action-global-news-relaunch-original-reporting/",
+   "headline": "Action Global News Relaunches as an Original-Reporting News Site With a Named Editor and Published Standards",
+   "snippet": "Action Global News removed third-party feeds and embeds and now publishes only its own sourced reporting, edited by publisher Zach Wennstedt.",
+   "organization": "Action Global News",
+   "organization_url": "https://actionglobalnews.com/",
+   "location": "Denver, Colorado",
+   "date": "2026-10-22",
+   "categories": [
+    "small-business",
+    "technology"
+   ],
+   "tier": "Network",
+   "featured": false,
+   "optimized": false,
+   "paid_content": false
+  },
+  {
+   "id": "eye-to-ad-media-free-ai-visibility-self-check",
+   "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-free-ai-visibility-self-check/",
+   "headline": "Eye To Ad Media Releases a Free Ten-Minute Self-Check That Shows Whether AI Assistants Name a Local Business",
+   "snippet": "The free self-check runs six checks across Google AI Mode, AI Overviews, ChatGPT and Perplexity, scores a business out of 24 and asks for no email.",
+   "organization": "Eye To Ad Media",
+   "organization_url": "https://www.eyetoad.com",
+   "location": "Denver, Colorado",
+   "date": "2026-10-22",
+   "categories": [
+    "marketing",
+    "technology"
+   ],
+   "tier": "Operator",
+   "featured": false,
+   "optimized": false,
+   "paid_content": false
+  },
   {
    "id": "eye-to-ad-media-custom-business-dashboards",
    "url": "https://pressreleaseforbusiness.com/releases/eye-to-ad-media-custom-business-dashboards/",
