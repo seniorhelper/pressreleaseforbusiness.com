@@ -153,7 +153,7 @@
      "name": "Is there a subscription or contract?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "No. Every tier is a one-time charge per release. There are two ways to pay. Pay upfront by secure invoice: use a Request button on this page, then send the release; it is reviewed before it publishes. Or submit first: we review it, you approve the final document, and we send a payment link, so nothing is charged until you approve. If an announcement is declined after payment it is refunded in full."
+      "text": "No. Every tier is a one-time charge per release. There are two ways to pay. Pay upfront with the buy buttons on this page, then send the release; it is reviewed before it publishes. Or submit first: we review it, you approve the final document, and we send a payment link, so nothing is charged until you approve. If an announcement is declined after payment it is refunded in full."
      }
     },
     {
@@ -365,25 +365,10 @@
           <li class="no">Editorial restructuring</li>
           <li class="no">Network placement</li>
         </ul>
-        <details class="order-req">
-          <summary class="btn btn-w">Request this: $19.99</summary>
-          <form class="order-form" method="post" data-order data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=">
-            <input type="hidden" name="_subject" value="Order request — Standard ($19.99) — pressreleaseforbusiness.com">
-            <input type="hidden" name="_next" value="https://pressreleaseforbusiness.com/thank-you/">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="Plan" value="Standard">
-            <input type="hidden" name="Price" value="$19.99">
-            <div class="hp" aria-hidden="true"><label for="o-standard-hp">Leave this field empty</label><input id="o-standard-hp" type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
-            <p class="order-note">No card needed now. We'll email you a secure invoice within 1 business day.</p>
-            <div class="fld"><label for="o-standard-name">Your name</label><input id="o-standard-name" name="Your name" type="text" required autocomplete="name"></div>
-            <div class="fld"><label for="o-standard-email">Email</label><input id="o-standard-email" name="Email" type="email" required autocomplete="email"></div>
-            <div class="fld"><label for="o-standard-phone">Phone</label><input id="o-standard-phone" name="Phone" type="tel" required autocomplete="tel"></div>
-            <div class="fld"><label for="o-standard-company">Company or website</label><input id="o-standard-company" name="Company or website" type="text" required autocomplete="organization"></div>
-            <button class="btn btn-w" type="submit">Send order request</button>
-            <p class="form-status" role="status" aria-live="polite"></p>
-            <noscript><p class="order-note">This form needs JavaScript. Call 1-800-481-8638 to order.</p></noscript>
-          </form>
-        </details>
+        <form class="pay-form" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
+          <input type="hidden" name="LinkId" value="445d7a41-594a-4c1e-8da2-a28060a3d4cb">
+          <button type="submit" class="btn btn-w">Buy now: $19.99</button>
+        </form>
         <a class="btn btn-ghost btn-w" data-tier="standard" href="/submit/?tier=standard">Choose Standard</a>
       </div>
       <div class="tier feat">
@@ -404,25 +389,10 @@
           <li>One revision round included</li>
           <li class="no">Network placement</li>
         </ul>
-        <details class="order-req">
-          <summary class="btn btn-w">Request this: $49.99</summary>
-          <form class="order-form" method="post" data-order data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=">
-            <input type="hidden" name="_subject" value="Order request — Optimized ($49.99) — pressreleaseforbusiness.com">
-            <input type="hidden" name="_next" value="https://pressreleaseforbusiness.com/thank-you/">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="Plan" value="Optimized">
-            <input type="hidden" name="Price" value="$49.99">
-            <div class="hp" aria-hidden="true"><label for="o-optimized-hp">Leave this field empty</label><input id="o-optimized-hp" type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
-            <p class="order-note">No card needed now. We'll email you a secure invoice within 1 business day.</p>
-            <div class="fld"><label for="o-optimized-name">Your name</label><input id="o-optimized-name" name="Your name" type="text" required autocomplete="name"></div>
-            <div class="fld"><label for="o-optimized-email">Email</label><input id="o-optimized-email" name="Email" type="email" required autocomplete="email"></div>
-            <div class="fld"><label for="o-optimized-phone">Phone</label><input id="o-optimized-phone" name="Phone" type="tel" required autocomplete="tel"></div>
-            <div class="fld"><label for="o-optimized-company">Company or website</label><input id="o-optimized-company" name="Company or website" type="text" required autocomplete="organization"></div>
-            <button class="btn btn-w" type="submit">Send order request</button>
-            <p class="form-status" role="status" aria-live="polite"></p>
-            <noscript><p class="order-note">This form needs JavaScript. Call 1-800-481-8638 to order.</p></noscript>
-          </form>
-        </details>
+        <form class="pay-form" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
+          <input type="hidden" name="LinkId" value="2f011736-9d16-474b-b868-46c06de0056d">
+          <button type="submit" class="btn btn-w">Buy now: $49.99</button>
+        </form>
         <a class="btn btn-ghost btn-w" data-tier="optimized" href="/submit/?tier=optimized">Choose Optimized</a>
       </div>
       <div class="tier">
@@ -439,43 +409,27 @@
           <li>Priority review turnaround</li>
           <li>Two revision rounds included</li>
         </ul>
-        <details class="order-req">
-          <summary class="btn btn-w">Request this: $99</summary>
-          <form class="order-form" method="post" data-order data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=">
-            <input type="hidden" name="_subject" value="Order request — Network ($99) — pressreleaseforbusiness.com">
-            <input type="hidden" name="_next" value="https://pressreleaseforbusiness.com/thank-you/">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="Plan" value="Network">
-            <input type="hidden" name="Price" value="$99">
-            <div class="hp" aria-hidden="true"><label for="o-network-hp">Leave this field empty</label><input id="o-network-hp" type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
-            <p class="order-note">No card needed now. We'll email you a secure invoice within 1 business day.</p>
-            <div class="fld"><label for="o-network-name">Your name</label><input id="o-network-name" name="Your name" type="text" required autocomplete="name"></div>
-            <div class="fld"><label for="o-network-email">Email</label><input id="o-network-email" name="Email" type="email" required autocomplete="email"></div>
-            <div class="fld"><label for="o-network-phone">Phone</label><input id="o-network-phone" name="Phone" type="tel" required autocomplete="tel"></div>
-            <div class="fld"><label for="o-network-company">Company or website</label><input id="o-network-company" name="Company or website" type="text" required autocomplete="organization"></div>
-            <button class="btn btn-w" type="submit">Send order request</button>
-            <p class="form-status" role="status" aria-live="polite"></p>
-            <noscript><p class="order-note">This form needs JavaScript. Call 1-800-481-8638 to order.</p></noscript>
-          </form>
-        </details>
+        <form class="pay-form" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
+          <input type="hidden" name="LinkId" value="c51d7d15-c0d3-4eb9-90de-66563b4c079a">
+          <button type="submit" class="btn btn-w">Buy now: $99</button>
+        </form>
         <a class="btn btn-ghost btn-w" data-tier="network" href="/submit/?tier=network">Choose Network</a>
       </div>
     </div>
     <div class="pay-band" id="how-buying-works">
       <h4>Two ways to buy</h4>
-      <p><strong>Order upfront.</strong> Use a Request button above and we email you a secure invoice
-      within 1 business day. Then send us your release
+      <p><strong>Pay upfront.</strong> Use the Buy now button above. Then send us your release
       (a draft or just the facts, plus any logo, images or profile links) through the
       <a href="/submit/">submission form</a> or by email to <a href="#" class="eml" data-eml="c2FsZXNAZXlldG9hZC5jb20="><span data-eml="c2FsZXNAZXlldG9hZC5jb20="></span></a>. We review it before it
       publishes, and if we cannot publish it, you are refunded in full.</p>
       <p style="margin-top:12px"><strong>Submit first.</strong> Use the Choose button to send
       your release through the <a href="/submit/">submission form</a>. We review it, you approve
-      the final document, and then we send you a secure invoice. Nothing is charged until you
+      the final document, and then we send you a payment link. Nothing is charged until you
       approve.</p>
       <div class="trust-row">
         <span class="trust-seal"><a href="https://www.bbb.org/us/co/denver/profile/advertising-agencies/search-converts-llc-1296-90228702/#sealclick" target="_blank" rel="nofollow noopener" aria-label="Search Converts LLC BBB Business Review (opens BBB profile)"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90228702.png" width="200" height="65" alt="Search Converts LLC BBB Business Review" loading="lazy" decoding="async"></a></span>
         <div class="trust-txt">
-          <p class="pay-sec">Invoices are paid on Authorize.net&rsquo;s secure page. We never see your card number.</p>
+          <p class="pay-sec">Secure checkout by Authorize.net. We never see your card number.</p>
           <p class="trust-cap">BBB Accredited Business, listed as Search Converts LLC.</p>
         </div>
         <div class="anet-seal" style="display:inline-block;flex:none;box-sizing:content-box;min-width:90px;min-height:72px;vertical-align:middle"><!-- (c) 2005, 2026. Authorize.Net is a registered trademark of CyberSource Corporation --> <div class="AuthorizeNetSeal"> <script type="text/javascript" language="javascript">var ANS_customer_id="2c88f8ff-07b2-4257-8917-e75f99310417";</script> <script type="text/javascript" language="javascript" src="https://verify.authorize.net:443/anetseal/seal.js" ></script> </div></div>

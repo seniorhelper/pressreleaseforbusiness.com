@@ -1091,17 +1091,3 @@ button{font-family:inherit}
 .trust-row .trust-txt .trust-cap,.trust-foot .trust-cap{font-size:12.5px;line-height:1.45;color:var(--ink-3);margin:4px 0 0}
 .trust-foot{display:flex;flex-direction:column;align-items:flex-start;gap:6px;margin:18px 0 0}
 .trust-foot .trust-cap{margin:0}
-
-/* ---------- order-request forms (replace public pay buttons) ---------- */
-.order-req{margin:0 0 10px}
-.tier .order-req{margin:0 0 12px}
-.order-req>summary{list-style:none;text-align:center}
-.order-req>summary::-webkit-details-marker{display:none}
-.order-req[open]>summary{margin-bottom:12px}
-.order-form{text-align:left;padding:16px;border:1px solid var(--rule);border-radius:9px;background:#fff;margin:0}
-.order-form .fld{margin-bottom:12px}
-.order-form .fld input{width:100%;box-sizing:border-box}
-.order-form .form-status{font-size:13.5px;margin:8px 0 0;color:var(--ink-2)}
-.order-form .form-status.err{color:#b3261e}
-.order-note{font-size:13.5px;line-height:1.5;color:var(--ink-3);margin:0 0 14px}
-.pay-set .order-req{margin:0}
