@@ -199,6 +199,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8JFKKTBLVC"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8JFKKTBLVC');</script>
 <script>(function(){function s(n,p){try{gtag('event',n,p)}catch(e){}}document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a)s('phone_click',{phone_number:a.getAttribute('href').slice(4),link_text:(a.textContent||'').trim().slice(0,60)})},true);document.addEventListener('submit',function(e){var f=e.target;if(!f||f.getAttribute('role')==='search'||/search/i.test(f.id+' '+f.className+' '+(f.action||'')))return;var id=f.id||f.getAttribute('name')||f.className||'form';if(/estimat|calc/i.test(id+' '+(f.action||'')))s('estimator_use',{form_id:id});s('generate_lead',{form_id:id})},true);window.etAB=function(n,v){var k='etab_'+n,x;try{x=localStorage.getItem(k)}catch(e){}if(!x||v.indexOf(x)<0){x=v[Math.floor(Math.random()*v.length)];try{localStorage.setItem(k,x)}catch(e){}}s('ab_view',{experiment:n,variant:x});try{gtag('set','user_properties',{['ab_'+n]:x})}catch(e){}document.documentElement.setAttribute('data-ab-'+n,x);return x}})();</script>
+<script src="https://usabusinesssearch.com/secure-checkout/checkout.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -365,10 +366,7 @@
           <li class="no">Editorial restructuring</li>
           <li class="no">Network placement</li>
         </ul>
-        <form class="pay-form" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
-          <input type="hidden" name="LinkId" value="445d7a41-594a-4c1e-8da2-a28060a3d4cb">
-          <button type="submit" class="btn btn-w">Buy now: $19.99</button>
-        </form>
+        <div class="pay-form"><button type="button" class="btn btn-w sc-buy" data-sku="PR-STD" data-site="pressreleaseforbusiness.com" data-addons="ADD-BOOST30">Buy now: $19.99</button></div>
         <a class="btn btn-ghost btn-w" data-tier="standard" href="/submit/?tier=standard">Choose Standard</a>
       </div>
       <div class="tier feat">
@@ -389,10 +387,7 @@
           <li>One revision round included</li>
           <li class="no">Network placement</li>
         </ul>
-        <form class="pay-form" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
-          <input type="hidden" name="LinkId" value="2f011736-9d16-474b-b868-46c06de0056d">
-          <button type="submit" class="btn btn-w">Buy now: $49.99</button>
-        </form>
+        <div class="pay-form"><button type="button" class="btn btn-w sc-buy" data-sku="PR-OPT" data-site="pressreleaseforbusiness.com" data-addons="ADD-BOOST30">Buy now: $49.99</button></div>
         <a class="btn btn-ghost btn-w" data-tier="optimized" href="/submit/?tier=optimized">Choose Optimized</a>
       </div>
       <div class="tier">
@@ -409,10 +404,7 @@
           <li>Priority review turnaround</li>
           <li>Two revision rounds included</li>
         </ul>
-        <form class="pay-form" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
-          <input type="hidden" name="LinkId" value="c51d7d15-c0d3-4eb9-90de-66563b4c079a">
-          <button type="submit" class="btn btn-w">Buy now: $99</button>
-        </form>
+        <div class="pay-form"><button type="button" class="btn btn-w sc-buy" data-sku="PR-NET" data-site="pressreleaseforbusiness.com" data-addons="ADD-BOOST30">Buy now: $99</button></div>
         <a class="btn btn-ghost btn-w" data-tier="network" href="/submit/?tier=network">Choose Network</a>
       </div>
     </div>
