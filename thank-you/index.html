@@ -96,8 +96,8 @@
         <svg viewBox="0 0 24 24"><path d="M4 12.5 9.5 18 20 6"/></svg>
       </div>
       <h1>Got it. We&rsquo;re reading it now.</h1>
-      <p>Thank you. If you have just paid for a release, the next step is to send it to us
-      (below). If you have already sent it, your announcement has landed and we are on it.</p>
+      <p>Thank you. If you have just sent an order request, we will email you a secure invoice
+      within 1 business day, and the next step is to send us your release (below). If you have already sent it, your announcement has landed and we are on it.</p>
 
       <div class="ty-next">
         <h3>What happens next</h3>
@@ -106,7 +106,7 @@
           form</a> and choose the tier you bought, or email it to <a href="#" class="eml" data-eml="c2FsZXNAZXlldG9hZC5jb20="><span data-eml="c2FsZXNAZXlldG9hZC5jb20="></span></a>. Include:
             <ul>
               <li>The release text, or just the facts (what happened, when, where, who)</li>
-              <li>The name and email you used at checkout, so we can match your payment</li>
+              <li>The name and email you used on your order request, so we can match it</li>
               <li>Any logo or images, as email attachments</li>
               <li>For Optimized and Network: your website, Google Business Profile and other
               profile links you control</li>
@@ -126,14 +126,29 @@
         <p><strong>Add AI Ready setup ($99).</strong> A one-time setup done by the Eye To Ad
         Media team, who power this site. We will confirm what it covers for your business on
         your intro call.</p>
-        <form class="pay-form" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
-          <input type="hidden" name="LinkId" value="701b5c67-43ac-41b8-ac47-02451e71ec60">
-          <button type="submit" class="btn btn-w">Add AI Ready setup: $99</button>
-        </form>
+        <details class="order-req">
+          <summary class="btn btn-w">Request this add-on: $99</summary>
+          <form class="order-form" method="post" data-order data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=">
+            <input type="hidden" name="_subject" value="Order request — AI Ready setup add-on ($99) — pressreleaseforbusiness.com">
+            <input type="hidden" name="_next" value="https://pressreleaseforbusiness.com/thank-you/">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="Plan" value="AI Ready setup add-on">
+            <input type="hidden" name="Price" value="$99">
+            <div class="hp" aria-hidden="true"><label for="o-aiready-hp">Leave this field empty</label><input id="o-aiready-hp" type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
+            <p class="order-note">No card needed now. We'll email you a secure invoice within 1 business day.</p>
+            <div class="fld"><label for="o-aiready-name">Your name</label><input id="o-aiready-name" name="Your name" type="text" required autocomplete="name"></div>
+            <div class="fld"><label for="o-aiready-email">Email</label><input id="o-aiready-email" name="Email" type="email" required autocomplete="email"></div>
+            <div class="fld"><label for="o-aiready-phone">Phone</label><input id="o-aiready-phone" name="Phone" type="tel" required autocomplete="tel"></div>
+            <div class="fld"><label for="o-aiready-company">Company or website</label><input id="o-aiready-company" name="Company or website" type="text" required autocomplete="organization"></div>
+            <button class="btn btn-w" type="submit">Send order request</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+            <noscript><p class="order-note">This form needs JavaScript. Call 1-800-481-8638 to order.</p></noscript>
+          </form>
+        </details>
         <div class="trust-row">
           <span class="trust-seal"><a href="https://www.bbb.org/us/co/denver/profile/advertising-agencies/search-converts-llc-1296-90228702/#sealclick" target="_blank" rel="nofollow noopener" aria-label="Search Converts LLC BBB Business Review (opens BBB profile)"><img src="https://seal-alaskaoregonwesternwashington.bbb.org/seals/blue-seal-200-65-bbb-90228702.png" width="200" height="65" alt="Search Converts LLC BBB Business Review" loading="lazy" decoding="async"></a></span>
           <div class="trust-txt">
-            <p class="pay-sec">Secure checkout by Authorize.net. We never see your card number.</p>
+            <p class="pay-sec">Invoices are paid on Authorize.net&rsquo;s secure page. We never see your card number.</p>
             <p class="trust-cap">BBB Accredited Business, listed as Search Converts LLC.</p>
           </div>
           <div class="anet-seal" style="display:inline-block;flex:none;box-sizing:content-box;min-width:90px;min-height:72px;vertical-align:middle"><!-- (c) 2005, 2026. Authorize.Net is a registered trademark of CyberSource Corporation --> <div class="AuthorizeNetSeal"> <script type="text/javascript" language="javascript">var ANS_customer_id="2c88f8ff-07b2-4257-8917-e75f99310417";</script> <script type="text/javascript" language="javascript" src="https://verify.authorize.net:443/anetseal/seal.js" ></script> </div></div>
