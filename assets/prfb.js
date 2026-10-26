@@ -511,7 +511,7 @@
     r_yes: {
       bot: "That's squarely in what we publish. Send it over &mdash; we review before anything " +
            "is charged, and we'll tell you what needs changing before it goes live.",
-      rec: ["Looks publishable", "", "Review happens before payment. Declined releases are refunded in full.",
+      rec: ["Looks publishable", "", "Submit first and nothing is charged until you approve. All sales are final.",
             "/submit/", "Submit for review"]
     },
     r_check: {

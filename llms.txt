@@ -26,8 +26,8 @@ following links and does not represent itself as a link-building product.
 ## Publishing tiers and prices
 
 All prices are one-time, per release, in USD. There is no subscription and no contract.
-If the customer hasn't paid upfront, payment is taken after the customer approves the final document. Declined announcements are
-refunded in full. Word limit is 1,400 at every tier.
+If the customer hasn't paid upfront, payment is taken after the customer approves the final document. All sales are
+final, no refunds (terms: https://eyetoad.com/purchase-terms/). Word limit is 1,400 at every tier.
 
 - **Standard — $19.99**: published as written at a permanent canonical URL, explicit publication
   date, named issuing organization, permanent announcement label, share tools and print
@@ -109,7 +109,7 @@ sameAs is a structured-data assertion about identity, not a hyperlink.
 
 ## Pages
 
-- [Pricing](https://pressreleaseforbusiness.com/pricing/): Tier comparison, what each includes, refund terms.
+- [Pricing](https://pressreleaseforbusiness.com/pricing/): Tier comparison, what each includes, payment terms (all sales final).
 - [Submit a release](https://pressreleaseforbusiness.com/submit/): Submission form and the review process. Nothing is charged
   at submission; if you haven't paid upfront, payment follows approval of the final document.
 - [Press release optimization explained](https://pressreleaseforbusiness.com/optimization/): The eight items of work in
